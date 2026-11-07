@@ -2,16 +2,18 @@
 // 直接用浏览器打开 index.html 时 fetch 会被 file:// 限制，
 // 请用 `python3 -m http.server` 后访问，或部署到 GitHub Pages。
 //
-// 翻译：页面用免费的 Google 翻译小部件（translate.google.com，无需 key）。
-// 动态内容处理 — 新闻是 fetch 后才渲染进 DOM 的，Google 翻译小部件
-// 只会翻译当时已在 DOM 里的内容，所以：
-//  1) 首批新闻渲染完成后才动态加载 element.js（见 loadGoogleTranslate），
-//     用户第一次选语言时新闻已在页面上；
-//  2) 每次切换分类 / 搜索重新渲染后，若已选了非中文目标语言，就把
-//     小部件下拉框（.goog-te-combo）的值重设并触发 change 事件，
-//     让它把新渲染的卡片再翻一遍（见 reapplyTranslation）。
-// 免费小部件没有公开的“重新翻译”API，这是社区常用的变通做法，
-// 不能 100% 保证每次都生效（见 README“翻译”一节的局限说明）。
+// 翻译：页面用免费的 GTranslate 小部件（cdn.gtranslate.net，无需 key，
+// 非商业网站免费）。设置在 index.html 里定义，dropdown.js 用 defer
+// 加载，在 .gtranslate_wrapper 里生成一个语言下拉框，点选语言后整页翻译。
+// 动态内容处理 — 新闻是 fetch 后才渲染进 DOM 的：
+//  1) GTranslate 的翻译库（lib.min.js）自带 MutationObserver，会留意
+//     DOM 变化并翻译新节点，所以首批新闻渲染后选语言即可覆盖它们；
+//  2) 保险起见，每次切换分类 / 搜索重新渲染后，若已选了非中文目标语言
+//     （存在 localStorage 的 __GT_TRANSLATE_LANGS 里），就再调一次
+//     dropdown.js 对外暴露的 window.doGTranslate()，让它把新卡片再翻一遍
+//     （见 reapplyGTranslate）。这是小部件自己提供的全局函数，不是编造的 API。
+// 此前用的 Google 翻译小部件已于 2026-10-01 停服、实测无法渲染下拉框，
+// 故全部移除，改用 GTranslate（见 README“翻译”一节）。
 (function () {
   "use strict";
 
@@ -26,57 +28,30 @@
   var dateEl = document.getElementById("today-date");
   var searchEl = document.getElementById("search");
   var pulseEl = document.getElementById("market-pulse");
-  var translateStarted = false;
 
-  /* ---- Google 翻译小部件：首批新闻渲染后才加载 ---- */
-  function loadGoogleTranslate() {
-    if (translateStarted) return;
-    translateStarted = true;
-    if (typeof window.googleTranslateElementInit !== "function") return;
-    var s = document.createElement("script");
-    s.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-    s.async = true;
-    s.onerror = function () {
-      var note = document.getElementById("translate-note");
-      if (note) note.textContent = "翻译加载失败：需访问 translate.google.com（中国大陆可能无法访问）。";
-    };
-    document.head.appendChild(s);
-  }
-
-  /* 当前已选的目标语言：优先读 Google 写下的 googtrans Cookie
-    （格式 /zh-CN/en），读不到时读小部件下拉框的值。 */
-  function currentTargetLang() {
+  /* ---- GTranslate：重新渲染后，已选非中文时再触发一次翻译 ----
+     目标语言存在 localStorage 的 __GT_TRANSLATE_LANGS 里
+     （{"srcLang": "zh-CN", "tgtLang": "en"} 这种格式），
+     window.doGTranslate 是 dropdown.js 对外暴露的全局函数。
+     小部件的翻译库本身也会监听 DOM 变化，这里只是多一层保险；
+     未选语言 / 选的仍是中文 / 小部件尚未加载时什么都不做。 */
+  function reapplyGTranslate() {
+    var lang = "";
     try {
-      var m = document.cookie.match(/(?:^|;)\s*googtrans=\/[^\/]+\/([^;]+)/);
-      if (m) return m[1];
-    } catch (e) { /* 忽略 Cookie 读取失败 */ }
-    var combo = document.querySelector(".goog-te-combo");
-    return combo ? combo.value : "";
-  }
-
-  /* 重新渲染后，若已选非中文，就触发小部件下拉框的 change 事件，
-     让 Google 把新渲染的卡片再翻一遍。无已选语言 / 未选非中文 /
-     小部件尚未加载时什么都不做。 */
-  function reapplyTranslation() {
-    var lang = currentTargetLang();
+      var stored = JSON.parse(localStorage.getItem("__GT_TRANSLATE_LANGS") || "null");
+      if (stored && typeof stored.tgtLang === "string") lang = stored.tgtLang;
+    } catch (e) { /* 忽略读取失败 */ }
     if (!lang || lang === "zh-CN") return;
-    var combo = document.querySelector(".goog-te-combo");
-    if (!combo) return;
-    if (combo.value !== lang) combo.value = lang;
-    var ev;
+    if (typeof window.doGTranslate !== "function") return;
     try {
-      ev = new Event("change", { bubbles: true });
-    } catch (e) {
-      ev = document.createEvent("HTMLEvents");
-      ev.initEvent("change", true, false);
-    }
-    combo.dispatchEvent(ev);
+      window.doGTranslate("zh-CN|" + lang);
+    } catch (e) { /* 翻译失败时不影响新闻本身 */ }
   }
 
-  function scheduleReapplyTranslation() {
-    /* 给 Google 的 DOM 监听一点时间，再触发一次；即使它自己已翻了
-       新节点，多触发一次也无害。 */
-    setTimeout(reapplyTranslation, 250);
+  function scheduleReapplyGTranslate() {
+    /* 给翻译库的 DOM 监听一点时间，再触发一次；即使它自己已翻了
+       新节点，多触发一次也无害（翻译库会先恢复原文再重翻）。 */
+    setTimeout(reapplyGTranslate, 250);
   }
 
   function escapeHtml(s) {
@@ -194,7 +169,7 @@
     emptyEl.hidden = filtered.length !== 0;
     statusEl.hidden = true;
     /* 分类 / 搜索切换后重新渲染了卡片，已选语言时让翻译再跑一遍。 */
-    scheduleReapplyTranslation();
+    scheduleReapplyGTranslate();
   }
 
   document.getElementById("category-tabs").addEventListener("click", function (e) {
@@ -228,18 +203,13 @@
         : formatDate(new Date().toISOString());
       if (!state.items.length) {
         statusEl.textContent = "暂无新闻数据。";
-        loadGoogleTranslate();
         return;
       }
       render();
-      /* 首批新闻已渲染进 DOM，现在才加载翻译小部件，
-         用户第一次选语言时新闻已在页面上。 */
-      loadGoogleTranslate();
     })
     .catch(function (err) {
       statusEl.textContent = "新闻加载失败（" + err.message +
         "）。请用 python3 -m http.server 启动后访问，或检查 data/news.json 是否存在。";
-      loadGoogleTranslate();
     });
 
   fetch("data/market.json")

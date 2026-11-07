@@ -6,7 +6,7 @@
 
 整合加密货币的热点新闻：报纸头版式页面，顶部是市场脉搏（BTC/ETH 及市值前 8 币种价格、恐惧贪婪指数、全球总市值与 BTC 占比），下方是新闻流，覆盖行情、市场、政策、项目、DeFi 五类，可按分类筛选、全文搜索，每天自动更新一次。
 
-> **English summary:** A static, open-source crypto hot-news page. A market-pulse header (top-8 coins by market cap, Fear & Greed Index, global market cap and BTC dominance, via CoinGecko and Alternative.me) sits above a news stream filtered by Market / Industry / Policy / Projects / DeFi. News is fetched from public RSS feeds, rendered client-side from `data/news.json`, and refreshed daily by GitHub Actions. No build step, no external fonts; the only external script is the free Google Translate widget (see “翻译 / Translation”).
+> **English summary:** A static, open-source crypto hot-news page. A market-pulse header (top-8 coins by market cap, Fear & Greed Index, global market cap and BTC dominance, via CoinGecko and Alternative.me) sits above a news stream filtered by Market / Industry / Policy / Projects / DeFi. News is fetched from public RSS feeds, rendered client-side from `data/news.json`, and refreshed daily by GitHub Actions. No build step, no external fonts; the only external script is the free GTranslate widget (see “翻译 / Translation”).
 
 ## 功能
 
@@ -14,23 +14,25 @@
 - 分类页签：全部 / 行情 / 市场 / 政策 / 项目 / DeFi
 - 搜索框：按标题、摘要过滤
 - 每条新闻：中文标题、1–2 句中文摘要、来源、发布时间、原文链接（新标签页打开）
-- 翻译：右上角“🌐 翻译 / Translate”下拉框，免费 Google 翻译小部件，可把整页翻成 15 种主流语言（见下文“翻译”）
+- 翻译：右上角“🌐 翻译 / Translate”下拉框，免费 GTranslate 小部件，可把整页翻成 15 种主流语言（见下文“翻译”）
 - 页眉显示数据更新时间；响应式布局，手机可正常浏览
-- 唯一外部依赖：Google 翻译脚本（translate.google.com，免费），其余只用系统字体，不加载其他外部字体或 CDN；纯静态页面
+- 唯一外部依赖：GTranslate 翻译脚本（cdn.gtranslate.net，免费），其余只用系统字体，不加载其他外部字体或 CDN；纯静态页面
 
 ## 翻译 / Translation
 
 页面右上角搜索框旁有“🌐 翻译 / Translate”下拉框，点开选一种语言，整页（标题、市场脉搏、新闻标题和摘要、分类）就会翻成该语言，原文链接不变，仍跳到原新闻。
 
-用的是免费的 Google 翻译小部件（Google Translate Element，无需 key、无需注册），支持以下 15 种语言：
+用的是免费的 GTranslate 小部件（无需 key、无需注册），支持以下 15 种语言：
 
 中文（简体）、繁體中文、English、Español、Français、Deutsch、日本語、한국어、Português、Русский、العربية、हिन्दी、Bahasa Indonesia、Tiếng Việt、Türkçe
 
 注意：
 
-- **这是唯一的外部依赖。** 页面会加载 `//translate.google.com/translate_a/element.js`，需要能访问 translate.google.com；在中国大陆可能打不开或很慢，打不开时页面本身（新闻、行情）不受影响，只会显示“翻译加载失败”的提示。
-- **动态新闻的处理。** 新闻是页面加载后从 `data/news.json` 抓取、由 `app.js` 渲染进 DOM 的，Google 翻译只会翻译当时已在页面上的内容。所以小部件是等首批新闻渲染完成后再加载的，用户第一次选语言时新闻已在页面上。切换分类 / 搜索重新渲染后，脚本会把已选语言重设给小部件下拉框并触发一次 change 事件，让它把新卡片再翻一遍。
-- **局限（实话实说）。** 免费小部件没有公开的“重新翻译”API，上面那步是社区常用的变通做法，不能 100% 保证每次切换分类后新内容都会被翻；如果某次没翻，再点一次语言下拉框、或把语言先切回中文再切回去即可。机器翻译质量以 Google 为准，专有名词、币种和数字以原文链接为准。想做到每次都稳定、准，就得改用付费翻译 API 在每天更新时预先翻好各语言版本，那是下一步的优化，不是现在这个免费方案。
+- **这是唯一的外部依赖。** 页面会加载 `https://cdn.gtranslate.net/widgets/latest/dropdown.js`，需要能访问 cdn.gtranslate.net；打不开时页面本身（新闻、行情）不受影响，只会显示“翻译加载失败”的提示。
+- **免费版适用范围。** GTranslate 的免费小部件面向非商业网站（个人网站、教育项目、非营利组织、政府网站等），不限字数和浏览量；商业网站、需要被搜索引擎收录的翻译页面、手动改译文等功能要付费版。本项目是非商业的公开新闻聚合页，符合免费版用途。
+- **为什么不用 Google 翻译小部件。** 此前用的 Google 翻译小部件已于 2026-10-01 停止支持，实测在真浏览器里只剩一个“🌐 翻译 / Translate”文字标签、下拉框根本渲染不出来，请求其脚本还会返回 429/验证码页，故已全部移除，改用 GTranslate。
+- **动态新闻的处理。** 新闻是页面加载后从 `data/news.json` 抓取、由 `app.js` 渲染进 DOM 的。GTranslate 的翻译库自带 DOM 变化监听，会翻译后来加入的节点；另外 `app.js` 在每次切换分类 / 搜索重新渲染后，若已选了非中文目标语言，会再调一次小部件对外提供的 `window.doGTranslate()`，把新卡片再翻一遍。已选语言会记在浏览器的 localStorage 里，刷新页面后小部件会自动恢复。
+- **局限（实话实说）。** 机器翻译质量以 GTranslate 为准，专有名词、币种和数字以原文链接为准；如果某次切换分类后新内容没翻，再点一次语言下拉框、或把语言先切回中文再切回去即可。想做到每次都稳定、准，就得改用付费翻译 API 在每天更新时预先翻好各语言版本，那是下一步的优化，不是现在这个免费方案。
 
 ## 本地使用
 

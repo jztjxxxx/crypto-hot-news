@@ -30,7 +30,7 @@
       <input id="search" type="search" placeholder="搜索标题或摘要…" aria-label="搜索新闻">
       <div class="translate-bar notranslate" aria-label="翻译">
         <span class="translate-label">🌐 翻译 / Translate</span>
-        <div id="google_translate_element"></div>
+        <div class="gtranslate_wrapper"></div>
         <span id="translate-note" class="translate-note" role="status"></span>
       </div>
     </div>
@@ -59,22 +59,16 @@
 </footer>
 
 <script>
-/* Google 翻译小部件（免费，无需 key）。
-   注意：element.js 不在这里直接加载，而是由 app.js 在首批新闻
-   渲染完成后才动态加载 — 这样用户第一次选语言时，新闻已经在
-   DOM 里，翻译才能覆盖到它们。详见 app.js 的 loadGoogleTranslate()。 */
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement(
-    {
-      pageLanguage: "zh-CN",
-      includedLanguages: "zh-CN,zh-TW,en,es,fr,de,ja,ko,pt,ru,ar,hi,id,vi,tr",
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-      autoDisplay: false
-    },
-    "google_translate_element"
-  );
-}
+/* GTranslate 免费小部件（无需 key）。设置必须在 dropdown.js 之前定义，
+   按官方示例原样放在这里；dropdown.js 用 defer 加载，执行时
+   window.gtranslateSettings 已就绪。语言与之前一致：15 种主流语言。 */
+window.gtranslateSettings = {
+  "default_language": "zh-CN",
+  "languages": ["zh-CN", "zh-TW", "en", "es", "fr", "de", "ja", "ko", "pt", "ru", "ar", "hi", "id", "vi", "tr"],
+  "wrapper_selector": ".gtranslate_wrapper"
+};
 </script>
+<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer onerror="document.getElementById('translate-note').textContent='翻译加载失败：需访问 cdn.gtranslate.net。'"></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -1,6 +1,7 @@
 /* 加密货币热点新闻 — 报纸头版风格；仅用系统字体，无外部字体。
-   唯一外部脚本是 Google 翻译小部件（translate.google.com，免费），
-   详见 README 的“翻译”一节。 */
+   唯一外部脚本是 GTranslate 翻译小部件（cdn.gtranslate.net，免费，
+   非商业网站免费使用），详见 README 的“翻译”一节。
+   此前用的 Google 翻译小部件已于 2026-10-01 停服，代码已全部移除。 */
 :root {
   --ink: #1a1a1a;
   --muted: #6b6b6b;
@@ -140,7 +141,7 @@ main {
   margin: 10px 0 0;
 }
 
-/* ---- 翻译（Google 翻译小部件） ---- */
+/* ---- 翻译（GTranslate 小部件） ---- */
 .controls-row {
   display: flex;
   gap: 10px;
@@ -167,21 +168,10 @@ main {
 
 .translate-label { flex: 0 0 auto; }
 
-#google_translate_element { display: inline-block; }
+.gtranslate_wrapper { display: inline-block; }
 
-/* Google 小部件自带的 select / gadget，收成报纸风的小圆角控件。 */
-#google_translate_element .goog-te-gadget-simple {
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--card);
-  padding: 4px 8px;
-  font-size: 13px;
-  line-height: 1.4;
-}
-
-#google_translate_element .goog-te-gadget-simple .goog-te-menu-value span { color: var(--ink); }
-#google_translate_element .goog-te-gadget-icon { display: none; }
-#google_translate_element .goog-te-combo {
+/* GTranslate 生成的语言下拉框，收成报纸风的小圆角控件。 */
+.gtranslate_wrapper .gt_selector {
   font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
   font-size: 13px;
   padding: 4px 6px;
@@ -190,6 +180,7 @@ main {
   border-radius: 999px;
   background: var(--card);
   color: var(--ink);
+  cursor: pointer;
 }
 
 .translate-note {
@@ -198,11 +189,6 @@ main {
   white-space: normal;
   max-width: 220px;
 }
-
-/* Google 翻译顶栏：autoDisplay 已关，一般不会出现；万一出现也隐藏，
-   避免它把整页往下顶、破坏报纸版式。 */
-body { top: 0 !important; }
-.goog-te-banner-frame.skiptranslate { display: none !important; }
 
 /* ---- 控制区 ---- */
 .controls {
@@ -366,6 +352,6 @@ footer p { margin: 4px 0; }
   .controls-row { flex-wrap: wrap; }
   .controls-row #search { flex: 1 1 100%; }
   .translate-bar { margin-left: auto; max-width: 100%; }
-  #google_translate_element .goog-te-combo { max-width: 150px; }
+  .gtranslate_wrapper .gt_selector { max-width: 150px; }
   .translate-note { max-width: 100%; }
 }
