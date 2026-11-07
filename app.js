@@ -34,6 +34,11 @@
 // 强制重翻；滚动时（防抖）也触发一轮检查，覆盖滚到底部才看到的页脚。
 // 此前用的 Google 翻译小部件已于 2026-10-01 停服、实测无法渲染下拉框，
 // 故全部移除，改用 GTranslate（见 README“翻译”一节）。
+// 市场脉搏：顶部是一条银色莫比乌斯环带（index.html 里的 SVG 路径，
+// 横向无限环近似，不是真 3D），8 张币种卡片由 renderMarket 从
+// data/market.json 生成，沿环带流动（48 秒一圈，悬停暂停，
+// 减弱动态偏好时静态排布）。无价格历史数据，故不画迷你走势线。
+// 定位失败或行情加载失败时降级为静态网格 / 一句提示，不留空白条带。
 (function () {
   "use strict";
 
@@ -190,8 +195,128 @@
     return "总市值 $" + (v / 1e12).toFixed(2) + " 万亿";
   }
 
+  /* ---- 市场脉搏：莫比乌斯环带 ----
+     环带是 index.html 里的一条 SVG 路径（#mobius-path，横向无限环
+     ∞，近似莫比乌斯环，不是真 3D；中间交叉处一个翻转色块表现
+     半扭转）。8 张卡片是 HTML 元素，用 requestAnimationFrame
+     沿路径逐帧定位：getPointAtLength 取点，getScreenCTM 换算成
+     舞台内的像素坐标（SVG 按比例缩放、窄屏加高留白时也能对上），
+     切线方向算旋转角（夹到 ±38° 内，保证文字始终正向可读），
+     按纵向位置算大小 / 亮度 / 层叠（下方近处大而亮、上方远处
+     小而暗），制造纵深感。一整圈 48 秒，沿路径方向流动（上半段
+     从左往右），无缝循环。减弱动态偏好时不启动动画，只静态排布；
+     悬停时暂停，方便细看。无价格历史数据，故不画迷你走势线，
+     不编造数据。 */
+  var MOBIUS_LOOP_SECONDS = 48;
+  var coinsEl = document.getElementById("coins");
+  var mobiusTiles = [];
+  var mobiusPath = null;
+  var mobiusLen = 0;
+  var mobiusRaf = 0;
+  var mobiusElapsed = 0;
+  var mobiusLastTs = null;
+  var mobiusHoverPaused = false;
+  var mobiusReducedMotion = false;
+  try {
+    mobiusReducedMotion = window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  } catch (e) { /* 不支持 matchMedia 时默认开启动画 */ }
+
+  /* 路径上的点（SVG 内部坐标）换算成舞台内的像素坐标。
+     getScreenCTM 能处理 SVG 按比例缩放、窄屏留白的各种情况；
+     换算失败时退回按 viewBox 比例估算。 */
+  function mobiusPointAt(len, rect) {
+    var p = mobiusPath.getPointAtLength(len);
+    try {
+      var m = mobiusPath.getScreenCTM();
+      if (m && typeof DOMPoint !== "undefined") {
+        var pt = new DOMPoint(p.x, p.y).matrixTransform(m);
+        return { x: pt.x - rect.left, y: pt.y - rect.top };
+      }
+    } catch (e) { /* 换算失败时用下面的比例估算 */ }
+    return { x: p.x / 1080 * rect.width, y: p.y / 300 * rect.height };
+  }
+
+  function mobiusPlaceTile(tile, u, rect) {
+    var len = u * mobiusLen;
+    var pt = mobiusPointAt(len, rect);
+    var ahead = mobiusPointAt((len + 2) % mobiusLen, rect);
+    var behind = mobiusPointAt((len - 2 + mobiusLen) % mobiusLen, rect);
+    var angle = Math.atan2(ahead.y - behind.y, ahead.x - behind.x) * 180 / Math.PI;
+    if (angle > 90) angle -= 180;
+    if (angle < -90) angle += 180;
+    angle = Math.max(-38, Math.min(38, angle));
+    var depth = rect.height ? Math.max(0, Math.min(1, pt.y / rect.height)) : 0.5;
+    var scale = 0.82 + 0.26 * depth;
+    tile.el.style.transform =
+      "translate(-50%, -50%) translate(" + pt.x.toFixed(1) + "px," + pt.y.toFixed(1) + "px)" +
+      " rotate(" + angle.toFixed(1) + "deg) scale(" + scale.toFixed(3) + ")";
+    tile.el.style.opacity = (0.72 + 0.28 * depth).toFixed(2);
+    tile.el.style.zIndex = String(1 + Math.round(depth * 10));
+    tile.el.style.filter = "brightness(" + (0.86 + 0.14 * depth).toFixed(2) + ")";
+  }
+
+  /* 卡片字号按舞台宽度等比缩放（16px 封顶、8.5px 保底），
+     窄屏时卡片跟着变小，整页不出现横向滚动。 */
+  function mobiusFitFont(rect) {
+    coinsEl.style.fontSize = Math.max(8.5, Math.min(16, rect.width / 1080 * 16)) + "px";
+  }
+
+  function mobiusLayoutStatic() {
+    if (!mobiusTiles.length || !mobiusLen) return;
+    var rect = coinsEl.getBoundingClientRect();
+    mobiusFitFont(rect);
+    mobiusTiles.forEach(function (tile, i) {
+      mobiusPlaceTile(tile, i / mobiusTiles.length, rect);
+    });
+  }
+
+  function mobiusFrame(ts) {
+    mobiusRaf = 0;
+    if (!mobiusTiles.length || !mobiusLen) return;
+    if (mobiusLastTs == null) mobiusLastTs = ts;
+    var dt = (ts - mobiusLastTs) / 1000;
+    mobiusLastTs = ts;
+    if (!mobiusHoverPaused && dt > 0 && dt < 1) mobiusElapsed += dt;
+    var rect = coinsEl.getBoundingClientRect();
+    mobiusFitFont(rect);
+    var n = mobiusTiles.length;
+    for (var i = 0; i < n; i++) {
+      var u = (i / n + mobiusElapsed / MOBIUS_LOOP_SECONDS) % 1;
+      mobiusPlaceTile(mobiusTiles[i], u, rect);
+    }
+    mobiusRaf = requestAnimationFrame(mobiusFrame);
+  }
+
+  function mobiusStart() {
+    if (mobiusRaf) cancelAnimationFrame(mobiusRaf);
+    mobiusRaf = 0;
+    mobiusLastTs = null;
+    if (mobiusReducedMotion) { mobiusLayoutStatic(); return; }
+    mobiusRaf = requestAnimationFrame(mobiusFrame);
+  }
+
+  /* 行情加载失败 / 无数据：不隐藏整个市场脉搏，留一句提示，
+     环带隐藏，新闻照常显示。 */
+  function showMarketFallback() {
+    pulseEl.hidden = false;
+    coinsEl.classList.add("mobius-empty");
+    coinsEl.classList.remove("mobius-fallback");
+    var msg = coinsEl.querySelector(".mobius-fallback-msg");
+    if (msg) msg.hidden = false;
+  }
+
+  coinsEl.addEventListener("mouseenter", function () { mobiusHoverPaused = true; });
+  coinsEl.addEventListener("mouseleave", function () { mobiusHoverPaused = false; });
+  window.addEventListener("resize", function () {
+    if (mobiusReducedMotion) mobiusLayoutStatic();
+  });
+
   function renderMarket(data) {
-    if (!data || !Array.isArray(data.coins) || !data.coins.length) return;
+    if (!data || !Array.isArray(data.coins) || !data.coins.length) {
+      showMarketFallback();
+      return;
+    }
     var fg = data.fear_greed || {};
     document.getElementById("fear-greed").textContent =
       "恐惧贪婪指数 " + (fg.value != null ? fg.value : "—") +
@@ -201,18 +326,43 @@
       "BTC 占比 " + (data.btc_dominance_pct != null ? data.btc_dominance_pct.toFixed(2) + "%" : "—");
     document.getElementById("market-updated").textContent =
       "更新于 " + (data.updated_at ? formatDate(data.updated_at) + " " + formatTime(data.updated_at) : "未知");
-    var html = "";
+    /* 旧卡片清掉，SVG 环带保留：只删 .mcoin，不动环带和流光。 */
+    var old = coinsEl.querySelectorAll(".mcoin");
+    for (var i = 0; i < old.length; i++) old[i].remove();
+    var msg = coinsEl.querySelector(".mobius-fallback-msg");
+    if (msg) msg.hidden = true;
+    coinsEl.classList.remove("mobius-empty", "mobius-fallback");
+    mobiusTiles = [];
     data.coins.forEach(function (c) {
       var chg = c.change_24h_pct;
       var cls = chg == null ? "" : (chg >= 0 ? "up" : "down");
       var chgText = chg == null ? "" : (chg >= 0 ? "+" : "") + chg.toFixed(2) + "%";
-      html += '<div class="coin">' +
+      var tile = document.createElement("div");
+      tile.className = "mcoin";
+      tile.setAttribute("role", "listitem");
+      tile.innerHTML =
         '<div class="name">' + escapeHtml(c.symbol) + "<span>" + escapeHtml(c.name) + "</span></div>" +
         '<div class="price">' + escapeHtml(formatPrice(c.price_usd)) +
-        '<span class="change ' + cls + '">' + escapeHtml(chgText) + "</span></div>" +
-        "</div>";
+        '<span class="change ' + cls + '">' + escapeHtml(chgText) + "</span></div>";
+      coinsEl.appendChild(tile);
+      mobiusTiles.push({ el: tile });
     });
-    document.getElementById("coins").innerHTML = html;
+    /* 沿 SVG 环带定位卡片；定位接口不可用时降级为静态网格，
+       绝不留一条空白或坏掉的条带。 */
+    try {
+      mobiusPath = document.getElementById("mobius-path");
+      mobiusLen = mobiusPath.getTotalLength();
+      if (!mobiusLen) throw new Error("empty path");
+      mobiusStart();
+    } catch (e) {
+      coinsEl.classList.add("mobius-fallback");
+      mobiusTiles.forEach(function (t) {
+        t.el.style.transform = "";
+        t.el.style.opacity = "";
+        t.el.style.zIndex = "";
+        t.el.style.filter = "";
+      });
+    }
     pulseEl.hidden = false;
   }
 
@@ -336,7 +486,7 @@
     })
     .then(renderMarket)
     .catch(function () {
-      // 行情加载失败时仅隐藏市场脉搏，新闻照常显示。
-      pulseEl.hidden = true;
+      // 行情加载失败：不隐藏整个市场脉搏，留一句提示，新闻照常显示。
+      showMarketFallback();
     });
 })();

@@ -94,45 +94,138 @@ main {
   margin: 0;
 }
 
-.coins {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 10px;
+/* ---- 市场脉搏：莫比乌斯环带 ----
+   参考图是深色背景上的一条银色金属莫比乌斯环，币种卡片嵌在环带上
+   流动。这里是近似实现，不是真 3D：环带是一条 SVG 画的横向无限环
+   （∞），银色用多段渐变 + 投影做出拉丝金属感，中间交叉处加一个
+   翻转色块表现半扭转；8 张币种卡片是 HTML 元素，由 app.js 沿
+   SVG 路径逐帧定位（requestAnimationFrame），靠近画面下方（近处）
+   的卡片更大更亮、远处的更小更暗，制造纵深感。卡片内容仍来自
+   data/market.json，不是写死的价格。无价格历史数据，故不画
+   假的迷你走势线。 */
+.mobius-stage {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid #2a2f35;
+  background: radial-gradient(120% 90% at 50% 0%, #232a31 0%, #12161a 45%, #07090c 100%);
+  aspect-ratio: 1080 / 300;
   margin-top: 12px;
+  font-size: 16px; /* app.js 会按舞台宽度等比缩放，窄屏时自动变小 */
 }
 
-.coin {
+.mobius-band {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* 一道斜向流光，缓慢扫过银色环带，增加“流动的金属”感。 */
+.mobius-sheen {
+  position: absolute;
+  inset: -10% -30%;
+  background: linear-gradient(115deg, transparent 42%, rgba(255, 255, 255, 0.13) 50%, transparent 58%);
+  animation: mobius-sheen 9s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes mobius-sheen {
+  from { transform: translateX(-45%); }
+  to { transform: translateX(45%); }
+}
+
+.mcoin {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 11em;
+  padding: 0.55em 0.7em 0.6em;
+  background: linear-gradient(135deg, rgba(22, 30, 37, 0.93), rgba(10, 14, 18, 0.88));
+  border: 1px solid rgba(140, 200, 190, 0.35);
+  border-radius: 0.6em;
+  box-shadow: 0 0.35em 1em rgba(0, 0, 0, 0.45), inset 0 0 0.06em rgba(255, 255, 255, 0.25);
+  color: #eef3f6;
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  will-change: transform;
+  line-height: 1.35;
+}
+
+.mcoin .name {
+  font-size: 0.95em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.mcoin .name span {
+  color: #9fb3bd;
+  font-weight: normal;
+  font-size: 0.8em;
+  margin-left: 0.35em;
+}
+
+.mcoin .price {
+  font-size: 1.05em;
+  margin-top: 0.1em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.mcoin .change {
+  font-size: 0.8em;
+  margin-left: 0.5em;
+}
+
+.mcoin .change.up { color: #34d399; }
+.mcoin .change.down { color: #f87171; }
+
+.mobius-fallback-msg {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 16px;
+  color: #c8d2d8;
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* ---- 降级：环带定位失败时回到静态网格，绝不出现空白坏掉的条带 ---- */
+.coins.mobius-fallback {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  aspect-ratio: auto;
   background: var(--card);
   border: 1px solid var(--line);
-  border-radius: 4px;
-  padding: 10px 12px;
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  padding: 12px;
+  overflow: visible;
 }
 
-.coin .name {
-  font-size: 14px;
-  font-weight: bold;
+.coins.mobius-fallback .mobius-band,
+.coins.mobius-fallback .mobius-sheen { display: none; }
+
+.coins.mobius-fallback .mcoin {
+  position: static;
+  transform: none !important;
+  width: auto;
+  background: var(--card);
+  border: 1px solid var(--line);
+  box-shadow: none;
+  color: var(--ink);
 }
 
-.coin .name span {
-  color: var(--muted);
-  font-weight: normal;
-  font-size: 12px;
-  margin-left: 4px;
-}
+.coins.mobius-fallback .mcoin .name span { color: var(--muted); }
+.coins.mobius-fallback .mcoin .change.up { color: var(--up); }
+.coins.mobius-fallback .mcoin .change.down { color: var(--down); }
 
-.coin .price {
-  font-size: 17px;
-  margin-top: 2px;
-}
-
-.coin .change {
-  font-size: 13px;
-  margin-left: 8px;
-}
-
-.coin .change.up { color: var(--up); }
-.coin .change.down { color: var(--down); }
+/* 行情加载失败时：环带隐藏，只留一句提示，不留空白条带。 */
+.coins.mobius-empty .mobius-band,
+.coins.mobius-empty .mobius-sheen { display: none; }
 
 .pulse-source {
   font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
@@ -347,11 +440,20 @@ footer p { margin: 4px 0; }
 @media (max-width: 600px) {
   .masthead { padding-top: 20px; }
   .cards { grid-template-columns: 1fr; }
-  .coins { grid-template-columns: 1fr 1fr; }
+  /* 窄屏时环带舞台加高一点（环带按比例居中，卡片有地方落），
+     卡片只留代号不留全名，避免溢出；整页不出现横向滚动。 */
+  .mobius-stage { aspect-ratio: 1080 / 430; }
+  .mcoin { width: 10.5em; }
+  .mcoin .name span { display: none; }
   /* 窄屏时搜索框独占一行，翻译控件换到下一行、靠右，不溢出。 */
   .controls-row { flex-wrap: wrap; }
   .controls-row #search { flex: 1 1 100%; }
   .translate-bar { margin-left: auto; max-width: 100%; }
   .gtranslate_wrapper .gt_selector { max-width: 150px; }
   .translate-note { max-width: 100%; }
+}
+
+/* 减弱动态偏好：流光停住，卡片不流动（app.js 里也改为静态排布）。 */
+@media (prefers-reduced-motion: reduce) {
+  .mobius-sheen { animation: none; }
 }
