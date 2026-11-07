@@ -26,7 +26,14 @@
   </section>
 
   <section class="controls" aria-label="筛选">
-    <input id="search" type="search" placeholder="搜索标题或摘要…" aria-label="搜索新闻">
+    <div class="controls-row">
+      <input id="search" type="search" placeholder="搜索标题或摘要…" aria-label="搜索新闻">
+      <div class="translate-bar notranslate" aria-label="翻译">
+        <span class="translate-label">🌐 翻译 / Translate</span>
+        <div id="google_translate_element"></div>
+        <span id="translate-note" class="translate-note" role="status"></span>
+      </div>
+    </div>
     <nav class="tabs categories" id="category-tabs" aria-label="分类">
       <button data-category="全部" class="active">全部</button>
       <button data-category="行情">行情</button>
@@ -51,6 +58,23 @@
   <p><a href="https://github.com/jztjxxxx/crypto-hot-news">GitHub 开源项目</a> · MIT 许可证</p>
 </footer>
 
+<script>
+/* Google 翻译小部件（免费，无需 key）。
+   注意：element.js 不在这里直接加载，而是由 app.js 在首批新闻
+   渲染完成后才动态加载 — 这样用户第一次选语言时，新闻已经在
+   DOM 里，翻译才能覆盖到它们。详见 app.js 的 loadGoogleTranslate()。 */
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    {
+      pageLanguage: "zh-CN",
+      includedLanguages: "zh-CN,zh-TW,en,es,fr,de,ja,ko,pt,ru,ar,hi,id,vi,tr",
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      autoDisplay: false
+    },
+    "google_translate_element"
+  );
+}
+</script>
 <script src="app.js"></script>
 </body>
 </html>
