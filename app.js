@@ -5,13 +5,31 @@
 // 翻译：页面用免费的 GTranslate 小部件（cdn.gtranslate.net，无需 key，
 // 非商业网站免费）。设置在 index.html 里定义，dropdown.js 用 defer
 // 加载，在 .gtranslate_wrapper 里生成一个语言下拉框，点选语言后整页翻译。
-// 动态内容处理 — 新闻是 fetch 后才渲染进 DOM 的：
-//  1) GTranslate 的翻译库（lib.min.js）自带 MutationObserver，会留意
-//     DOM 变化并翻译新节点，所以首批新闻渲染后选语言即可覆盖它们；
-//  2) 保险起见，每次切换分类 / 搜索重新渲染后，若已选了非中文目标语言
-//     （存在 localStorage 的 __GT_TRANSLATE_LANGS 里），就再调一次
-//     dropdown.js 对外暴露的 window.doGTranslate()，让它把新卡片再翻一遍
-//     （见 reapplyGTranslate）。这是小部件自己提供的全局函数，不是编造的 API。
+// 动态内容与漏翻处理 — 新闻是 fetch 后才渲染进 DOM 的，
+// 对照 GTranslate 自身源码（dropdown.js / lib.min.js）核对后：
+//  1) 翻译库自带 DOM 变化监听（MutationObserver），新节点加入时会
+//     停掉当前一轮、重新走一遍整个页面；但一轮翻完后它会把监听
+//     的开关关掉（this.h=false），之后再有渲染变化就不一定触发，
+//     特别是切走分类再切回“全部”时头条是同一条内容重建，
+//     翻译库全身文本对比可能看不出变化。
+//  2) 翻译库只优先翻视口内的节点，视口外的先放一放（约 200px
+//     余量），等滚到附近再翻；而且是分批逐步翻的。所以页脚
+//     （页面最底下）和刚好在首屏外的头条，在短时间检查里没翻完
+//     是正常的，不是被跳过了。
+//  3) window.doGTranslate("zh-CN|en") 在已经翻成英文时再调是空操作：
+//     翻译库内部只有语言真的变了、或还没有翻译对象时才会开新一轮，
+//     同语言再调只会直接报 100%。所以“再调一次 doGTranslate”
+//     并不能补翻漏掉的节点——旧版就是这么写的，它其实不起作用。
+//  4) 真正能强制同一语言重翻的办法是 __GT.translator.revert()
+//     （恢复原文、清空已存语言）再调 __GT.translator.translate()：
+//     revert 后翻译库会新建翻译对象、重新走一遍整个页面。这是
+//     小部件自己暴露的全局对象（doGTranslate 内部调的就是它），
+//     不是编造的 API。代价是整页会先短暂恢复中文再重翻，所以
+//     只在确实看到缺口时才用，每个 render 周期最多一次、每页最多 3 次。
+// 做法见 ensureTranslationComplete：每次 render() 后分两次检查
+// （约 0.9 秒、约 3.5 秒），只在“已选非中文、翻译库已就绪、上一轮
+// 已结束、头条或页脚在视口内却仍是中文原文”时才强制重翻一次；
+// 滚动时（防抖）也检查一次，覆盖滚到底部才看到的页脚。
 // 此前用的 Google 翻译小部件已于 2026-10-01 停服、实测无法渲染下拉框，
 // 故全部移除，改用 GTranslate（见 README“翻译”一节）。
 (function () {
@@ -29,29 +47,77 @@
   var searchEl = document.getElementById("search");
   var pulseEl = document.getElementById("market-pulse");
 
-  /* ---- GTranslate：重新渲染后，已选非中文时再触发一次翻译 ----
-     目标语言存在 localStorage 的 __GT_TRANSLATE_LANGS 里
-     （{"srcLang": "zh-CN", "tgtLang": "en"} 这种格式），
-     window.doGTranslate 是 dropdown.js 对外暴露的全局函数。
-     小部件的翻译库本身也会监听 DOM 变化，这里只是多一层保险；
-     未选语言 / 选的仍是中文 / 小部件尚未加载时什么都不做。 */
-  function reapplyGTranslate() {
-    var lang = "";
+  /* ---- GTranslate：渲染后检查头条 / 页脚是否真的被翻了 ----
+     见文件头注释：同语言再调 doGTranslate() 是空操作，真正能强制
+     同一语言重翻的是 __GT.translator.revert() + translate()。
+     只在确实看到缺口时才用，避免整页来回闪。 */
+  var FOOTER_ORIGINAL = "新闻内容版权属于原来源，本站仅做摘要聚合；点击标题可阅读原文。";
+  var forcedPassesTotal = 0;
+  var forcedThisRender = false;
+  var scrollCheckTimer = null;
+
+  /* 已选的目标语言，存在 localStorage 的 __GT_TRANSLATE_LANGS 里
+     （{"srcLang": "zh-CN", "tgtLang": "en"} 这种格式，与
+     dropdown.js / lib.min.js 的读写一致，已核对过源码）。 */
+  function storedTargetLang() {
     try {
       var stored = JSON.parse(localStorage.getItem("__GT_TRANSLATE_LANGS") || "null");
-      if (stored && typeof stored.tgtLang === "string") lang = stored.tgtLang;
+      if (stored && typeof stored.tgtLang === "string") return stored.tgtLang;
     } catch (e) { /* 忽略读取失败 */ }
+    return "";
+  }
+
+  function currentHeadlineItem() {
+    if (state.category !== "全部" || state.query) return null;
+    var filtered = state.items.filter(matches);
+    return filtered.length ? filtered[0] : null;
+  }
+
+  function rectInViewport(el) {
+    if (!el || typeof el.getBoundingClientRect !== "function") return false;
+    var r = el.getBoundingClientRect();
+    return r.bottom > 0 && r.top < window.innerHeight;
+  }
+
+  /* 头条或页脚在视口内、却仍显示中文原文 → 有真实缺口。
+     不在视口内时不算缺口：翻译库本来就会等滚到附近再翻。 */
+  function hasVisibleGap() {
+    var item = currentHeadlineItem();
+    if (item && !headlineEl.hidden) {
+      var h2 = headlineEl.querySelector("h2");
+      if (h2 && rectInViewport(headlineEl) &&
+          h2.textContent.trim() === item.title) return true;
+    }
+    var fp = document.querySelector("footer p");
+    if (fp && rectInViewport(fp) &&
+        fp.textContent.trim() === FOOTER_ORIGINAL) return true;
+    return false;
+  }
+
+  function ensureTranslationComplete() {
+    var lang = storedTargetLang();
     if (!lang || lang === "zh-CN") return;
-    if (typeof window.doGTranslate !== "function") return;
+    if (forcedThisRender || forcedPassesTotal >= 3) return;
+    var gt = window.__GT && window.__GT.translator;
+    if (!gt || typeof gt.revert !== "function" ||
+        typeof gt.translate !== "function") return;
+    if (gt.libReady === false) return;   // 翻译库还没加载完，等下一次检查
+    if (gt.finished === false) return;   // 上一轮还在翻，等它翻完再看
+    if (!hasVisibleGap()) return;
     try {
-      window.doGTranslate("zh-CN|" + lang);
+      /* revert() 会把整页先恢复成中文原文、并清空已存语言，
+         紧接着的 translate() 因此会新建翻译对象、重新走一遍
+         整个页面（含头条和页脚）。 */
+      gt.revert();
+      gt.translate("zh-CN", lang);
+      forcedThisRender = true;
+      forcedPassesTotal++;
     } catch (e) { /* 翻译失败时不影响新闻本身 */ }
   }
 
-  function scheduleReapplyGTranslate() {
-    /* 给翻译库的 DOM 监听一点时间，再触发一次；即使它自己已翻了
-       新节点，多触发一次也无害（翻译库会先恢复原文再重翻）。 */
-    setTimeout(reapplyGTranslate, 250);
+  function scheduleEnsureTranslation() {
+    setTimeout(ensureTranslationComplete, 900);
+    setTimeout(ensureTranslationComplete, 3500);
   }
 
   function escapeHtml(s) {
@@ -135,6 +201,7 @@
   }
 
   function render() {
+    forcedThisRender = false;
     var filtered = state.items.filter(matches);
     var headline = null;
     if (state.category === "全部" && !state.query && filtered.length > 0) {
@@ -168,8 +235,9 @@
     newsEl.innerHTML = html;
     emptyEl.hidden = filtered.length !== 0;
     statusEl.hidden = true;
-    /* 分类 / 搜索切换后重新渲染了卡片，已选语言时让翻译再跑一遍。 */
-    scheduleReapplyGTranslate();
+    /* 分类 / 搜索切换后重新渲染了卡片与头条，分两次检查
+       头条、页脚是否真的被翻了，有缺口时强制重翻一次。 */
+    scheduleEnsureTranslation();
   }
 
   document.getElementById("category-tabs").addEventListener("click", function (e) {
@@ -186,6 +254,13 @@
     state.query = searchEl.value.trim().toLowerCase();
     render();
   });
+
+  /* 滚动时也检查一次（防抖）：覆盖滚到底部才进入视口的页脚，
+     以及滚回顶部才看到的头条。 */
+  window.addEventListener("scroll", function () {
+    if (scrollCheckTimer) clearTimeout(scrollCheckTimer);
+    scrollCheckTimer = setTimeout(ensureTranslationComplete, 800);
+  }, { passive: true });
 
   fetch("data/news.json")
     .then(function (resp) {
