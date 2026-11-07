@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>加密货币热点新闻</title>
+<meta name="description" content="整合加密货币热点新闻：行情、市场、政策、项目、DeFi 综合头条，顶部市场脉搏实时行情，每天自动更新。">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead">
+  <p class="dateline"><span id="today-date">—</span> · 综合头条 · 行情 / 市场 / 政策 / 项目 / DeFi</p>
+  <h1>加密货币热点新闻</h1>
+  <p class="tagline">比特币 · 以太坊 · DeFi —— 每日热点，一页尽览</p>
+  <p class="updated">数据更新于 <span id="updated-at">加载中…</span></p>
+</header>
+
+<main>
+  <section id="market-pulse" class="market-pulse" aria-label="市场脉搏" hidden>
+    <div class="pulse-head">
+      <h2>市场脉搏</h2>
+      <p class="pulse-meta"><span id="fear-greed">—</span> · <span id="total-mcap">—</span> · <span id="btc-dom">—</span></p>
+    </div>
+    <div id="coins" class="coins"></div>
+    <p class="pulse-source">行情数据：CoinGecko / Alternative.me（恐惧贪婪指数） · <span id="market-updated">—</span></p>
+  </section>
+
+  <section class="controls" aria-label="筛选">
+    <input id="search" type="search" placeholder="搜索标题或摘要…" aria-label="搜索新闻">
+    <nav class="tabs categories" id="category-tabs" aria-label="分类">
+      <button data-category="全部" class="active">全部</button>
+      <button data-category="行情">行情</button>
+      <button data-category="市场">市场</button>
+      <button data-category="政策">政策</button>
+      <button data-category="项目">项目</button>
+      <button data-category="DeFi">DeFi</button>
+    </nav>
+  </section>
+
+  <section id="headline" class="headline" aria-label="头条"></section>
+
+  <p id="status" class="status" role="status">正在加载新闻…</p>
+  <div id="news"></div>
+
+  <p id="empty" class="empty" hidden>没有符合条件的新闻，换个关键词或分类试试。</p>
+</main>
+
+<footer>
+  <p>新闻内容版权属于原来源，本站仅做摘要聚合；点击标题可阅读原文。</p>
+  <p>数据源：CoinDesk、CoinTelegraph、Decrypt、The Block、CryptoSlate、Bitcoin Magazine、U.Today、CryptoPotato、BeInCrypto、The Defiant；行情：CoinGecko、Alternative.me。数据每天自动更新（北京时间约 08:16）。</p>
+  <p><a href="https://github.com/jztjxxxx/crypto-hot-news">GitHub 开源项目</a> · MIT 许可证</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

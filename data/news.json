@@ -1,0 +1,325 @@
+{
+  "updated_at": "2026-11-08T00:20:13+08:00",
+  "items": [
+    {
+      "category": "项目",
+      "title": "Ripple 参与贝莱德与渣打银行的代币化报告",
+      "summary": "Ripple 参与了由迪拜金融服务管理局委托编写的代币化白皮书。",
+      "source": "U.Today",
+      "url": "https://u.today/ripple-joins-blackrock-standard-chartered-in-new-tokenization-report",
+      "published_at": "2026-11-07T22:40:00+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "稳定币流通收缩拖累比特币，即便美联储储备有所回升",
+      "summary": "稳定币流通量收缩给比特币带来压力，美元代币流通减少与买盘之间的联系仍不明确。",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/stablecoin-contraction-forces-bitcoin-drop-despite-fed-reserve-gains/",
+      "published_at": "2026-11-07T20:40:07+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "BTC、ETH、XRP 若继续下跌，下一个关键支撑位在哪？",
+      "summary": "分析师 Ali Martinez 给出了三大主流币在抛售加剧情形下的下一批关键下行位。",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/how-low-can-btc-eth-and-xrp-fall-if-the-crypto-sell-off-worsens/",
+      "published_at": "2026-11-07T19:26:25+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Morpho 借贷压力暴露 cbXRP 风险，原生 XRP 未受影响",
+      "summary": "11 月 6 日的快照显示，在预言机再跌 10% 的假设下，1070 个仓位共计 884 万 USDC 面临风险。",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/morpho-loan-stress-exposes-cbxrp-but-spares-native-xrp/",
+      "published_at": "2026-11-07T18:30:51+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "三星携手 Stripe，把 USDC 带给 8200 万部手机用户",
+      "summary": "三星钱包新增 USDC 功能，由 Stripe 提供支持，覆盖 8200 万部手机。",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/samsung-teams-with-stripe-to-bring-usdc-to-82m-phones/",
+      "published_at": "2026-11-07T10:10:27+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "美国财政部切断 MEXC 与美国金融体系的联系，指控其涉 160 亿美元非法交易",
+      "summary": "美国财政部称已将 MEXC Global 踢出美国金融体系，理由是其涉嫌为与伊朗、朝鲜和俄罗斯相关的 160 亿美元交易提供支持。",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
+      "published_at": "2026-11-07T05:02:30+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "美国财政部撤回加密监控“旅行规则”提案",
+      "summary": "美国财政部撤回了一项颇具争议的提案，该提案原本会扩大对加密货币交易的监控要求。",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
+      "published_at": "2026-11-07T04:37:34+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "希腊通过加密税法：收益征 10%，质押与 DeFi 收益征 15%",
+      "summary": "希腊批准了加密税收框架，年度收益免税额为 500 欧元（约 557 美元），质押与 DeFi 收入适用新规，但代币互换等关键问题仍未明确。",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi",
+      "published_at": "2026-11-07T04:36:03+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "苹果、Meta 拒绝 OKX 与 ICE 的代币化股票计划",
+      "summary": "在该项目的首批入选公司中，Strategy、Coinbase、Circle 和 Robinhood 等六家公司未公开表示反对，此前已有 90% 的发行方选择退出。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+      "published_at": "2026-11-07T04:09:18+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "俄罗斯敲定加密交易规则，11 月 17 日起实施",
+      "summary": "新规允许散户通过受监管中介交易比特币、以太币和 USDT，莫斯科交易所计划 12 月启动加密交易。",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout",
+      "published_at": "2026-11-07T02:47:45+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "特朗普政府推动 401(k) 退休计划纳入加密货币",
+      "summary": "一项将 401(k) 退休账户向包括加密货币在内的另类资产开放的规定已送交白宫做最终审议。",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-06-trump-administration-moves-closer-allowing-crypto-401k-retirement-plans-435939",
+      "published_at": "2026-11-07T02:29:36+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Strive 10 月买入 15124 枚比特币，逼近最大持币企业",
+      "summary": "比特币财库公司 Strive 第三季度净收入 5.09 亿美元，10 月买入 15124 枚比特币，总持仓达到 43124 枚。",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/strive-buys-bitcoin-october-top-btc-corporate-holders",
+      "published_at": "2026-11-07T02:22:42+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "比特币 ETF 260 亿美元抛售，已抹去 2026 年全部净流入",
+      "summary": "美国比特币 ETF 今年累计流入 256 亿美元、流出 261 亿美元，全年净流入已被抹平；以太坊 ETF 今年同样为负。",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/bitcoin-etfs-zero-net-flows-2026/",
+      "published_at": "2026-11-07T02:00:00+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "比特币跌破 7.5 万美元，加密市场错失科技股反弹",
+      "summary": "美国非农就业数据远超预期后，市场押注 12 月加息的概率上升，比特币走势持续疲软。",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock",
+      "published_at": "2026-11-07T01:49:33+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "美国预测市场监管机构的要求与法院命令直接冲突",
+      "summary": "美国商品期货交易委员会称受监管交易所不得按州切断客户，但 Kalshi 等公司正受法院命令约束必须这样做。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+      "published_at": "2026-11-07T01:42:28+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "泰国证交会起诉 Bitget，12 月 5 日起封堵访问",
+      "summary": "泰国证交会已对 Bitget 运营方 BG Limited 提起刑事诉讼，指控其 2022 年至 2025 年在泰国无牌经营交易业务。",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/thailand-sec-bitget-criminal-dec-5",
+      "published_at": "2026-11-07T01:30:00+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "比特币测试 11 周低点，加密市场爆仓超 10 亿美元",
+      "summary": "AI 股票暴跌拖累比特币跌向 7.55 万美元，加密衍生品市场已有逾 10 亿美元仓位被清算。",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock",
+      "published_at": "2026-11-07T00:34:07+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "比特币跌至 11 周低点：民主党横扫中期选举叠加华尔街暴跌",
+      "summary": "本周回顾：加密市场总市值 10 天内缩水约 2000 亿美元。",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/bitcoin-sinks-to-11-week-low-after-democratic-sweep-and-wall-street-crash-weekly-crypto-recap/",
+      "published_at": "2026-11-06T23:48:08+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Coinbase 开通以 PAX Gold 抵押借入 USDC",
+      "summary": "黄金支持的代币加入 Coinbase 的抵押品选项，其贷款健康度定价仅在黄金市场交易时段更新。",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/coinbase-opens-usdc-borrowing-against-pax-gold",
+      "published_at": "2026-11-06T23:39:15+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Aave Labs 收购 Avon 团队，发力固定利率借贷",
+      "summary": "Aave Labs 收购了链上固定利率与浮动利率借贷协议 Avon 的团队与技术。",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-06-aave-labs-buys-avon-team-in-fixed-rate-lending-push-435901",
+      "published_at": "2026-11-06T23:00:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "民主党横扫中期选举，CLARITY 法案面临新考验",
+      "summary": "随着民主党掌控国会，CLARITY 法案面临新的考验，消费者保护、道德规范等问题成为加密行业可能需要让步的焦点。",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/magazine/clarity-act-faces-new-test-under-democratic-congress",
+      "published_at": "2026-11-06T22:30:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "尼日利亚出台加密许可新规，禁止算法稳定币",
+      "summary": "尼日利亚禁止算法稳定币，并对发行方提出准备金要求，同时扩大央行对加密支付服务的监管。",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing",
+      "published_at": "2026-11-06T21:57:14+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "美国 10 月新增就业 16.5 万，远超 6.5 万的预期",
+      "summary": "失业率意外降至 4.1%。强劲的就业数据让 12 月加息进入视野，但下周的通胀数据与股市走向可能更为关键。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate",
+      "published_at": "2026-11-06T21:31:54+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "以太坊开发者暂缓在 Hoodi 上分叉 Glamsterdam，等待智能合约风险解决",
+      "summary": "以太坊开发者正在调查与 Glamsterdam 的 EIP-8037 和 EIP-8038 相关的八项智能合约不变量问题。",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/ethereum-devs-fork-glamsterdam-hoodi-smart-contract-risks",
+      "published_at": "2026-11-06T21:23:08+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "比特币在 7.6 万美元附近企稳，等待美国就业数据",
+      "summary": "比特币在周四 AI 股驱动的抛售后从约 7.52 万美元反弹，抛售已导致逾 10 亿美元爆仓，交易员等待美国就业报告。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-near-usd76-000-after-ai-led-selloff",
+      "published_at": "2026-11-06T19:49:35+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "贝莱德抛售 1.05 亿美元比特币，反弹再度受阻",
+      "summary": "贝莱德抛售价值 1.05 亿美元的比特币，市场面临更深的回调，这是其连续第五天卖出比特币。",
+      "source": "U.Today",
+      "url": "https://u.today/blackrock-sells-105-million-of-bitcoin-as-recovery-stalls-again",
+      "published_at": "2026-11-06T19:12:25+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "比特币收复 7.6 万美元，ETF 单日流出 4.3 亿美元",
+      "summary": "比特币在周四科技股驱动的抛售中跌破 7.6 万美元后，周五收复该关口。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
+      "published_at": "2026-11-06T17:53:27+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "比特币与以太币 ETF 单日流出 5.3 亿美元，大选涨幅回吐殆尽",
+      "summary": "美国现货比特币与以太币 ETF 周四合计流出 5.3 亿美元，比特币跌破 7.6 万美元，美股同步下挫。",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-ether-etfs-lose-post-election-gains-erased",
+      "published_at": "2026-11-06T16:19:18+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Zcash 重大升级 NU7 上线主网，区块时间缩短至三分之一",
+      "summary": "NU7 同时激活了网络可持续性机制，每个区块 60% 的交易费将被移出流通。",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-11-06-zcashs-nu7-goes-live-435807",
+      "published_at": "2026-11-06T15:36:42+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "以太币跌 8.5% 至 2220 美元，跑输比特币",
+      "summary": "美国以太币 ETF 在 11 月 5 日录得 9990 万美元净流出，扭转了前一日 5300 万美元的流入。",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/markets/ether-falls-8-5-to-2-220-lagging-bitcoin",
+      "published_at": "2026-11-06T15:17:37+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Loopscale 部分恢复借贷功能，金库提现仍冻结",
+      "summary": "USDC Genesis 贷款的还款与抵押品提取仍处于禁用状态，该 Solana 借贷协议披露了两条攻击路径。",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/hacks/loopscale-partly-restores-loan-functions-keeps-vault-withdrawals-frozen",
+      "published_at": "2026-11-06T08:42:07+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Core Scientific 年底前退出比特币挖矿，转型 AI 数据中心",
+      "summary": "这家曾经的比特币挖矿巨头计划 2027 年成为纯数据中心服务商，挖矿收入目前仅占季度收入的 7.5%。",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges",
+      "published_at": "2026-11-06T08:19:49+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "比特币抹去大选后涨幅，华尔街抛售引发逾 10 亿美元爆仓",
+      "summary": "比特币下跌 6% 至 7.57 万美元，以太币跌 7%，纳斯达克抛售波及加密市场，引发 10.3 亿美元清算。",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
+      "published_at": "2026-11-06T04:11:02+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Solana Labs 的 Leap 开启 iPhone 测试版，可交易代币化股票与加密货币",
+      "summary": "交易通过 Jupiter 路由，代币化证券不对美国用户及部分其他主要市场的用户开放。",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/solana-labs-leap-opens-iphone-beta-for-tokenized-stocks-and-crypto",
+      "published_at": "2026-11-06T03:50:19+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Base 在主网部署 Denim 升级，区块时间缩至 200 毫秒",
+      "summary": "Base 激活第四次网络升级 Denim，以每秒 5 个规范区块、200 毫秒间隔取代 Flashblocks。",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-05-base-deploys-denim-upgrade-on-mainnet-replacing-flashblocks-with-200ms-block-times-434433",
+      "published_at": "2026-11-06T03:00:00+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Aave 将就 V4 接入 Babylon 原生比特币抵押品进行投票",
+      "summary": "LlamaRisk 提议设定 300 枚比特币的抵押上限，但激活该市场仍需另一次链上治理投票。",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/aave-schedules-vote-on-babylon-native-bitcoin-collateral-for-v4",
+      "published_at": "2026-11-06T01:05:47+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Lido 为 Earn 金库新增 Firelight 亏损保护",
+      "summary": "首期 Firelight 限额约为 EarnETH 1210 万美元、EarnUSD 400 万美元，位于 DAO 现有份额销毁缓冲之前。",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/lido-adds-firelight-loss-protection-to-earn-vaults",
+      "published_at": "2026-11-05T23:17:36+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Kraken 母公司 Payward 买入 AAVE 代币，加码 DeFi 投资",
+      "summary": "这笔投资延续了 CoinDesk 6 月首次报道的谈判，其中包括拟议的 Aave Group 股权投资。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push",
+      "published_at": "2026-11-05T22:00:00+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "谷歌或入股比特币矿企 TeraWulf 190 亿美元 AI 项目",
+      "summary": "这份 190 亿美元的数据中心协议包含一项特殊条款：若 Anthropic 拖欠租金，谷歌可获得该项目的一部分股权。",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
+      "published_at": "2026-11-05T21:29:40+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Pendle 交易量达 2.215 亿美元，创 30 天新高",
+      "summary": "交易几乎全部来自以太坊，锁仓价值维持在约 10.3 亿美元。",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/pendle-volume-hits-221-5-million-a-30-day-high",
+      "published_at": "2026-11-05T08:27:36+08:00"
+    }
+  ]
+}
