@@ -25,11 +25,13 @@
 //     revert 后翻译库会新建翻译对象、重新走一遍整个页面。这是
 //     小部件自己暴露的全局对象（doGTranslate 内部调的就是它），
 //     不是编造的 API。代价是整页会先短暂恢复中文再重翻，所以
-//     只在确实看到缺口时才用，每个 render 周期最多一次、每页最多 3 次。
-// 做法见 ensureTranslationComplete：每次 render() 后分两次检查
-// （约 0.9 秒、约 3.5 秒），只在“已选非中文、翻译库已就绪、上一轮
-// 已结束、头条或页脚在视口内却仍是中文原文”时才强制重翻一次；
-// 滚动时（防抖）也检查一次，覆盖滚到底部才看到的页脚。
+//     只在确实看到缺口时才用，每个 render 周期最多两次、每页最多 20 次
+//     （安全上限，防止来回闪）。上一轮没翻完时不放弃：轮询会一直等到
+//     它翻完再查缺口，而不是只查两次就停。
+// 做法见 pollEnsureTranslation：每次 render() 后开始一轮轮询
+// （首次约 0.9 秒、之后每 2 秒一次、持续约 90 秒），只在“已选非中文、
+// 翻译库已就绪、上一轮已结束、头条或页脚在视口内却仍是中文原文”时才
+// 强制重翻；滚动时（防抖）也触发一轮检查，覆盖滚到底部才看到的页脚。
 // 此前用的 Google 翻译小部件已于 2026-10-01 停服、实测无法渲染下拉框，
 // 故全部移除，改用 GTranslate（见 README“翻译”一节）。
 (function () {
@@ -52,8 +54,18 @@
      同一语言重翻的是 __GT.translator.revert() + translate()。
      只在确实看到缺口时才用，避免整页来回闪。 */
   var FOOTER_ORIGINAL = "新闻内容版权属于原来源，本站仅做摘要聚合；点击标题可阅读原文。";
+  /* 轮询状态：每轮 render 开始一轮检查，持续约 90 秒。
+     forcedThisCycle：本轮已强制重翻次数（上限 2，第一次重翻完
+     验证仍有缺口才允许第二次）；forcedPassesTotal：每页累计
+     安全上限 20，防止极端情况下来回闪。旧版的问题：每页上限
+     只有 3 次，切几个分类就用完了；而且只在 0.9 秒 / 3.5 秒
+     查两次，上一轮还在翻（finished===false，一轮要几十秒）
+     时就直接放弃、再也不查。 */
   var forcedPassesTotal = 0;
-  var forcedThisRender = false;
+  var forcedThisCycle = 0;
+  var lastForceAt = 0;
+  var ensureTimer = null;
+  var ensureDeadline = 0;
   var scrollCheckTimer = null;
 
   /* 已选的目标语言，存在 localStorage 的 __GT_TRANSLATE_LANGS 里
@@ -94,30 +106,54 @@
     return false;
   }
 
-  function ensureTranslationComplete() {
+  /* 本轮轮询还没到 90 秒截止时，2 秒后再查一次。 */
+  function rescheduleEnsure() {
+    if (Date.now() < ensureDeadline) {
+      ensureTimer = setTimeout(pollEnsureTranslation, 2000);
+    } else {
+      ensureTimer = null;
+    }
+  }
+
+  /* 检查一次头条 / 页脚是否真的被翻了，有真实缺口时强制重翻。
+     关键：上一轮还在翻（finished===false）或翻译库还没就绪时
+     不放弃，只是等 2 秒再查——GTranslate 一轮要几十秒，只查
+     两次必然撞上“还在翻”。强制重翻后也继续轮询，等新一轮翻
+     完再验证缺口还在不在；还在且本轮没用完 2 次，才再强制一次。 */
+  function pollEnsureTranslation() {
+    ensureTimer = null;
     var lang = storedTargetLang();
-    if (!lang || lang === "zh-CN") return;
-    if (forcedThisRender || forcedPassesTotal >= 3) return;
+    if (!lang || lang === "zh-CN") return;   // 没选翻译 / 选回中文，停
     var gt = window.__GT && window.__GT.translator;
     if (!gt || typeof gt.revert !== "function" ||
-        typeof gt.translate !== "function") return;
-    if (gt.libReady === false) return;   // 翻译库还没加载完，等下一次检查
-    if (gt.finished === false) return;   // 上一轮还在翻，等它翻完再看
-    if (!hasVisibleGap()) return;
+        typeof gt.translate !== "function") { rescheduleEnsure(); return; }
+    if (gt.libReady === false) { rescheduleEnsure(); return; }  // 库还没加载完，继续等
+    if (gt.finished === false) { rescheduleEnsure(); return; }  // 上一轮还在翻，等它翻完再看
+    if (!hasVisibleGap()) return;   // 没缺口，翻译已完成，停
+    if (forcedThisCycle >= 2 || forcedPassesTotal >= 20) return;  // 本轮 / 全页上限，停
+    if (forcedThisCycle > 0 && Date.now() - lastForceAt < 10000) {
+      rescheduleEnsure(); return;   // 两次强制重翻至少隔 10 秒
+    }
     try {
       /* revert() 会把整页先恢复成中文原文、并清空已存语言，
          紧接着的 translate() 因此会新建翻译对象、重新走一遍
          整个页面（含头条和页脚）。 */
       gt.revert();
       gt.translate("zh-CN", lang);
-      forcedThisRender = true;
+      forcedThisCycle++;
       forcedPassesTotal++;
+      lastForceAt = Date.now();
     } catch (e) { /* 翻译失败时不影响新闻本身 */ }
+    rescheduleEnsure();   // 继续轮询，验证新一轮翻完后缺口还在不在
   }
 
+  /* 每次 render() 后开始一轮轮询：首次约 0.9 秒查，之后每 2 秒
+     查一次、持续约 90 秒（覆盖 GTranslate 几十秒一轮的时长）。 */
   function scheduleEnsureTranslation() {
-    setTimeout(ensureTranslationComplete, 900);
-    setTimeout(ensureTranslationComplete, 3500);
+    if (ensureTimer) clearTimeout(ensureTimer);
+    forcedThisCycle = 0;
+    ensureDeadline = Date.now() + 90000;
+    ensureTimer = setTimeout(pollEnsureTranslation, 900);
   }
 
   function escapeHtml(s) {
@@ -201,7 +237,6 @@
   }
 
   function render() {
-    forcedThisRender = false;
     var filtered = state.items.filter(matches);
     var headline = null;
     if (state.category === "全部" && !state.query && filtered.length > 0) {
@@ -235,8 +270,8 @@
     newsEl.innerHTML = html;
     emptyEl.hidden = filtered.length !== 0;
     statusEl.hidden = true;
-    /* 分类 / 搜索切换后重新渲染了卡片与头条，分两次检查
-       头条、页脚是否真的被翻了，有缺口时强制重翻一次。 */
+    /* 分类 / 搜索切换后重新渲染了卡片与头条，开始一轮轮询：
+       头条、页脚是否真的被翻了，有缺口时强制重翻（见文件头注释）。 */
     scheduleEnsureTranslation();
   }
 
@@ -255,11 +290,18 @@
     render();
   });
 
-  /* 滚动时也检查一次（防抖）：覆盖滚到底部才进入视口的页脚，
-     以及滚回顶部才看到的头条。 */
+  /* 滚动时也检查（防抖）：覆盖滚到底部才进入视口的页脚，
+     以及滚回顶部才看到的头条。已有轮询在跑时只延长截止时间；
+     没有轮询在跑时新开一轮。 */
   window.addEventListener("scroll", function () {
     if (scrollCheckTimer) clearTimeout(scrollCheckTimer);
-    scrollCheckTimer = setTimeout(ensureTranslationComplete, 800);
+    scrollCheckTimer = setTimeout(function () {
+      if (ensureTimer) {
+        ensureDeadline = Math.max(ensureDeadline, Date.now() + 30000);
+      } else {
+        scheduleEnsureTranslation();
+      }
+    }, 800);
   }, { passive: true });
 
   fetch("data/news.json")
