@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-11-08T13:55:06+08:00",
+  "updated_at": "2026-11-08T15:47:07+08:00",
   "items": [
+    {
+      "category": "市场",
+      "title": "何一：CMC已与币安完成新地址核对，数据准确",
+      "summary": "PANews 11月8日消息，币安联合创始人何一发文回应社区对多个平台数据不一致的质疑时表示，CoinMarketCap（CMC）已与币安核对新地址，目前展示的币安平台资产数据准确。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1ba13-a9b7-711e-ad14-74b6aa01c83a",
+      "published_at": "2026-11-08T15:33:33+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Binance's CZ Calls for Crypto Industry Unity",
+      "summary": "Binance founder Changpeng Zhao (CZ) has called for greater unity across the cryptocurrency industry, arguing that infighting is counterproductive as the market grapples with the fallout from Binance's massive $6.34",
+      "source": "U.Today",
+      "url": "https://u.today/binances-cz-calls-for-crypto-industry-unity",
+      "published_at": "2026-11-08T15:28:11+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "美国下令限制MEXC Global，它卷入了哪些资金网络？",
+      "summary": "涉及俄罗斯制裁规避、伊朗相关实体、朝鲜洗钱网络、勒索软件及其他网络犯罪活动有关的资金流转。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1ba06-f117-75ea-b604-c6bd4f461b75",
+      "published_at": "2026-11-08T15:19:39+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "高盛：近期黄金持续下跌的主要原因是投机资金大规模平仓，而非实际利率变化",
+      "summary": "PANews 11月8日消息，据智通财经报道，高盛分析指出，近期黄金价格持续下跌的主要原因是投机资金大规模平仓，而非实际利率变化。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1b9fc-130b-728f-b449-0eab1ec593e7",
+      "published_at": "2026-11-08T15:07:47+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "因转向AI产品，近期至少7名Blockworks员工离职",
+      "summary": "PANews 11月8日消息，据 Crypto.news 报道，加密数据公司 Blockworks 近期至少有 7 名员工宣布离职，包括研究与产品相关人员。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1b9e7-a5b3-736b-b9d1-07fd8ee9491b",
+      "published_at": "2026-11-08T14:45:28+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Ripple’s XRP Is Bleeding, but Whales Are Buying: Are Bulls Preparing for a Violent Reversal",
+      "summary": "Several analysts are pointing to signs that buyers may already be positioning for what could become a long-anticipated reversal.",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/ripples-xrp-is-bleeding-but-whales-are-buying-are-bulls-preparing-for-a-violent-reversal/",
+      "published_at": "2026-11-08T14:44:57+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Web3Auth：正将受影响资产转移至安全恢复钱包",
+      "summary": "PANews 11月8日消息，Web3Auth 发布 Keplr 钱包安全事件后续更新，称正与 Keplr 合作，将受影响资产转移至安全恢复钱包，并公布用于保障受影响资产安全的已核实恢复地址。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1b9d9-e852-760e-98c1-e4da02e47e5c",
+      "published_at": "2026-11-08T14:30:28+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "伯恩斯坦：OpenAI至2030年算力基础设施支出或达6140亿美元，低于市场广泛引用的7500亿美元",
+      "summary": "PANews 11月8日消息，据智通财经报道，伯恩斯坦分析师Mark Moerdler估算，OpenAI已披露的算力合作协议对应的基础设施支出，到2030年累计可能达到6140亿美元，明显低于市场广泛引用的7500亿美元。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1b9d3-4777-7032-b15a-1210a25278db",
+      "published_at": "2026-11-08T14:23:13+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Ripple's Schwartz Speaks Out About His Influence Over XRP Price",
+      "summary": "Ripple's former CTO David Schwartz has pushed back against accusations that he is responsible for XRP's disappointing price performance, admitting that his influence on the cryptocurrency's price is minimal but not",
+      "source": "U.Today",
+      "url": "https://u.today/ripples-schwartz-speaks-out-about-his-influence-over-xrp-price",
+      "published_at": "2026-11-08T14:20:10+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "币安部分欧洲用户被要求提币，11月29日起收月费，账户年底关闭",
+      "summary": "PANews 11月8日消息，据 CoinDesk 报道，币安正通知西班牙、法国、意大利、波兰的用户尽快提取加密资产。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1b99d-69f6-744f-bca4-8b8608389d59",
+      "published_at": "2026-11-08T13:24:23+08:00"
+    },
     {
       "category": "市场",
       "title": "Crypto Wallets Lose $700M in Revenue During H1 2026: Report",
@@ -8,22 +88,6 @@
       "source": "CryptoPotato",
       "url": "https://cryptopotato.com/crypto-wallets-lose-700m-in-revenue-during-h1-2026-report/",
       "published_at": "2026-11-08T13:02:54+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Who is Satoshi Nakamoto? New Grok AI Study Tests Multiple Theories",
-      "summary": "A new open-source analysis on GitHub has tested the popular theory that Elon Musk is Satoshi Nakamoto. The study examined three writing fingerprints that supporters often cite.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/elon-musk-satoshi-nakamoto-stylometry-analysis/",
-      "published_at": "2026-11-08T12:00:00+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Ripple Loses Dominance in Stablecoin Market Cap Growth",
-      "summary": "Ripple steps down from the top one position in stablecoin market growth as Ethena takes over with $337.4 million in just 24 hours.",
-      "source": "U.Today",
-      "url": "https://u.today/ripple-loses-dominance-in-stablecoin-market-cap-growth",
-      "published_at": "2026-11-08T10:01:02+08:00"
     },
     {
       "category": "行情",
@@ -34,44 +98,12 @@
       "published_at": "2026-11-08T09:53:00+08:00"
     },
     {
-      "category": "市场",
-      "title": "Why is the US Dollar Falling? Midterms, Yields, and a Critical Economic Test",
-      "summary": "Why is the US dollar falling? See how the midterms, lower yields, and Fed bets pushed the DXY to key 101 support.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/why-is-us-dollar-falling-dxy/",
-      "published_at": "2026-11-08T09:50:49+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Viral ChatGPT Memory Prompt Shows a Big Risk for Crypto Holders",
-      "summary": "A viral prompt shows what ChatGPT memory knows about users. Crypto holders face added phishing risk, while OpenAI offers ways to switch it off.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/viral-chatgpt-memory-prompt-privacy-risk/",
-      "published_at": "2026-11-08T09:18:32+08:00"
-    },
-    {
       "category": "行情",
       "title": "Pi Network is Going Big on AI as Token Price Remains Near Record Lows",
       "summary": "Pi Network revealed the Pi Ecosystem Summit agenda, with both founders on stage and a $200,000 hackathon, as PI trades near record lows.",
       "source": "BeInCrypto",
       "url": "https://beincrypto.com/pi-ecosystem-summit-agenda-hackathon/",
       "published_at": "2026-11-08T09:07:01+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Cosmos Batch Moves 2,266 Staked ATOM From Six Accounts",
-      "summary": "One delegator reported theft, while Web3Auth says some apparent wallet drains are protective recovery transfers.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/hacks/cosmos-batch-moves-2-266-staked-atom-from-six-accounts",
-      "published_at": "2026-11-08T08:39:24+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Sky TVL Falls 15% in a Week as USDS Supply Contracts",
-      "summary": "USDS circulating supply fell to $5.59 billion over the same week, while Sky.money lists a 3.80% savings rate set by governance.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/defi/sky-tvl-falls-15-in-a-week-as-usds-supply-contracts",
-      "published_at": "2026-11-08T08:34:34+08:00"
     },
     {
       "category": "行情",
@@ -82,14 +114,6 @@
       "published_at": "2026-11-08T08:01:05+08:00"
     },
     {
-      "category": "市场",
-      "title": "OKX Warns MEXC Users of Deposit Freezes Ahead of FinCEN Cutoff",
-      "summary": "CEO Star Xu said OKX treats FinCEN special measures with caution 'similar to sanctions' after customers reported USDT deposits held for review.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/cefi/okx-warns-mexc-users-of-deposit-freezes-ahead-of-fincen-cutoff",
-      "published_at": "2026-11-08T07:06:07+08:00"
-    },
-    {
       "category": "行情",
       "title": "Circle Q3 Revenue Rises 17% to $865M on ARC Token Sale as Reserve Income Falls",
       "summary": "Buyers in Circle's $222 million ARC presale hold repayment rights if Arc has not moved to proof-of-stake by May 2028, a May filing shows.",
@@ -98,36 +122,12 @@
       "published_at": "2026-11-08T06:29:17+08:00"
     },
     {
-      "category": "市场",
-      "title": "Thailand is cutting off Bitget. Users have until December 5 to prepare",
-      "summary": "The regulator asks customers to consider action on holdings before the block, while Bitget promises guidance on service access.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/thailand-is-cutting-off-bitget-users-have-until-december-5-to-prepare/",
-      "published_at": "2026-11-08T06:00:03+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Binance CFO steps down nine days after record hack; co-CEO says transition was planned six months ago",
-      "summary": "Co-CEO Yi He said Ng is departing to pursue a new venture, under a transition plan put in place over the past six months.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-07-binance-cfo-steps-down-nine-days-after-record-hack-co-ceo-says-transition-was-planned-six-months-ago-435992",
-      "published_at": "2026-11-08T05:57:58+08:00"
-    },
-    {
       "category": "DeFi",
       "title": "Loopscale Reopens All Vaults After Attack-Related Freeze",
       "summary": "The restart includes the USDC Genesis Vault and lifts its remaining loan-management restrictions. Loopscale says a technical post-mortem will follow.",
       "source": "The Defiant",
       "url": "https://thedefiant.io/news/hacks/loopscale-reopens-all-vaults-after-attack-related-freeze",
       "published_at": "2026-11-08T05:46:26+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Binance Names Justin Yek CFO as Kaiser Ng Prepares to Leave",
-      "summary": "Co-CEO Yi He says a transition plan has been underway for six months, placing the handover's planning before the exchange's $6.34 billion theft.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/cefi/binance-names-justin-yek-cfo-as-kaiser-ng-prepares-to-leave",
-      "published_at": "2026-11-08T05:22:36+08:00"
     },
     {
       "category": "行情",
@@ -162,12 +162,28 @@
       "published_at": "2026-11-08T03:20:50+08:00"
     },
     {
+      "category": "市场",
+      "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+      "summary": "Affected accounts are reportedly set to close on Dec. 31.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
+      "published_at": "2026-11-08T03:13:16+08:00"
+    },
+    {
       "category": "政策",
       "title": "SEC vs. CFTC: Who Regulates Crypto in the US?",
       "summary": "The activity matters: securities offerings and trading, commodity derivatives and spot-market fraud fall under different powers. A proposal is not the same as an exemption or a law.",
       "source": "The Defiant",
       "url": "https://thedefiant.io/news/regulation/sec-vs-cftc-who-regulates-crypto-in-the-us",
       "published_at": "2026-11-08T02:14:51+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
+      "summary": "Apple and Meta’s objections mean all seven of the biggest U.S. tech companies have now asked to keep their shares off the planned OKX-ICE venue.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
+      "published_at": "2026-11-08T01:01:03+08:00"
     },
     {
       "category": "项目",
@@ -194,14 +210,6 @@
       "published_at": "2026-11-07T23:31:10+08:00"
     },
     {
-      "category": "行情",
-      "title": "Zcash Price Is Flashing a Warning Sign for Bitcoin and Ethereum",
-      "summary": "Crypto trader Ansem says intraday weakness in the Zcash price, where most unrealized profit sits, could signal the next move for Bitcoin.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/ansem-zcash-price-weakness-bitcoin/",
-      "published_at": "2026-11-07T23:23:55+08:00"
-    },
-    {
       "category": "项目",
       "title": "Ripple Joins BlackRock, Standard Chartered in New Tokenization Report",
       "summary": "Ripple contributes to tokenization white paper commissioned by Dubai Financial Services Authority (DFSA).",
@@ -216,14 +224,6 @@
       "source": "U.Today",
       "url": "https://u.today/bnb-chain-launches-red-alarm-to-combat-rising-security-risks",
       "published_at": "2026-11-07T22:25:00+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "published_at": "2026-11-07T22:22:00+08:00"
     },
     {
       "category": "项目",
@@ -259,6 +259,14 @@
     },
     {
       "category": "DeFi",
+      "title": "超越 APY：告别黑箱信任，重估 ETH 质押的安全逻辑",
+      "summary": "过去一段时间，Crypto 行业的安全事件几乎没有停过（延伸阅读《 从 Binance 到 PHP2Shell：AI 时代，Web 安全的防线亟需再定义 》）。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5213806",
+      "published_at": "2026-11-07T15:30:00+08:00"
+    },
+    {
+      "category": "DeFi",
       "title": "Dinari Promises Anthropic dShares on IPO Day, Including for US Investors",
       "summary": "The pledge follows Ondo's non-US launch plan, while Dinari's US tokens remain non-transferable and barred from DeFi.",
       "source": "The Defiant",
@@ -282,6 +290,22 @@
       "published_at": "2026-11-07T06:52:43+08:00"
     },
     {
+      "category": "DeFi",
+      "title": "Aave Labs Acquires Avon Team to Develop Fixed-Rate Lending",
+      "summary": "The deal includes Avon's lending protocols and onchain order book, but Aave Labs has not named a first market or launch date.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/aave-labs-acquires-avon-team-to-develop-fixed-rate-lending",
+      "published_at": "2026-11-07T06:09:37+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "U.S. Treasury Cuts Off MEXC From U.S. Financial System Over Alleged $16 Billion in Illicit Flows",
+      "summary": "Bitcoin Magazine U.S. Treasury Cuts Off MEXC From U.S.",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/fincen-cuts-off-mexc-us-financial-system",
+      "published_at": "2026-11-07T05:28:56+08:00"
+    },
+    {
       "category": "政策",
       "title": "US Treasury walks back crypto surveillance ‘travel rule’ proposal",
       "summary": "The Treasury Department has withdrawn a controversial proposal that would have expanded requirements for cryptocurrency transactions.",
@@ -290,36 +314,12 @@
       "published_at": "2026-11-07T04:37:34+08:00"
     },
     {
-      "category": "政策",
-      "title": "Greece Passes Crypto Tax Law With 10% Gains Levy, 15% on Staking and DeFi",
-      "summary": "Greece has approved a crypto tax framework with a €500 ($557) annual gains threshold and new rules for staking and DeFi income, but lawmakers left important questions about token swaps unresolved.",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi",
-      "published_at": "2026-11-07T04:36:03+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
-      "summary": "Strategy, Coinbase, Circle and Robinhood are among six companies from the venture’s initial selection with no disclosed objection, after 90% of issuers opted out.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
-      "published_at": "2026-11-07T04:09:18+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "US 401(k) proposal leaves door open to altcoins, but hurdles remain",
-      "summary": "While the proposal doesn’t exclude altcoins and smaller cryptocurrencies, experts say they could face challenges getting into retirement plans.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/us-401k-proposal-leaves-door-open-altcoins-hurdles",
-      "published_at": "2026-11-07T04:04:27+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
-      "summary": "The Commodity Futures Trading Commission said regulated exchanges can't cut off customers state-by-state, but firms like Kalshi are under court orders to do so.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
-      "published_at": "2026-11-07T01:42:28+08:00"
+      "category": "行情",
+      "title": "华尔街抛出橄榄枝：HYPE为何冲高后熄火？",
+      "summary": "华尔街抛出橄榄枝，Hyperliquid为何冲高回落？本文拆解HYPE从97.9美元新高到跌逾19%背后的四重压力。",
+      "source": "金色财经",
+      "url": "https://www.jinse.com.cn/blockchain/3740707.html",
+      "published_at": "2026-11-06T21:57:42+08:00"
     }
   ]
 }

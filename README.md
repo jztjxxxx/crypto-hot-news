@@ -51,7 +51,17 @@ python3 -m http.server 8000
 python3 scripts/fetch_news.py
 ```
 
-脚本只用 Python 标准库（`urllib` + `xml.etree`），不需要安装任何依赖。它会抓取下方数据源的 RSS，保留近 3 天的条目，按发布时间倒序、去重后取最多 40 条（每分类最多 10 条、每来源最多 10 条），写入 `data/news.json`；同时从 CoinGecko 与 Alternative.me 抓取行情，写入 `data/market.json`（行情接口失败时保留旧的 `data/market.json`，新闻照常更新）。
+脚本只用 Python 标准库（`urllib` + `xml.etree`），不需要安装任何依赖。它会抓取下方数据源的 RSS（金色财经没有公开 RSS，改用其公开 JSON 接口），保留近 3 天的条目，按发布时间倒序、去重后取最多 40 条（每分类最多 10 条、每来源最多 10 条，且每个有候选条目的来源至少入选 1 条），写入 `data/news.json`；同时从 CoinGecko 与 Alternative.me 抓取行情，写入 `data/market.json`（行情接口失败时保留旧的 `data/market.json`，新闻照常更新）。
+
+## 内容质量
+
+用户要求“内容要优质”，抓取脚本里有以下硬过滤（只看标题/描述的字面信号，不做主观打分）：
+
+- **不收快讯**：标题以“快讯”开头的、中文描述不足 40 字的 RSS 条目（多为一句话简讯）；金色财经只取文章栏目，不取快讯接口；Odaily 只取文章 RSS（`rss/post`），不取快讯 RSS（`rss/newsflash`）。
+- **不收软文**：标题含赞助、广告、合作稿件、特约、投稿、品牌合作等标记的，描述含“赞助内容”“本文由”等标记的，以及“如何通过某交易所参与/购买……”这类交易所引流教程。
+- **不收纯价格预测**：标题带明确目标价的涨跌预测（如“或将涨至 15 万美元”）、“目标价”“价格预测”字样的；金色财经的“金色趋势”技术分析栏目整栏不取。真实发生的行情新闻（如“比特币跌破 7.5 万美元”）不受影响。
+- **不收上币公告短讯**：标题是交易所上线模板且描述不足 80 字的；有实质正文的上线新闻照常收。
+- **保底覆盖**：每个有候选条目的来源至少入选 1 条，避免新加的源因条目稍旧而一条都进不了 40 条（2026-11-08 实测：金色财经的文章多为 11 月 5–6 日，加保底前一条都没入选）。
 
 ## 每天自动更新
 
@@ -67,7 +77,7 @@ python3 scripts/fetch_news.py
 
 抓取脚本使用的 RSS（2026-11-08 实测，全部返回 200 且近 3 天有新条目）：
 
-| 来源 | RSS |
+| 来源 | RSS / 接口 |
 | --- | --- |
 | CoinDesk | `www.coindesk.com/arc/outboundfeeds/rss/` |
 | CoinTelegraph | `cointelegraph.com/rss` |
@@ -79,14 +89,17 @@ python3 scripts/fetch_news.py
 | CryptoPotato | `cryptopotato.com/feed/` |
 | BeInCrypto | `beincrypto.com/feed/` |
 | The Defiant | `thedefiant.io/feed/` |
+| PANews | `www.panewslab.com/rss.xml` |
+| Odaily（星球日报） | `rss.odaily.news/rss/post`（文章；快讯 `rss/newsflash` 不取） |
+| 金色财经 | `api.jinse.com.cn/v6/www/information/list`（公开 JSON 接口，无需 key；取政策、DeFi、产业三个文章栏目，“金色趋势”栏目与快讯不取） |
 
 行情数据：CoinGecko 公开 API（市值前 8 币种、`global` 总市值与占比）、Alternative.me 恐惧贪婪指数。
 
-2026-11-08 实测**未采用**的源：CoinJournal RSS（500）。
+2026-11-08 实测**未采用**的源：CoinJournal RSS（500）；金色财经 `www.jinse.com/rss`（连接被重置，无公开 RSS）；Odaily `www.odaily.news/rss`（404）；PANews `www.panewslab.com/rss`（返回的是 RSS 订阅说明 HTML 页，不是 feed 本体）。金色财经另有需邮件申请 key 的内容 API（`jinsecaijing/api_wiki`），不采用。
 
 ## 摘要与分类说明
 
-- 标题与摘要均译为中文，取 RSS 描述的前 1–2 句忠实转述，**不编造事实**。2026-11-08 的首批数据由人工逐条译为中文；此后每日自动更新由脚本抓取，脚本本身没有翻译服务，英文源的新条目将保留英文原文，以免机器转述失真。
+- 标题与摘要均译为中文，取 RSS 描述的前 1–2 句忠实转述，**不编造事实**。2026-11-08 的首批数据由人工逐条译为中文；此后每日自动更新由脚本抓取，脚本本身没有翻译服务，英文源的新条目将保留英文原文，以免机器转述失真；中文源（金色财经、Odaily、PANews）的新条目本身就是中文，直接采用。
 - 分类由标题 + 描述的关键词打分判定：行情（价格、涨跌、爆仓）、市场（ETF 资金流、财库、宏观）、政策（监管、税收、法案）、项目（升级、主网、代币化）、DeFi（借贷、金库、流动性）。个别条目的归类可能存在争议，以原文链接为准。
 - 2026-11-08 生成的首批数据共 40 条：行情 7、市场 7、政策 9、项目 9、DeFi 8；已全部译为中文。首批行情快照（2026-11-08 00:19 北京时间，CoinGecko）：BTC $75,722（+0.44%）、ETH $2,235.39（+0.84%）、BNB $693.57（+0.24%）、XRP $1.16（-2.16%）、SOL $89.52（-0.32%）、TRX $0.32（+0.36%），USDT/USDC 约 $1.00；恐惧贪婪指数 25（极度恐惧）；全球总市值约 $2.56 万亿，BTC 占比 59.32%。
 - 每条新闻的发布时间均为原文的真实发布日期，绝不用抓取时间冒充。
