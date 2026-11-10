@@ -1,237 +1,317 @@
 {
-  "updated_at": "2026-11-10T21:23:23+08:00",
+  "updated_at": "2026-11-11T05:36:07+08:00",
   "items": [
     {
       "category": "项目",
-      "title": "ZKsync开发商推出机构跨链隐私交易工具，拟将互操作费导入ZK经济",
-      "summary": "PANews 11月10日消息，据官方博客，ZKsync开发商Matter Labs推出Prividium Connect，支持银行、资管机构和金融市场基础设施在各自运行的区块链之间进行隐私资产交换，无需可信中介。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1c59e-84ae-77f8-9e51-817d519602c3",
-      "published_at": "2026-11-10T21:21:02+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Telegram Adds In-Message Widgets With TON Payments",
-      "summary": "Production access is limited to private bot chats, while group use and forwarding remain on Telegram's test server.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/infrastructure/telegram-adds-in-message-widgets-with-ton-payments",
-      "published_at": "2026-11-10T21:20:54+08:00"
+      "title": "LNbits Releases 1.7.0 Urgent Security Update After November 8 Attacks Drain Funds",
+      "summary": "Bitcoin Magazine LNbits Releases 1.7.0 Urgent Security Update After November 8 Attacks Drain Funds LNbits released version 1.7.0 on November 10 as an urgent security update following active attacks that began November",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/lnbits-releases-1-7-0-urgent-security-update-after-november-8-attacks-drain-funds",
+      "published_at": "2026-11-11T05:32:45+08:00"
     },
     {
       "category": "DeFi",
-      "title": "Any Bitcoin recovery faces a cash problem as Binance’s stablecoins fall to $32 billion",
-      "summary": "Binance showed greater nearby Bitcoin buy-order value than OKX in one November 10 sample, leaving persistent liquidity unproven.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/any-bitcoin-recovery-faces-a-cash-problem-as-binances-stablecoins-fall-to-32-billion/",
-      "published_at": "2026-11-10T21:20:27+08:00"
+      "title": "Forward Industries SOL持仓增至约873万枚",
+      "summary": "PANews 11月11日消息，据GlobeNewswire公告，Solana财库公司Forward Industries（FWDI）披露，截至11月9日，其持有SOL及SOL等价物约873万枚，约占SOL流通供应量的1.5%；",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1c75d-1dec-7276-9688-a0e3f0ea2268",
+      "published_at": "2026-11-11T05:28:50+08:00"
     },
     {
       "category": "市场",
-      "title": "赫格塞思：若因支持特朗普成为攻击目标，我愿意接受",
-      "summary": "PANews 11月10日消息，据金十数据，美国国防部长赫格塞思表示：“他们曾因特朗普总统的一通完美电话而弹劾他。",
+      "title": "Index Industries完成5000万美元种子轮融资",
+      "summary": "PANews 11月11日消息，据官方公告，房地产投资基础设施公司Index Industries宣布完成5000万美元种子轮融资，Lightspeed Venture Partners领投，Polychain Capital、Galaxy Ventures、Wintermute Ventures等参投。",
       "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1c59c-c459-7546-9775-c26319cd5606",
-      "published_at": "2026-11-10T21:19:07+08:00"
+      "url": "https://www.panewslab.com/zh/articles/01a1c75a-ff6e-7381-b918-d1885b84f130",
+      "published_at": "2026-11-11T05:26:32+08:00"
     },
     {
-      "category": "行情",
-      "title": "Bitcoin may benefit as global tightening slows, Binance Research says",
-      "summary": "Binance Research says Bitcoin could find support as global monetary tightening slows, even as markets price in a December Fed rate hike.",
+      "category": "市场",
+      "title": "OpenAI第三季度营收约100亿美元，增长约50%",
+      "summary": "PANews 11月11日消息，据The Information报道，知情人士透露，OpenAI周二告知投资者，其第三季度营收约为100亿美元，增长约50%，结束了此前一段增长放缓期。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1c75a-51cb-73f5-910d-2a7c9f1b6a26",
+      "published_at": "2026-11-11T05:25:47+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "CoreWeave第三季度营收36.6亿美元，同比增长168.21%",
+      "summary": "PANews 11月11日消息，据Business Wire公告，AI云服务商CoreWeave（CRWV）公布2026年第三季度财报，营收36.6亿美元，同比增长168.21%，高于市场预期的35.6亿美元；",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1c759-85ce-7325-8f13-d036403907d6",
+      "published_at": "2026-11-11T05:24:55+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Across Protocol warns users to avoid app amid reports of drained wallets",
+      "summary": "The protocol is investigating a potential security incident affecting its domain, while several users have reported losing funds after interacting with the platform.",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-global-tightening-binance-research",
-      "published_at": "2026-11-10T21:15:59+08:00"
+      "url": "https://cointelegraph.com/news/across-protocol-warns-avoid-app-drained-wallets",
+      "published_at": "2026-11-11T05:24:36+08:00"
     },
     {
       "category": "市场",
-      "title": "沉寂9个月的巨鲸从币安提出1万枚ETH",
-      "summary": "PANews 11月10日消息，据Lookonchain监测，地址0x5479在沉寂9个月后，约1小时前从币安提出10,000枚ETH，价值约2089万美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1c599-da07-727a-8179-4045da792d5c",
-      "published_at": "2026-11-10T21:15:56+08:00"
+      "title": "Ava Labs exec says NYSE deal marks end of blockchain’s ‘general purpose era’",
+      "summary": "Ava Labs’ John Nahas said the collaboration with the NYSE shows institutions moving past pilots toward purpose-built onchain market infrastructure.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/interview/ava-labs-nyse-general-purpose-chains",
+      "published_at": "2026-11-11T05:07:44+08:00"
     },
     {
       "category": "市场",
-      "title": "BitGo战略性持有APT，扩大对Aptos的支持",
-      "summary": "PANews 11月10日消息，据unfolded报道，加密托管机构BitGo更新了对Aptos的支持范围，并买入了APT作为战略持仓。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1c598-e5fa-716b-be45-707dbdb09684",
-      "published_at": "2026-11-10T21:14:54+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "币安用户持有的股票与bStocks资产合计超30亿美元",
-      "summary": "PANews 11月10日消息，据币安华语官方X账号，币安用户通过股票和bStocks在币安持有的传统金融资产合计已超过30亿美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1c598-08b6-7562-92fd-3177d5b860a5",
-      "published_at": "2026-11-10T21:13:57+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "麻吉大哥再亏损抛售2枚BAYC，亏损约8.7万美元",
-      "summary": "PANews 11月10日消息，据Onchain Lens监测，麻吉大哥（黄立成）出售2枚Bored Ape Yacht Club（BAYC）NFT，合计亏损约8.698万美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1c596-5051-7350-b87b-5e650d9821a1",
-      "published_at": "2026-11-10T21:12:04+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Polymarket：年化经常性收入突破18亿美元",
-      "summary": "PANews 11月10日消息，据CNBC报道，预测市场平台Polymarket表示，其年化经常性收入（ARR）已超过18亿美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1c58f-5fb6-767d-aa33-742034fc3eb1",
-      "published_at": "2026-11-10T21:04:30+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Ripple Prime负责人Marc Asch将于年底卸任，Noel Kimmel接任",
-      "summary": "PANews 11月10日消息，据CoinDesk报道，Ripple旗下机构主经纪商Ripple Prime（原Hidden Road）创始人兼负责人Marc Asch将于今年年底离职，由该业务高级副总裁Noel Kimmel接手领导业务和团队。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1c58d-a53e-75ce-b4d4-6e020f6e7282",
-      "published_at": "2026-11-10T21:02:36+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Bank of America Drops Nvidia From Elite Stock List. Coincidence or Jensen Huang Fallout?",
-      "summary": "Bank of America drops Nvidia from its elite US 1 List days into the Jensen Huang scandal. Micron and Lam Research go too.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/bank-of-america-drops-nvidia-list/",
-      "published_at": "2026-11-10T20:56:37+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "嘉楠科技第三季度营收同比降90%，扭亏实现净利润800万美元",
-      "summary": "PANews 11月10日消息，据官方公告，比特币矿机厂商嘉楠科技（Canaan，纳斯达克代码CAN）公布2026年第三季度未经审计财报，总营收1450万美元，同比下降90.37%，环比下降54.55%；",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1c587-2c07-70aa-ab08-4697747b37cf",
-      "published_at": "2026-11-10T20:55:32+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Outpoll: Bridging Predictions, Trading, and Rewards",
-      "summary": "Over the years, the crypto industry has introduced many products and services, giving investors more options.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/outpoll-bridging-predictions-trading-and-rewards/",
-      "published_at": "2026-11-10T20:47:50+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Binance Warns of Apple iOS Flaw That Could Expose iPhone Users' Private Keys",
-      "summary": "Apple has not publicly confirmed the \"worse_query\" bug, which a researcher published days before its latest iOS security update.",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/382928/binance-warns-of-apple-ios-flaw-that-could-expose-iphone-users-private-keys",
-      "published_at": "2026-11-10T20:45:34+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Matter Labs Launches Prividium Connect With ZK Fee Plan",
-      "summary": "Proposed public deployments would channel interoperability fees into ZK, but activation, integration and fee parameters still need governance approval.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/infrastructure/matter-labs-launches-prividium-connect-with-zk-fee-plan",
-      "published_at": "2026-11-10T20:41:52+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Analysts project Bitcoin to move just 2.5% on today’s CPI data",
-      "summary": "A study reports a 6.33-point volatility gap, but the different measurement windows do not establish cheaper protection. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/analysts-project-bitcoin-to-move-just-2-5-on-todays-cpi-data/",
-      "published_at": "2026-11-10T20:40:56+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor",
-      "summary": "Asch is stepping down as head of the institutional prime brokerage.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/09/ripple-prime-head-marc-asch-to-step-down-noel-kimmel-named-successor",
-      "published_at": "2026-11-10T20:38:20+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Anthropic IPO Filing Uses $78 Maximum Share Price",
-      "summary": "The registration covers 948.75 million shares including an underwriter option, implying a $64.35 billion base offering at the maximum registration price.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/anthropic-ipo-filing-uses-78-maximum-share-price",
-      "published_at": "2026-11-10T20:21:19+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Google Commits $10 Billion to Anthropic Alongside IPO",
-      "summary": "The investment will be priced at Anthropic’s IPO price, while the company has launched its roadshow with a proposed $70–$78 share range.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/ai/google-commits-10-billion-to-anthropic-alongside-ipo",
-      "published_at": "2026-11-10T20:21:13+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Anthropic Retracts IPO Range as Crypto Products Await Debut",
-      "summary": "Liquid reported a rebound after the pricing retraction, while Ondo and Dinari’s tokenized products remain tied to public trading.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/anthropic-retracts-ipo-range-as-crypto-products-await-debut",
-      "published_at": "2026-11-10T20:19:32+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Anthropic Launches Fable 5.2 With 20% Lower Token Prices",
-      "summary": "Anthropic says the model nearly matches Opus 5.5’s best FrontierCode result at roughly half the cost per task, despite higher per-token rates.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/ai/anthropic-launches-fable-5-2-with-20-lower-token-prices",
-      "published_at": "2026-11-10T20:18:33+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Shiba Inu (SHIB) Scammers Fake 'Ryoshi' to Push 137 Scam Tokens and Dupe Investors",
-      "summary": "SHIB deployer scam uncovered with crypto users urged to take caution.",
+      "title": "Rothschild Investment Reveals XRP ETF Stake",
+      "summary": "Chicago-based investment management firm Rothschild Investment LLC has disclosed its first reported stake in the Bitwise XRP ETF, adding the Ripple-linked cryptocurrency to its portfolio.",
       "source": "U.Today",
-      "url": "https://u.today/shiba-inu-shib-scammers-fake-ryoshi-to-push-137-scam-tokens-and-dupe-investors",
-      "published_at": "2026-11-10T20:15:48+08:00"
+      "url": "https://u.today/rothschild-investment-reveals-xrp-etf-stake",
+      "published_at": "2026-11-11T05:05:05+08:00"
     },
     {
       "category": "行情",
-      "title": "Bitcoin Retail Capitulation Is Here: Could This Be the Signal Bulls Were Waiting For?",
-      "summary": "Here's what has to happen for BTC to reach true capitulation and reverse its long-term trajectory.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/bitcoin-retail-capitulation-is-here-could-this-be-the-signal-bulls-were-waiting-for/",
-      "published_at": "2026-11-10T20:14:49+08:00"
+      "title": "美股收盘，三大指数集体收跌",
+      "summary": "PANews 11月11日消息，据币安行情，美股收盘，三大指数集体收跌，道指跌约0.37%，标普500跌约0.46%，纳指跌约0.84%。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1c742-b807-76ac-8b55-871fbe9f452f",
+      "published_at": "2026-11-11T05:00:00+08:00"
     },
     {
-      "category": "DeFi",
-      "title": "RWA的下一轮增长：从资产代币化到抵押融资",
-      "summary": "四款代币化信贷产品已聚集10.5亿美元资产，机构RWA的下一轮增长，取决于这些资产能否在DeFi借贷市场成为合格抵押品。",
-      "source": "金色财经",
-      "url": "https://www.jinse.com.cn/blockchain/3740845.html",
-      "published_at": "2026-11-10T20:10:27+08:00"
+      "category": "行情",
+      "title": "美联储鲍曼：或支持12月加息，警告AI回报不佳或引发股市调整",
+      "summary": "PANews 11月11日消息，据彭博社报道，美联储理事鲍曼周二在外交关系委员会发表讲话时表示，鉴于通胀持续高企，她可能会在下月今年最后一次议息会议上支持加息。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1c73f-1e5a-7268-ba42-f6afdf95260c",
+      "published_at": "2026-11-11T04:56:04+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Trump Media posts $410M profit, but crypto hides an operating loss",
+      "summary": "The company reported $496.1 million in combined digital-asset, pledged-digital-asset and equity gains, while adjusted EBITDA remained negative.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/trump-media-posts-410m-profit-but-crypto-hides-an-operating-loss/",
+      "published_at": "2026-11-11T04:50:02+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Nvidia Erases 2026 Gains as Republicans Threaten Jensen Huang With Subpoena",
+      "summary": "The chipmaker has erased its 2026 gains as a suspected Chinese espionage case brings fresh scrutiny of CEO Jensen Huang.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382974/nvidia-erases-2026-gains-republicans-threaten-ceo-subpoena",
+      "published_at": "2026-11-11T04:45:50+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
+      "summary": "U.S. Senator Elizabeth Warren argued the administration is not doing enough about staff insider trading, questioning whether CFTC enforcement action was sufficient.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/10/warren-what-is-white-house-doing-to-prevent-a-repeat-of-teleprompter-s-trump-bets",
+      "published_at": "2026-11-11T04:36:33+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "美众议院外委会主席称或向黄仁勋发出传票",
+      "summary": "PANews 11月11日消息，据ABC新闻报道，美国众议院外交事务委员会主席、共和党众议员Brian Mast表示，多名众议院共和党人已要求英伟达CEO黄仁勋就其被曝与一名涉嫌从事间谍活动的中国女商人的关系作闭门情况通报，若黄仁勋在美东时间周三前未作回应，他已准备对其发出传票。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1c725-2502-7283-a3ed-2693d1cf07a8",
+      "published_at": "2026-11-11T04:27:42+08:00"
     },
     {
       "category": "项目",
-      "title": "Anthropic签下34亿的发电机 AI卷到最后：卷的是台发电机",
-      "summary": "Anthropic一边发布65分登顶的Fable 5.2，一边花34亿美元买下1.7吉瓦燃气发电机，AI成本正沿芯片、内存一路涨到电，新机交付已排到2030年。",
-      "source": "金色财经",
-      "url": "https://www.jinse.com.cn/blockchain/3740848.html",
-      "published_at": "2026-11-10T20:05:05+08:00"
+      "title": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
+      "summary": "Stacey Cunningham, who recently joined digital asset platform Bullish as President, sees the company’s planned Equiniti acquisition and focus on stock issuers as key to its tokenization ambitions.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/10/former-nyse-president-says-stock-issuers-hold-the-key-to-tokenization-as-bullish-builds-its-platform",
+      "published_at": "2026-11-11T04:15:08+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "TON Strategy三季度营收1310万美元，净亏损约2400万美元",
+      "summary": "PANews 11月11日消息，据TON Strategy公告，这家纳斯达克上市公司（TONX）三季度总营收为1310万美元，主要来自GRAM质押奖励；",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1c714-2635-762c-ba7f-20e4d1fb72f3",
+      "published_at": "2026-11-11T04:09:08+08:00"
     },
     {
       "category": "政策",
-      "title": "解读国务院金融工作报告：RWA是非法金融活动吗？",
-      "summary": "RWA代币化被写进国务院金融工作报告的防范非法金融活动章节，境内严禁、境外严管的监管归属已经明确。",
-      "source": "金色财经",
-      "url": "https://www.jinse.com.cn/blockchain/3740846.html",
-      "published_at": "2026-11-10T19:56:19+08:00"
+      "title": "Texas Rep. Files Bill Letting Cities Invest $10 Million in Bitcoin",
+      "summary": "Bitcoin Magazine Texas Rep. Files Bill Letting Cities Invest $10 Million in Bitcoin Rep.",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/texas-bill-invest-10-million-bitcoin",
+      "published_at": "2026-11-11T04:00:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Initia：攻击源于GCP密钥泄露，约327万美元资产被转出",
+      "summary": "PANews 11月11日消息，Initia在X平台发帖披露安全事件调查进展称，攻击者于11月9日利用泄露的GCP密钥（用于配置私有节点），通过命令注入攻击非法访问Initia基础设施，进而获取其GitHub、GCP账户及更多凭证，并取得Rollup托管平台Anvil的访问权限，借此为5条Rollup验证伪造的IBC提现，解锁Initia L1 IBC托管账户中的资产。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1c708-dbb5-7433-acd3-32a44f3b899a",
+      "published_at": "2026-11-11T03:56:48+08:00"
     },
     {
       "category": "行情",
-      "title": "HIVE reports $79 million quarterly net loss as bitcoin mining revenue falls and AI business grows",
-      "summary": "HIVE reported a $78.7 million quarterly net loss and $84.9 million in revenue, including $8.8 million from its AI business.",
+      "title": "Bitcoin's Last Line of Defense is Cracking, and There are No Buyers Below It",
+      "summary": "Bitcoin price breaks key support as Tether supply shrinks and ETFs bleed $696 million. See the levels BTC must hold.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/bitcoin-price-crash-200-day-average/",
+      "published_at": "2026-11-11T03:55:09+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "LlamaRisk Proposes $1.33B Collateral Exit From Aave Core",
+      "summary": "Affected reserves would be frozen first, leaving existing loans open while borrowers switch collateral or migrate to V4.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/llamarisk-proposes-1-33b-collateral-exit-from-aave-core",
+      "published_at": "2026-11-11T03:49:16+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Bitcoin slides below $74,000 after hotter-than-expected CPI as analysts warn of drop to $70k",
+      "summary": "BTC slipped under $74,000 after October CPI beat forecasts. Analysts flag $73,000 support and a possible drop toward $69,000.",
       "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-10-hive-reports-79-million-quarterly-net-loss-as-bitcoin-mining-revenue-falls-and-ai-business-grows-437177",
-      "published_at": "2026-11-10T19:52:16+08:00"
+      "url": "https://www.theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301",
+      "published_at": "2026-11-11T03:38:18+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Poland’s Parliament Votes 240-202 to Let Officials Freeze Crypto Before Court Review",
+      "summary": "Bitcoin Magazine Poland’s Parliament Votes 240-202 to Let Officials Freeze Crypto Before Court Review Poland's Sejm passed a sanctions bill Friday that lets the interior minister freeze bitcoin and bank funds of people",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/poland-votes-240-202-freeze-crypto",
+      "published_at": "2026-11-11T03:20:06+08:00"
     },
     {
       "category": "项目",
-      "title": "Anthropic Launches IPO Roadshow at $70–$78 a Share",
-      "summary": "The proposed 825 million-share offering moves ANT toward Nasdaq, while Ondo and Dinari's tokenized-stock launches still await public trading.",
+      "title": "Goldman, Citi and Global Banks Commit $270 Million to Challenge Crypto’s Stablecoin Giants",
+      "summary": "The funding, backing a U.S.-incorporated issuer codenamed “Project Faro,” covers five years of operations as traditional lenders move to challenge crypto-native giants Tether and Circle.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382953/goldman-citi-global-banks-270-million-challenge-crypto-stablecoin-giants",
+      "published_at": "2026-11-11T02:33:37+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Microsoft Beats Nvidia for the First Time Since 2025: So Why Is MSFT Stock Falling?",
+      "summary": "Microsoft beats Nvidia in market value for the first time since 2025, yet MSFT stock falls over 3%. See why.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/microsoft-beats-nvidia-msft-stock-falls/",
+      "published_at": "2026-11-11T02:19:32+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Bitcoin’s projected difficulty cut would still leave older S19 rigs short at 5-cent power",
+      "summary": "A 6.5% cut would improve gross mining revenue at unchanged Bitcoin price, subsidy and fees, while modeled S19 electricity ceilings remain near 4 cents/kWh.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/bitcoins-projected-difficulty-cut-would-still-leave-older-s19-rigs-short-at-5-cent-power/",
+      "published_at": "2026-11-11T01:49:50+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "MetaMask Adds Mobile Limit Orders Across Four Chains",
+      "summary": "Orders use revocable wallet permissions and a default 3% price tolerance. Reaching the target price does not guarantee a fill.",
       "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/anthropic-launches-ipo-roadshow-at-70-78-a-share",
-      "published_at": "2026-11-10T19:43:18+08:00"
+      "url": "https://thedefiant.io/news/defi/metamask-adds-mobile-limit-orders-across-four-chains",
+      "published_at": "2026-11-11T01:38:51+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Ether, SOL and XRP Slide as Liquidations Hit $580 Million",
+      "summary": "Coinbase spot markets recorded SOL below $82 and XRP below $1.05, while bitcoin extended its decline beneath $73,000.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/markets/ether-sol-and-xrp-slide-as-liquidations-hit-580-million",
+      "published_at": "2026-11-11T01:33:29+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
+      "summary": "The venture, known as Project Faro, plans to issue a dollar-denominated stablecoin and is expected to be incorporated in the U.S.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
+      "published_at": "2026-11-11T01:32:22+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "AI-assisted firms increase flaw disclosures by 120% with no detected repair slowdown, study finds",
+      "summary": "A Project Glasswing preprint links AI access to more disclosures while measured fixes kept pace, leaving hidden backlogs and attack prevention unresolved.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/ai-assisted-firms-increase-flaw-disclosures-by-120-with-no-detected-repair-slowdown-study-finds/",
+      "published_at": "2026-11-11T00:49:48+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "PNC Launches USDC Payments Pilot With Coinbase",
+      "summary": "Eligible corporate and institutional clients can accept USDC on Ethereum, with proceeds automatically converted into dollars in their PNC accounts.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/pnc-launches-usdc-payments-pilot-with-coinbase",
+      "published_at": "2026-11-11T00:26:57+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Luke Dashjr Promotes Rival BIP Repository as 'Official'",
+      "summary": "The fork restores Dashjr's editor listing and BIP-110's 'Complete' status, while bitcoin/bips remains active with five editors.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/blockchains/luke-dashjr-promotes-rival-bip-repository-as-official",
+      "published_at": "2026-11-11T00:19:07+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Miami-Dade County Now Accepts Bitcoin for Property Taxes",
+      "summary": "Bitcoin Magazine Miami-Dade County Now Accepts Bitcoin for Property Taxes Miami-Dade Tax Collector Dariel Fernandez said Monday his office now accepts bitcoin for property taxes online and in person, with every payment",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/miami-dade-takes-bitcoin-property-taxes",
+      "published_at": "2026-11-11T00:15:58+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain",
+      "summary": "Kimber Digital Securities secured SEC and Finra approvals, a regulatory milestone paving the way for the delivery of legally binding claims, dividends, and yield-bearing products directly to self-custodial wallets and",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/10/emb-10-am-et-plume-affiliate-gets-the-legal-green-light-to-trade-regulated-security-entitlements-onchain",
+      "published_at": "2026-11-10T23:51:56+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Moody’s and Chainlink test cross-chain credit ratings distribution",
+      "summary": "Moody's Ratings and Chainlink ran a testnet pilot using CCIP to distribute credit ratings data across permissioned and public blockchains.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-10-moodys-chainlink-ccip-cross-chain-credit-ratings-pilot-437245",
+      "published_at": "2026-11-10T23:49:59+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Jupiter Adds Token Baskets and Curated Yield Vaults",
+      "summary": "Third-party curators will run the vault strategies, while basket users authorize automatic trades from individual vaults rather than pooled funds.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/jupiter-adds-token-baskets-and-curated-yield-vaults",
+      "published_at": "2026-11-10T23:14:30+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Alta Raises $47.5 Million for Bank-Focused Blockchain",
+      "summary": "Airwallex plans to connect the network to local payment rails, while Alta builds privacy and institutional policy checks into settlement.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/converge/infrastructure/alta-raises-47-5-million-for-bank-focused-blockchain",
+      "published_at": "2026-11-10T22:43:53+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Pendle Lists Four Fixed-Term USDe Markets on Ethereum",
+      "summary": "Initial quoted annualized yields ranged from 5.24% to 6.00%, with roughly $10,000 of liquidity in each pool.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/pendle-lists-four-fixed-term-usde-markets-on-ethereum",
+      "published_at": "2026-11-10T22:18:33+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Moody’s Taps Chainlink to Send Credit Ratings Across Multiple Blockchains",
+      "summary": "The testnet pilot used Chainlink’s CCIP to distribute Moody’s ratings simultaneously across permissioned and permissionless blockchains, while preserving the firm’s existing publication and governance processes.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382888/moodys-chainlink-credit-ratings-across-multiple-blockchains",
+      "published_at": "2026-11-10T22:01:02+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "代币化存款：法律合规、安全与反洗钱风险解析",
+      "summary": "君合律所解析代币化存款的法律性质与监管要点，慢雾补充智能合约审计与链上反洗钱实践。",
+      "source": "金色财经",
+      "url": "https://www.jinse.com.cn/blockchain/3740856.html",
+      "published_at": "2026-11-10T21:40:42+08:00"
     },
     {
       "category": "行情",
@@ -240,86 +320,6 @@
       "source": "Odaily",
       "url": "https://www.odaily.news/zh-CN/post/5213853",
       "published_at": "2026-11-10T18:54:10+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
-      "summary": "Fed Governor Waller backs December tightening even if inflation cools, while falling oil prices offer some relief and Anthropic withdraws IPO pricing details.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
-      "published_at": "2026-11-10T18:48:37+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Live news: Bitcoin falls back to $74,000 ahead of CPI as traders fully price in Fed rate hike",
-      "summary": "Fed Governor Chris Waller suggested the U.S. central bank could opt to hike 50 basis points next month if inflation didn't behave.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
-      "published_at": "2026-11-10T18:41:45+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Maple’s SYRUP Nearly Halves as Lending Assets Shrink",
-      "summary": "Maple’s TVL stands at $2.22 billion, while syrupUSDC assets under management have fallen to $2.36 billion from $2.68 billion reported Oct. 19.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/tokens/maple-s-syrup-nearly-halves-as-lending-assets-shrink",
-      "published_at": "2026-11-10T17:12:26+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Coinbase, Five Firms Back CFTC in Stock Perps Lawsuit",
-      "summary": "The proposed amicus brief supports joint SEC-CFTC oversight as a November 10 reply deadline approaches in the bid to halt single-stock perpetuals.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/regulation/coinbase-five-firms-back-cftc-in-stock-perps-lawsuit",
-      "published_at": "2026-11-10T16:28:31+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Securitize agrees to buy River One to expand into asset-backed lending",
-      "summary": "Securitize agreed to buy River One to bring stablecoin funding to asset-backed lending and expects the deal to close in the fourth quarter of 2026.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/securitize-river-one-asset-backed-lending",
-      "published_at": "2026-11-10T15:49:14+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "用「梗文化」测试员工忠诚度？以太坊基金会这次真的闹大了",
-      "summary": "以太坊基金会又摊上事了。 11 月 4 日，前员工 Nixo 将以太坊基金会、Vitalik 等人告上美国科罗拉多州联邦法院。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5213847",
-      "published_at": "2026-11-10T15:27:00+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "马斯克、硅谷力挺黄仁勋，英伟达却逆市跌4.27%：个人风波背后，市场在担忧什么风险？",
-      "summary": "一边是马斯克公开力挺，一边是英伟达股价逆市下跌。 11 月 9 日，美股市场迎来强劲反弹，纳斯达克综合指数上涨 2.74%，标普 500 指数上涨 2.35%，道琼斯工业平均指数上涨 2.15%。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5213846",
-      "published_at": "2026-11-10T14:38:05+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Should you leave Australia to avoid paying 47% tax on crypto gains?",
-      "summary": "Some Australian crypto investors are moving overseas to avoid the huge CGT increase from July 2027. But there are also less drastic ways you can pay less tax.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/magazine/should-you-leave-australia-to-avoid-47-tax-on-crypto-gains",
-      "published_at": "2026-11-10T05:00:00+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Amundi Boosts Strategy (MSTR) Stake 44% to $291 Million as Shares Slide",
-      "summary": "Bitcoin Magazine Amundi Boosts Strategy (MSTR) Stake 44% to $291 Million as Shares Slide Europe's largest asset manager raised its Strategy holding to 1.9 million shares in the third quarter, a 13F shows, even as MSTR",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/amundi-boosts-strategy-mstr-stake-44",
-      "published_at": "2026-11-10T04:39:56+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
-      "summary": "The blockchain firm traced stolen funds through six new tokens on NEAR, where hackers used liquidity pools to obscure transfers between wallets.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/north-korean-hackers-memecoins-launder-binance-hack-elliptic",
-      "published_at": "2026-11-10T04:26:34+08:00"
     }
   ]
 }
