@@ -65,7 +65,7 @@ python3 scripts/fetch_news.py
 
 ## 每天自动更新 3 次
 
-`.github/workflows/update-news.yml` 每天 00:16、08:16、16:16 UTC（北京时间约 08:16、16:16、00:16）自动运行，每隔 8 小时抓一次：
+`.github/workflows/update-news.yml` 每天 00:00、08:00、16:00 UTC（北京时间约 08:00、16:00、00:00）自动运行，每隔 8 小时抓一次：
 
 1. 检出代码，安装 Python 3.12
 2. 运行 `python3 scripts/fetch_news.py`
