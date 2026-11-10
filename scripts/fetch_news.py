@@ -51,6 +51,7 @@ import re
 import sys
 import urllib.request
 import urllib.error
+import urllib.parse
 import xml.etree.ElementTree as ET
 from collections import Counter
 from datetime import datetime, timedelta, timezone
@@ -252,9 +253,13 @@ def parse_date(raw):
     try:
         dt = parsedate_to_datetime(raw.strip())
     except (TypeError, ValueError):
-        return None
+        dt = None
     if dt is None:
-        return None
+        # 兜底：ISO 8601（如 2026-11-10T12:00:00Z），parsedate 认不出
+        try:
+            dt = datetime.fromisoformat(raw.strip().replace("Z", "+00:00"))
+        except ValueError:
+            return None
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
     return dt.astimezone(timezone.utc)
@@ -263,12 +268,18 @@ def parse_date(raw):
 def norm_url(url):
     """只保留 http(s) 链接：非 http(s)（如 javascript:、data:、
     相对路径）返回空串，调用方丢弃该条目——空串绝不能进
-    data/news.json，否则去重会把所有空链接当成同一条。"""
+    data/news.json，否则去重会把所有空链接当成同一条。
+    跟踪参数（utm_*/fbclid/gclid）用 urllib.parse 按查询串逐个
+    删掉重组，参数在查询串开头时也不会损坏剩余参数。"""
     url = (url or "").strip()
     if not url.lower().startswith(("http://", "https://")):
         return ""
-    url = re.sub(r"[?&](utm_[^=&]+|fbclid|gclid)=[^&]*", "", url)
-    return url.rstrip("?&")
+    parts = urllib.parse.urlsplit(url)
+    kept = [(k, v) for k, v in
+            urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
+            if not (k.startswith("utm_") or k in ("fbclid", "gclid"))]
+    parts = parts._replace(query=urllib.parse.urlencode(kept))
+    return urllib.parse.urlunsplit(parts)
 
 
 def norm_title_tokens(title):
@@ -278,12 +289,12 @@ def norm_title_tokens(title):
 
 
 def similar_title(a, b):
-    """跨源同题去重：词集合 Jaccard 相似度过高视为同一新闻。"""
+    """跨源同题去重：词集合 Jaccard 相似度过高视为同一新闻。
+    注意：不设子集短路——短标题（如 "Bitcoin"）会被任何包含
+    其词的长标题误判为重复。"""
     ta, tb = norm_title_tokens(a), norm_title_tokens(b)
     if not ta or not tb:
         return False
-    if ta <= tb or tb <= ta:
-        return True
     return len(ta & tb) / len(ta | tb) >= 0.65
 
 
@@ -526,6 +537,7 @@ def main():
                   next(p for p in reversed(picked)
                        if p["source"] == victim_source))
         picked.remove(victim)
+        rest.append(victim)  # 被换掉的条目放回候选池，后续类别补齐还能用
         picked.append(repl)
         rest.remove(repl)
         picked_urls.add(repl["url"])

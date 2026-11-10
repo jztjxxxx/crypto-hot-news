@@ -6,14 +6,14 @@
 
 整合加密货币的热点新闻：报纸头版式页面，顶部是市场脉搏（BTC/ETH 及市值前 8 币种价格、恐惧贪婪指数、全球总市值与 BTC 占比），下方是新闻流，覆盖行情、市场、政策、项目、DeFi 五类，可按分类筛选、全文搜索，每天自动更新 3 次（每 8 小时一次）。
 
-> **English summary:** A static, open-source crypto hot-news page. A market-pulse header (top-8 coins by market cap, Fear & Greed Index, global market cap and BTC dominance, via CoinGecko and Alternative.me) sits above a news stream filtered by Market / Industry / Policy / Projects / DeFi. News is fetched from public RSS feeds, rendered client-side from `data/news.json`, and refreshed daily by GitHub Actions. No build step, no external fonts; the only external script is the free GTranslate widget (see “翻译 / Translation”).
+> **English summary:** A static, open-source crypto hot-news page. A market-pulse header (top-8 coins by market cap, Fear & Greed Index, global market cap and BTC dominance, via CoinGecko and Alternative.me) sits above a news stream filtered by Market / Industry / Policy / Projects / DeFi. News is fetched from public RSS feeds, rendered client-side from `data/news.json`, and refreshed 3 times a day by GitHub Actions. No build step, no external fonts; the only external script is the free GTranslate widget (see “翻译 / Translation”).
 
 ## 功能
 
 - 市场脉搏：市值前 8 币种的价格与 24 小时涨跌、恐惧贪婪指数、全球总市值、BTC 占比
 - 分类页签：全部 / 行情 / 市场 / 政策 / 项目 / DeFi
 - 搜索框：按标题、摘要过滤
-- 每条新闻：中文标题、1–2 句中文摘要、来源、发布时间、原文链接（新标签页打开）
+- 每条新闻：标题与 1–2 句摘要（中文源为中文，英文源保留英文原文）、来源、发布时间、原文链接（新标签页打开）
 - 翻译：右上角“🌐 翻译 / Translate”下拉框，免费 GTranslate 小部件，可把整页翻成 15 种主流语言（见下文“翻译”）
 - 页眉显示数据更新时间；响应式布局，手机可正常浏览
 - 唯一外部依赖：GTranslate 翻译脚本（cdn.gtranslate.net，免费），其余只用系统字体，不加载其他外部字体或 CDN；纯静态页面

@@ -298,6 +298,7 @@ main {
   font-size: 18px;
   line-height: 1.45;
   margin: 0 0 8px;
+  overflow-wrap: anywhere;
 }
 
 .card h3 a { text-decoration: none; }

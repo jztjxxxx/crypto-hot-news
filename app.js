@@ -344,6 +344,7 @@
       render();
     })
     .catch(function (err) {
+      updatedEl.textContent = "未知";
       statusEl.textContent = "新闻加载失败（" + err.message +
         "）。请用 python3 -m http.server 启动后访问，或检查 data/news.json 是否存在。";
     });
