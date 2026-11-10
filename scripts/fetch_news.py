@@ -261,7 +261,12 @@ def parse_date(raw):
 
 
 def norm_url(url):
+    """只保留 http(s) 链接：非 http(s)（如 javascript:、data:、
+    相对路径）返回空串，调用方丢弃该条目——空串绝不能进
+    data/news.json，否则去重会把所有空链接当成同一条。"""
     url = (url or "").strip()
+    if not url.lower().startswith(("http://", "https://")):
+        return ""
     url = re.sub(r"[?&](utm_[^=&]+|fbclid|gclid)=[^&]*", "", url)
     return url.rstrip("?&")
 
@@ -413,6 +418,9 @@ def main():
             dt = parse_date(raw["pub_raw"])
             if dt is None or dt < cutoff:
                 continue
+            link = norm_url(raw["link"])
+            if not link:
+                continue  # 非 http(s) 链接（如 javascript:），丢弃
             if dt.date().isoformat() == today:
                 today_n += 1
             text = raw["title"] + " " + clean_text(raw["description"])
@@ -421,7 +429,7 @@ def main():
                 "title": raw["title"],
                 "summary": make_summary(raw["description"]) or raw["title"],
                 "source": source,
-                "url": norm_url(raw["link"]),
+                "url": link,
                 "published_at": dt.astimezone(beijing).isoformat(),
                 "_dt": dt,
             })
@@ -453,6 +461,9 @@ def main():
             dt = raw["pub_dt"]
             if dt < cutoff:
                 continue
+            link = norm_url(raw["link"])
+            if not link:
+                continue  # 非 http(s) 链接（如 javascript:），丢弃
             if dt.date().isoformat() == today:
                 today_n += 1
             text = title + " " + clean_text(raw["description"])
@@ -461,7 +472,7 @@ def main():
                 "title": title,
                 "summary": make_summary(raw["description"]) or title,
                 "source": "金色财经",
-                "url": norm_url(raw["link"]),
+                "url": link,
                 "published_at": dt.astimezone(beijing).isoformat(),
                 "_dt": dt,
             })

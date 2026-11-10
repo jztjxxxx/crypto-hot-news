@@ -92,12 +92,16 @@
   }
 
   /* 头条或页脚在视口内、却仍显示中文原文 → 有真实缺口。
-     不在视口内时不算缺口：翻译库本来就会等滚到附近再翻。 */
+     不在视口内时不算缺口：翻译库本来就会等滚到附近再翻。
+     头条只对含中文的标题做判定：英文标题翻成英文后文本一字
+     不变，拿“仍等于原文”当缺口会误判，每轮都强制重翻、整页
+     来回闪。页脚原文就是中文，这条判定本身没问题，不用动。 */
   function hasVisibleGap() {
     var item = currentHeadlineItem();
     if (item && !headlineEl.hidden) {
       var h2 = headlineEl.querySelector("h2");
       if (h2 && rectInViewport(headlineEl) &&
+          /[\u4e00-\u9fff]/.test(item.title) &&
           h2.textContent.trim() === item.title) return true;
     }
     var fp = document.querySelector("footer p");
@@ -160,6 +164,23 @@
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
+  }
+
+  /* 只放行 http(s) 链接：转义能防属性逃逸，但挡不住
+     href="javascript:..." 本身。抓取端已在 norm_url 里丢弃非
+     http(s) 链接，这里再守一道——万一旧数据或别的来源混进来
+     非 http(s) 链接，标题只渲染成纯文本，绝不生成可点链接。 */
+  function safeHref(url) {
+    return /^https?:\/\//i.test(String(url || "").trim()) ? String(url).trim() : null;
+  }
+
+  function titleHtml(item) {
+    var href = safeHref(item.url);
+    if (href) {
+      return '<a href="' + escapeHtml(href) +
+        '" target="_blank" rel="noopener noreferrer">' + escapeHtml(item.title) + "</a>";
+    }
+    return escapeHtml(item.title);
   }
 
   function formatTime(iso) {
@@ -228,8 +249,7 @@
   function cardHtml(item) {
     return '<article class="card">' +
       '<span class="category">' + escapeHtml(item.category) + '</span>' +
-      '<h3><a href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener noreferrer">' +
-      escapeHtml(item.title) + "</a></h3>" +
+      '<h3>' + titleHtml(item) + "</h3>" +
       '<p class="summary">' + escapeHtml(item.summary) + "</p>" +
       '<p class="meta"><span>' + escapeHtml(item.source) + "</span>" +
       "<span>" + escapeHtml(formatTime(item.published_at)) + "</span></p>" +
@@ -247,8 +267,7 @@
     if (headline) {
       headlineEl.innerHTML =
         '<p class="kicker">头条 · ' + escapeHtml(headline.category) + "</p>" +
-        '<h2><a href="' + escapeHtml(headline.url) + '" target="_blank" rel="noopener noreferrer">' +
-        escapeHtml(headline.title) + "</a></h2>" +
+        "<h2>" + titleHtml(headline) + "</h2>" +
         '<p>' + escapeHtml(headline.summary) + "</p>" +
         '<p class="meta" style="font-family:system-ui,sans-serif;font-size:12.5px;color:#6b6b6b;">' +
         escapeHtml(headline.source) + " · " + escapeHtml(formatTime(headline.published_at)) + "</p>";
