@@ -4,7 +4,7 @@
 >
 > 直接点上面这个链接就能看，不用下载、不用安装。
 
-整合加密货币的热点新闻：报纸头版式页面，顶部是市场脉搏（BTC/ETH 及市值前 8 币种价格、恐惧贪婪指数、全球总市值与 BTC 占比），下方是新闻流，覆盖行情、市场、政策、项目、DeFi 五类，可按分类筛选、全文搜索，每天自动更新 3 次（每 8 小时一次）。
+整合加密货币的热点新闻：赛博朋克风格页面（深色霓虹、像素/ASCII 装饰、生成式数字雨背景），顶部是市场脉搏（BTC/ETH 及市值前 8 币种价格、恐惧贪婪指数、全球总市值与 BTC 占比），下方是新闻流，覆盖行情、市场、政策、项目、DeFi 五类，可按分类筛选、全文搜索，每天自动更新 3 次（每 8 小时一次）。
 
 > **English summary:** A static, open-source crypto hot-news page. A market-pulse header (top-8 coins by market cap, Fear & Greed Index, global market cap and BTC dominance, via CoinGecko and Alternative.me) sits above a news stream filtered by Market / Industry / Policy / Projects / DeFi. News is fetched from public RSS feeds, rendered client-side from `data/news.json`, and refreshed 3 times a day by GitHub Actions. No build step, no external fonts; the only external script is the free GTranslate widget (see “翻译 / Translation”).
 

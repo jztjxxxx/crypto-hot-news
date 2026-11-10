@@ -269,7 +269,7 @@
         '<p class="kicker">头条 · ' + escapeHtml(headline.category) + "</p>" +
         "<h2>" + titleHtml(headline) + "</h2>" +
         '<p>' + escapeHtml(headline.summary) + "</p>" +
-        '<p class="meta" style="font-family:system-ui,sans-serif;font-size:12.5px;color:#6b6b6b;">' +
+        '<p class="meta">' +
         escapeHtml(headline.source) + " · " + escapeHtml(formatTime(headline.published_at)) + "</p>";
       headlineEl.hidden = false;
     } else {

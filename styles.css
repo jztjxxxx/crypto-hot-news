@@ -1,43 +1,92 @@
-/* 加密货币热点新闻 — 报纸头版风格；仅用系统字体，无外部字体。
+/* 加密货币热点新闻 — 赛博朋克风格；仅用系统字体，无外部字体下载。
    唯一外部脚本是 GTranslate 翻译小部件（cdn.gtranslate.net，免费，
    非商业网站免费使用），详见 README 的“翻译”一节。
-   此前用的 Google 翻译小部件已于 2026-10-01 停服，代码已全部移除。 */
+   此前用的 Google 翻译小部件已于 2026-10-01 停服，代码已全部移除。
+   用到的用户所给风格（见 README）：ASCII 与像素（ASCII 分隔条、
+   像素块装饰）、生成式艺术（canvas 数字雨背景）、变形物体
+   （卡片悬停时的轻微故障/位移效果）。素描涂鸦、数字印象派、
+   LOMO、米白色调与深色霓虹风格冲突，未采用。 */
 :root {
-  --ink: #1a1a1a;
-  --muted: #6b6b6b;
-  --line: #d8d2c4;
-  --paper: #fdfbf5;
-  --accent: #a6192e;
-  --card: #ffffff;
-  --up: #0a7a3d;
-  --down: #c0392b;
+  --bg: #05060a;
+  --bg2: #0a0e1a;
+  --panel: #0c1224;
+  --ink: #e8f6ff;
+  --muted: #8b96b8;
+  --cyan: #00f0ff;
+  --magenta: #ff2a6d;
+  --purple: #b967ff;
+  --line: rgba(0, 240, 255, 0.28);
+  --line2: rgba(255, 42, 109, 0.45);
+  --up: #00ff9c;
+  --down: #ff3b5c;
+  --mono: ui-monospace, "SF Mono", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+  --sans: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }
 
+::selection { background: var(--magenta); color: #fff; }
+
+html { scrollbar-color: var(--cyan) var(--bg2); }
+
 body {
   margin: 0;
-  background: var(--paper);
   color: var(--ink);
-  font-family: "Songti SC", "Noto Serif CJK SC", "SimSun", Georgia, serif;
+  font-family: var(--sans);
   line-height: 1.6;
+  background:
+    radial-gradient(1000px 480px at 50% -10%, rgba(0, 240, 255, 0.13), transparent 60%),
+    radial-gradient(820px 420px at 92% 108%, rgba(255, 42, 109, 0.11), transparent 60%),
+    linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+    var(--bg);
+  background-size: auto, auto, 44px 44px, 44px 44px, auto;
 }
 
-a { color: var(--ink); }
+/* 扫描线覆盖层：固定在内容之上，仅视觉效果，不拦截点击。 */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  background: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.028) 0 1px, transparent 1px 3px);
+}
+
+/* 生成式数字雨画布（index.html 里的内联脚本绘制），固定在背景层。 */
+#rain {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* 内容层盖在画布之上。 */
+body > header,
+body > main,
+body > footer { position: relative; z-index: 1; }
+
+a { color: var(--cyan); }
+a:hover { color: var(--magenta); }
 
 .masthead {
   text-align: center;
   padding: 28px 16px 18px;
-  border-bottom: 3px double var(--ink);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 1px 24px rgba(0, 240, 255, 0.12);
   max-width: 1080px;
   margin: 0 auto;
 }
 
 .masthead .dateline {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
   font-size: 13px;
   letter-spacing: 0.12em;
-  color: var(--muted);
+  color: var(--cyan);
+  text-transform: uppercase;
   margin: 0 0 8px;
 }
 
@@ -46,20 +95,43 @@ a { color: var(--ink); }
   line-height: 1.15;
   margin: 0;
   letter-spacing: 0.06em;
+  background: linear-gradient(90deg, var(--cyan) 10%, #7df9ff 40%, var(--magenta) 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 14px rgba(0, 240, 255, 0.45)) drop-shadow(0 0 28px rgba(255, 42, 109, 0.25));
 }
 
 .masthead .tagline {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--sans);
   font-size: 14px;
   color: var(--muted);
   margin: 8px 0 4px;
 }
 
 .masthead .updated {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
   font-size: 13px;
   color: var(--muted);
   margin: 4px 0 0;
+}
+
+/* ASCII / 像素装饰分隔条（纯装饰，不翻译）。 */
+.ascii-div {
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  color: var(--cyan);
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.7);
+  opacity: 0.75;
+  margin: 12px 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+footer .ascii-div {
+  color: var(--magenta);
+  text-shadow: 0 0 8px rgba(255, 42, 109, 0.7);
 }
 
 main {
@@ -85,10 +157,15 @@ main {
 .pulse-head h2 {
   font-size: 20px;
   margin: 0;
+  color: var(--cyan);
+  font-family: var(--mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.6);
 }
 
 .pulse-meta {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
   font-size: 13px;
   color: var(--muted);
   margin: 0;
@@ -102,16 +179,23 @@ main {
 }
 
 .coin {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 4px;
+  background: linear-gradient(160deg, rgba(0, 240, 255, 0.09), rgba(255, 42, 109, 0.06) 70%, rgba(12, 18, 36, 0.9));
+  border: 1px solid rgba(0, 240, 255, 0.35);
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
   padding: 10px 12px;
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.coin:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 16px rgba(0, 240, 255, 0.35);
 }
 
 .coin .name {
   font-size: 14px;
   font-weight: bold;
+  color: var(--ink);
 }
 
 .coin .name span {
@@ -124,6 +208,7 @@ main {
 .coin .price {
   font-size: 17px;
   margin-top: 2px;
+  color: var(--ink);
 }
 
 .coin .change {
@@ -131,11 +216,11 @@ main {
   margin-left: 8px;
 }
 
-.coin .change.up { color: var(--up); }
-.coin .change.down { color: var(--down); }
+.coin .change.up { color: var(--up); text-shadow: 0 0 8px rgba(0, 255, 156, 0.6); }
+.coin .change.down { color: var(--down); text-shadow: 0 0 8px rgba(255, 59, 92, 0.6); }
 
 .pulse-source {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
   font-size: 12px;
   color: var(--muted);
   margin: 10px 0 0;
@@ -160,25 +245,26 @@ main {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
   font-size: 13px;
   color: var(--muted);
   white-space: nowrap;
 }
 
-.translate-label { flex: 0 0 auto; }
+.translate-label { flex: 0 0 auto; color: var(--cyan); }
 
 .gtranslate_wrapper { display: inline-block; }
 
-/* GTranslate 生成的语言下拉框，收成报纸风的小圆角控件。 */
+/* GTranslate 生成的语言下拉框，改成赛博朋克风的切角控件。 */
 .gtranslate_wrapper .gt_selector {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
   font-size: 13px;
   padding: 4px 6px;
   max-width: 180px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--card);
+  border: 1px solid rgba(0, 240, 255, 0.4);
+  border-radius: 0;
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  background: var(--bg2);
   color: var(--ink);
   cursor: pointer;
 }
@@ -200,12 +286,29 @@ main {
   width: 100%;
   padding: 10px 12px;
   font-size: 15px;
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  background: var(--card);
+  font-family: var(--mono);
+  border: 1px solid rgba(0, 240, 255, 0.4);
+  border-radius: 0;
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+  background: var(--bg2);
   color: var(--ink);
   margin-bottom: 12px;
+}
+
+#search::placeholder { color: var(--muted); }
+
+#search:focus {
+  outline: none;
+  border-color: var(--cyan);
+  box-shadow: 0 0 14px rgba(0, 240, 255, 0.35);
+}
+
+button:focus-visible,
+#search:focus-visible,
+a:focus-visible,
+.gtranslate_wrapper .gt_selector:focus-visible {
+  outline: 2px solid var(--magenta);
+  outline-offset: 2px;
 }
 
 .tabs {
@@ -216,24 +319,36 @@ main {
 }
 
 .tabs button {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
   font-size: 14px;
+  letter-spacing: 0.06em;
   padding: 6px 14px;
-  border: 1px solid var(--ink);
-  border-radius: 999px;
-  background: transparent;
-  color: var(--ink);
+  border: 1px solid rgba(0, 240, 255, 0.5);
+  border-radius: 0;
+  clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 9px, 100% 100%, 9px 100%, 0 calc(100% - 9px));
+  background: rgba(0, 240, 255, 0.06);
+  color: var(--cyan);
   cursor: pointer;
+  transition: box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.tabs button:hover {
+  background: rgba(0, 240, 255, 0.16);
+  box-shadow: 0 0 12px rgba(0, 240, 255, 0.35);
 }
 
 .tabs button.active {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--cyan);
+  border-color: var(--cyan);
+  color: #04121a;
+  box-shadow: 0 0 16px rgba(0, 240, 255, 0.55);
 }
 
 .tabs.categories button.active {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: linear-gradient(90deg, var(--magenta), var(--purple));
+  border-color: var(--magenta);
+  color: #fff;
+  box-shadow: 0 0 16px rgba(255, 42, 109, 0.55);
 }
 
 .headline {
@@ -242,26 +357,43 @@ main {
 }
 
 .headline .kicker {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
   font-size: 13px;
-  color: var(--accent);
+  color: var(--magenta);
   letter-spacing: 0.15em;
   margin: 0 0 6px;
+  text-shadow: 0 0 8px rgba(255, 42, 109, 0.6);
 }
 
 .headline h2 {
   font-size: clamp(22px, 4vw, 32px);
   line-height: 1.35;
   margin: 0 0 8px;
+  animation: headline-glow 3.2s ease-in-out infinite;
 }
 
-.headline h2 a { text-decoration: none; }
-.headline h2 a:hover { text-decoration: underline; }
+@keyframes headline-glow {
+  0%, 100% { text-shadow: 0 0 6px rgba(0, 240, 255, 0.25); }
+  50% { text-shadow: 0 0 18px rgba(0, 240, 255, 0.55), 0 0 32px rgba(255, 42, 109, 0.3); }
+}
 
-.headline p { margin: 0 0 8px; font-size: 16px; }
+.headline h2 a { text-decoration: none; color: var(--ink); }
+.headline h2 a:hover {
+  color: var(--cyan);
+  text-decoration: none;
+  text-shadow: 2px 0 var(--magenta), -2px 0 var(--cyan);
+}
+
+.headline p { margin: 0 0 8px; font-size: 16px; color: #c9d6ea; }
+
+.headline .meta {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--muted);
+}
 
 .status, .empty {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
   color: var(--muted);
   text-align: center;
   padding: 24px 0;
@@ -271,7 +403,10 @@ main {
 
 .category-section > h2 {
   font-size: 22px;
-  border-bottom: 2px solid var(--ink);
+  color: var(--cyan);
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, var(--cyan), var(--magenta)) 1;
   padding-bottom: 6px;
   margin: 24px 0 0;
 }
@@ -285,13 +420,41 @@ main {
   margin-top: 16px;
 }
 
+/* 切角霓虹边框：外层 ::before 是霓虹渐变边框层，内层 ::after
+   是面板底色，内容盖在上面；这样切角处边框不断线。 */
 .card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-top: 3px solid var(--ink);
+  position: relative;
+  background: transparent;
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
   padding: 16px;
   display: flex;
   flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.55), rgba(255, 42, 109, 0.45));
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  z-index: 0;
+  background: linear-gradient(180deg, #0d1526, #080c16);
+  clip-path: polygon(0 0, calc(100% - 13px) 0, 100% 13px, 100% 100%, 13px 100%, 0 calc(100% - 13px));
+}
+
+.card > * { position: relative; z-index: 1; }
+
+.card:hover { transform: translateY(-2px); }
+.card:hover::before {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.9), rgba(255, 42, 109, 0.8));
 }
 
 .card h3 {
@@ -301,28 +464,37 @@ main {
   overflow-wrap: anywhere;
 }
 
-.card h3 a { text-decoration: none; }
-.card h3 a:hover { text-decoration: underline; color: var(--accent); }
+.card h3 a { text-decoration: none; color: var(--ink); }
+.card h3 a:hover {
+  text-decoration: none;
+  color: var(--cyan);
+  text-shadow: 2px 0 var(--magenta), -2px 0 var(--cyan);
+}
 
 .card .category {
   display: inline-block;
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  align-self: flex-start;
+  font-family: var(--mono);
   font-size: 12px;
-  color: var(--accent);
-  border: 1px solid var(--accent);
-  border-radius: 3px;
+  letter-spacing: 0.08em;
+  color: var(--magenta);
+  border: 1px solid var(--line2);
+  border-radius: 0;
+  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
   padding: 1px 7px;
   margin-bottom: 8px;
+  text-shadow: 0 0 8px rgba(255, 42, 109, 0.5);
 }
 
 .card p.summary {
   font-size: 15px;
+  color: #c9d6ea;
   margin: 0 0 12px;
   flex: 1;
 }
 
 .card .meta {
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-family: var(--mono);
   font-size: 12.5px;
   color: var(--muted);
   margin: 0;
@@ -336,8 +508,9 @@ footer {
   max-width: 1080px;
   margin: 0 auto;
   padding: 20px 16px 32px;
-  border-top: 3px double var(--ink);
-  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -1px 24px rgba(255, 42, 109, 0.1);
+  font-family: var(--mono);
   font-size: 13px;
   color: var(--muted);
   text-align: center;
@@ -355,4 +528,11 @@ footer p { margin: 4px 0; }
   .translate-bar { margin-left: auto; max-width: 100%; }
   .gtranslate_wrapper .gt_selector { max-width: 150px; }
   .translate-note { max-width: 100%; }
+  .ascii-div { font-size: 11px; letter-spacing: 0.1em; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .headline h2 { animation: none; }
+  .card, .coin, .tabs button { transition: none; }
+  .card:hover, .coin:hover { transform: none; }
 }

@@ -8,11 +8,13 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<canvas id="rain" aria-hidden="true"></canvas>
 <header class="masthead">
   <p class="dateline"><span id="today-date">—</span> · 综合头条 · 行情 / 市场 / 政策 / 项目 / DeFi</p>
   <h1>加密货币热点新闻</h1>
   <p class="tagline">比特币 · 以太坊 · DeFi —— 每日热点，一页尽览</p>
   <p class="updated">数据更新于 <span id="updated-at">加载中…</span></p>
+  <p class="ascii-div notranslate" aria-hidden="true">▓▒░▒▓█ ▓▒░ CYBER // FEED ░▒▓ █▓▒░▒▓</p>
 </header>
 
 <main>
@@ -53,6 +55,7 @@
 </main>
 
 <footer>
+  <p class="ascii-div notranslate" aria-hidden="true">// END OF TRANSMISSION //</p>
   <p>新闻内容版权属于原来源，本站仅做摘要聚合；点击标题可阅读原文。</p>
   <p>数据源：CoinDesk、CoinTelegraph、Decrypt、The Block、CryptoSlate、Bitcoin Magazine、U.Today、CryptoPotato、BeInCrypto、The Defiant、金色财经、Odaily、PANews；行情：CoinGecko、Alternative.me。数据每天自动更新 3 次（北京时间约 00:00、08:00、16:00）。</p>
   <p><a href="https://github.com/jztjxxxx/crypto-hot-news">GitHub 开源项目</a> · MIT 许可证</p>
@@ -69,6 +72,48 @@ window.gtranslateSettings = {
 };
 </script>
 <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer onerror="document.getElementById('translate-note').textContent='翻译加载失败：需访问 cdn.gtranslate.net。'"></script>
+<script>
+/* 生成式背景：淡淡的数字雨（canvas 画 0/1、片假名），纯装饰，低透明度，
+   不影响阅读；用 destination-out 淡出，不会越画越暗盖住网格背景。
+   减弱动态效果（prefers-reduced-motion）或切走标签页时不启动/暂停。 */
+(function () {
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var cv = document.getElementById("rain");
+  if (!cv || !cv.getContext) return;
+  var ctx = cv.getContext("2d");
+  var chars = "01<>/\\|=+*#$%&アイウエオカキクケコサシスセソ0123456789";
+  var fontSize = 14, drops = [];
+  function resize() {
+    cv.width = window.innerWidth;
+    cv.height = window.innerHeight;
+    var cols = Math.floor(cv.width / fontSize);
+    drops = [];
+    for (var i = 0; i < cols; i++) drops[i] = Math.floor(Math.random() * -40);
+  }
+  resize();
+  window.addEventListener("resize", resize);
+  var last = 0, running = true;
+  document.addEventListener("visibilitychange", function () { running = !document.hidden; });
+  function frame(t) {
+    requestAnimationFrame(frame);
+    if (!running || t - last < 66) return;
+    last = t;
+    ctx.globalCompositeOperation = "destination-out";
+    ctx.fillStyle = "rgba(0,0,0,0.12)";
+    ctx.fillRect(0, 0, cv.width, cv.height);
+    ctx.globalCompositeOperation = "source-over";
+    ctx.font = fontSize + "px ui-monospace, monospace";
+    for (var i = 0; i < drops.length; i++) {
+      var ch = chars[Math.floor(Math.random() * chars.length)];
+      ctx.fillStyle = (i % 7 === 0) ? "rgba(255,42,109,0.35)" : "rgba(0,240,255,0.28)";
+      ctx.fillText(ch, i * fontSize, drops[i] * fontSize);
+      if (drops[i] * fontSize > cv.height && Math.random() > 0.975) drops[i] = 0;
+      drops[i]++;
+    }
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
 <script src="app.js"></script>
 </body>
 </html>
