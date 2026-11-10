@@ -4,7 +4,7 @@
 >
 > 直接点上面这个链接就能看，不用下载、不用安装。
 
-整合加密货币的热点新闻：报纸头版式页面，顶部是市场脉搏（BTC/ETH 及市值前 8 币种价格、恐惧贪婪指数、全球总市值与 BTC 占比），下方是新闻流，覆盖行情、市场、政策、项目、DeFi 五类，可按分类筛选、全文搜索，每天自动更新一次。
+整合加密货币的热点新闻：报纸头版式页面，顶部是市场脉搏（BTC/ETH 及市值前 8 币种价格、恐惧贪婪指数、全球总市值与 BTC 占比），下方是新闻流，覆盖行情、市场、政策、项目、DeFi 五类，可按分类筛选、全文搜索，每天自动更新 3 次（每 8 小时一次）。
 
 > **English summary:** A static, open-source crypto hot-news page. A market-pulse header (top-8 coins by market cap, Fear & Greed Index, global market cap and BTC dominance, via CoinGecko and Alternative.me) sits above a news stream filtered by Market / Industry / Policy / Projects / DeFi. News is fetched from public RSS feeds, rendered client-side from `data/news.json`, and refreshed daily by GitHub Actions. No build step, no external fonts; the only external script is the free GTranslate widget (see “翻译 / Translation”).
 
@@ -63,9 +63,9 @@ python3 scripts/fetch_news.py
 - **不收上币公告短讯**：标题是交易所上线模板且描述不足 80 字的；有实质正文的上线新闻照常收。
 - **保底覆盖**：每个有候选条目的来源至少入选 1 条，避免新加的源因条目稍旧而一条都进不了 40 条（2026-11-08 实测：金色财经的文章多为 11 月 5–6 日，加保底前一条都没入选）。
 
-## 每天自动更新
+## 每天自动更新 3 次
 
-`.github/workflows/update-news.yml` 每天 00:16 UTC（北京时间约 08:16）自动运行一次：
+`.github/workflows/update-news.yml` 每天 00:16、08:16、16:16 UTC（北京时间约 08:16、16:16、00:16）自动运行，每隔 8 小时抓一次：
 
 1. 检出代码，安装 Python 3.12
 2. 运行 `python3 scripts/fetch_news.py`
