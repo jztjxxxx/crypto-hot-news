@@ -1,325 +1,325 @@
 {
-  "updated_at": "2026-11-12T13:16:14+08:00",
+  "updated_at": "2026-11-13T00:29:21+08:00",
   "items": [
     {
       "category": "市场",
-      "title": "比特币现货 ETF 昨日总净流出 3.00 亿美元，持续 5 日净流出",
-      "summary": "PANews 11月12日消息，根据 SoSoValue 数据，昨日（美东时间 11 月 11 日）比特币现货 ETF 总净流出 3.00 亿美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1ce2c-46e4-7766-93ff-c32c25d66445",
-      "published_at": "2026-11-12T13:12:50+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "以太坊现货 ETF 昨日总净流出 1.45 亿美元，持续 5 日净流出",
-      "summary": "PANews 11月12日消息，根据 SoSoValue 数据，昨日（美东时间 11 月 11 日）以太坊现货 ETF 总净流出 1.45 亿美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1ce2c-8930-73ec-a662-10da6ba27d95",
-      "published_at": "2026-11-12T13:12:00+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "FSB pressures Turkey regulators to lock down foreign stablecoins",
-      "summary": "The FSB recommends stronger reserve checks and clearer redemption rights, but its review creates no new legal obligations.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/fsb-pressures-turkey-regulators-to-lock-down-foreign-stablecoins/",
-      "published_at": "2026-11-12T13:10:20+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "名义价值28亿美元的比特币和以太坊期权将于本周五到期交割",
-      "summary": "PANews 11月12日消息，据Greeks.live分析师Adam发布的数据，11月13日将迎来近28亿美元规模的周度期权交割，其中BTC期权名义价值24.8亿美元，最大痛点76,000美元，Put/Call比率为0.52；",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1ce29-7bf1-73df-a7c6-28b19a6eaf6e",
-      "published_at": "2026-11-12T13:09:47+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "BTC, ETH, and XRP Face Extreme Fear, But Whales Are Sending Mixed Signals",
-      "summary": "Crypto traders are becoming increasingly bearish, but history suggests that widespread fear can sometimes create opportunities for a market-wide recovery.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/btc-eth-and-xrp-face-extreme-fear-but-whales-are-sending-mixed-signals/",
-      "published_at": "2026-11-12T13:06:16+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Chainstack披露10月底遭遇AI驱动的网络攻击，导致客户账户信息暴露",
-      "summary": "PANews 11月12日消息，区块链基础设施服务商Chainstack披露其于2026年10月26日至31日遭遇一次由AI驱动的网络攻击，攻击者通过一个未修改默认管理员凭据且无单点登录保护的Grafana实例进入开发环境，随后利用未认证的MCP工具服务器获得集群管理员权限，并通过自动化平台窃取凭据，最终进入生产环境读取客户数据库。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1ce26-1278-763f-a1ad-ff93ac81a625",
-      "published_at": "2026-11-12T13:06:04+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "FTX/Alameda解除质押20.4万枚SOL，价值约1689万美元",
-      "summary": "PANews 11月12日消息，据Onchain Lens监测，一笔BitGo托管签名交易将20.4044万枚SOL（约1689万美元）从质押中提取至FTX/Alameda钱包。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1ce20-cd24-7517-ac64-2fb5fafac556",
-      "published_at": "2026-11-12T13:00:18+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "美国 HYPE 现货 ETF 单日总净流出 169.20 万美元",
-      "summary": "PANews 11月12日消息，根据 SoSoValue 数据，昨日（美东时间 11 月 11 日）HYPE 现货 ETF 单日总净流出 169.20 万美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1ce1f-bc7d-74aa-93ef-03f99dd5237f",
-      "published_at": "2026-11-12T12:59:08+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Crypto Hack Losses Head Past On-Chain Revenue for First Time Since 2020",
-      "summary": "Crypto hack losses have reached $8.78 billion in 2026, according to DefiLlama. That already tops ARK Invest’s $5.6 billion estimate for on-chain revenue this year, a first since 2020.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/crypto-hack-losses-surpass-revenue-2026/",
-      "published_at": "2026-11-12T12:45:05+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "华尔街早报：黄仁勋罢免危机突袭，AI反弹遭泼冷水，AMD与博通趁势“抢单”",
-      "summary": "美元指数升破103创2025年4月以来新高，日元逼近160；AI三重利好推动纳指涨1.6%，但盘后英伟达CEO黄仁勋被曝婚外情，董事会或讨论罢免，其股价盘后跌超8%、纳指期货跌超1.1%，资金转向AMD与博通。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1cdfd-3479-7660-ac15-3805ac5b10e1",
-      "published_at": "2026-11-12T12:20:00+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Elysium何以成立？",
-      "summary": "“当Hyperliquid的订单簿变得可组合，会发生什么？”",
-      "source": "金色财经",
-      "url": "https://www.jinse.com.cn/blockchain/3740933.html",
-      "published_at": "2026-11-12T12:17:17+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "英伟达成Hyperliquid上未平仓合约规模最大的HIP-3市场，单日交易量首破10亿美元",
-      "summary": "PANews 11月12日消息， 据MLM监测，英伟达（NVDA）目前已成为Hyperliquid上未平仓合约规模最大的HIP-3市场，持仓规模达5.35亿美元，位列平台所有市场第四，仅次于BTC、ETH和HYPE。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1cdf5-c2c6-70c4-9db1-b4c6d7a1e10b",
-      "published_at": "2026-11-12T12:13:17+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "黄仁勋又曝出轨下属，月底离职英伟达概率逼近90%",
-      "summary": "原创 ｜Odaily 星球日报（ @OdailyChina ） 作者｜Golem（ @web3_golem ）﻿ 一波未平，一波又起。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5213878",
-      "published_at": "2026-11-12T12:05:49+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-      "summary": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe",
-      "published_at": "2026-11-12T12:03:47+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "知情人士：腾讯“裁员50%”说法完全不属实",
-      "summary": "PANews 11月12日消息，据界面新闻报道，针对今日外界关于“腾讯裁员50%”的说法，从接近腾讯的知情人士处获悉，在腾讯28周年的Linktime线上直播中，腾讯管理层主动表达了要加快组织变革的决心，同时特别提到，这和几年前那次“降本增效”不一样。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1cde9-b8b3-779f-9670-53bb21ad94bc",
-      "published_at": "2026-11-12T12:00:08+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "某钱包从Binance提取678.4枚ZEC，约合66.78万美元",
-      "summary": "PANews 11月12日消息，据Onchain Lens监测，一个钱包从Binance积累并提取678.4枚ZEC（约66.78万美元）。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1cde8-920e-7306-92a3-114fc77f7fe8",
-      "published_at": "2026-11-12T11:58:53+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "CoreWeave大涨给AI云「喘息之机」，接下来就看Anthropic IPO和英伟达了",
-      "summary": "原文来源：龙玥 原文作者：华尔街见闻 CoreWeave 周二发布三季度财报，营收和亏损均好于预期，全年指引亦超出市场预期上限。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5213882",
-      "published_at": "2026-11-12T10:39:14+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "美股日报｜纳指涨1.6%，AI交易强势回归，英伟达盘后再次暴跌8%（11月12日）",
-      "summary": "一、头条 CoreWeave 财报熄灭\"AI 债务恐慌\"，科技股全线反弹。 Q3 营收 37 亿美元（同比 +168%），全年指引上调至 130–133 亿美元；",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5213880",
-      "published_at": "2026-11-12T10:35:37+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Nvidia perps plunge 10% on Hyperliquid as board reportedly weighs ousting Jensen Huang",
-      "summary": "The Wall Street Journal reported that Nvidia's board is preparing to oust CEO Jensen Huang over two extramarital affairs.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/business/2026-11-11-nvidia-perps-board-weighs-ousting-jensen-huang-438447",
-      "published_at": "2026-11-12T10:23:45+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Novig loses court shield, and New York gambling laws strike back",
-      "summary": "A judge said state rules could apply even if its sports contracts were swaps; Novig appealed the preliminary denial. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/novig-loses-court-shield-and-new-york-gambling-laws-strike-back/",
-      "published_at": "2026-11-12T09:40:47+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "XRP Unveils Quantum Security Plan That Could Cost $255,000",
-      "summary": "The XRP Ledger Foundation has mapped out a plan for quantum-proof accounts. The upgrade would protect users from future quantum attacks without raising their transaction fees.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/xrp-ledger-quantum-proof-accounts-plan/",
-      "published_at": "2026-11-12T08:44:01+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "24H热门币种与要闻｜Anthropic IPO认购订单超额数倍、募资或达904亿美元；英伟达董事会准备罢免黄仁勋（11月12日）",
-      "summary": "CEX 热门币种 CEX 成交额 Top 10 及 24 小时涨跌幅： BTC：+0.70% ETH：+0.56% ZEC：-6.04% SOL：+0.35% XRP：-0.16% NEAR：-0.14% PEPE：-15.38% UNI：-7.15% HYPE：+0.13% BNB：+0.23% 24 小时涨幅榜单（数据来源为 OKX）： NIGHT：+13.60% ICP：+3.62% GRAM：+3.52% PONS：+3.05% XLM：+2.17% AVAX：+2.15% NFT：+1.77% BTC：+0.79% ETH：+0.65% SOL：+0.48% 24 小时币股涨幅榜单（数据来源为 msx.com ）： AXTX：+34.93% AAOX：+25.08% ANTA：+24.71% SNXX：+23.19% BEX：+22.33% DJT：+21.73% MUU：+20.33% STXX：+19.93% AXTI：+18.04% RAM：+17.45% 链上热门 Meme Top 1（数据来源为 GMGN ）： mihao（Solana） — Solana 生态的猫咪主题 Meme，交易员 Ansem 发文看好其头像社区属性与中文元素，开发者已将 5% 的代币供应量锁仓一年。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5213877",
-      "published_at": "2026-11-12T08:42:09+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Solana (SOL), Gram (GRAM), Hyperliquid (HYPE) and Bitcoin (BTC) Price Analysis for November 12: It Is a Bloodbath on the Market",
-      "summary": "The crypto market is under heavy pressure, with Solana, Hyperliquid and Bitcoin all sliding, while Gram bounces.",
-      "source": "U.Today",
-      "url": "https://u.today/price-analysis/solana-sol-gram-gram-hyperliquid-hype-and-bitcoin-btc-price-analysis-for-november-12-it-is-a",
-      "published_at": "2026-11-12T08:01:00+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Zcash Falls Below $965 as Weekly Loss Reaches 26%",
-      "summary": "ZEC's seven-day decline was roughly three times bitcoin's. The token traded about 43% below a late-September price above $1,680.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/markets/zcash-falls-below-965-as-weekly-loss-reaches-26",
-      "published_at": "2026-11-12T07:39:06+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Suiet wallet to shut down in latest exit from Sui ecosystem",
-      "summary": "The self-custodial wallet will keep its API services running through Nov. 14.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/suiet-wallet-shut-down-latest-exit-sui-ecosystem",
-      "published_at": "2026-11-12T07:18:44+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Strategy, Metaplanet lose MSCI index membership in November reshuffle",
-      "summary": "Strategy had opposed MSCI’s rules, arguing exclusion would harm its reputation as a neutral provider.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437",
-      "published_at": "2026-11-12T07:09:23+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Ethlabs Puts Ethereum Quantum Defense Ahead of Speed",
-      "summary": "The lab targets quantum- and AI-resistant Ethereum in 2027, withdrawing Quick Slots from its Hegotá push and asking developers to rethink the upgrade.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/blockchains/ethlabs-puts-ethereum-quantum-defense-ahead-of-speed",
-      "published_at": "2026-11-12T05:00:46+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "DogeOS ‘very, very close’ to launching DeFi features, app layer for Dogecoin: CEO",
-      "summary": "DogeOS aims to give DOGE holders more ways to use the token through games, apps and financial services.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-11-11-dogeos-very-very-close-launching-defi-features-app-layer-dogecoin-ceo-438392",
-      "published_at": "2026-11-12T04:32:19+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "LlamaRisk Proposes Borrowing Speed Limits for Aave V3",
-      "summary": "The plan pairs timed borrowing buffers with a steward-run route for large clients. Parameters remain provisional and governance votes are still ahead.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/defi/llamarisk-proposes-borrowing-speed-limits-for-aave-v3",
-      "published_at": "2026-11-12T01:07:29+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Apex Group joins Hedera Council to explore tokenization and settlement",
-      "summary": "Apex Group, overseeing $3.5 trillion in assets, joins the Hedera Council and will explore Hedera for tokenization, compliance and settlement.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/deals/2026-11-11-apex-group-joins-hedera-council-tokenization-437917",
-      "published_at": "2026-11-12T01:07:22+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "MSCI Rules Today on Cutting Strategy (MSTR) From Its Indexes After a Draft List Marks It Deleted",
-      "summary": "Bitcoin Magazine MSCI Rules Today on Cutting Strategy (MSTR) From Its Indexes After a Draft List Marks It Deleted MSCI publishes its November index review at 5 p.m. ET, the first under a new non-operating company",
+      "title": "JPMorgan Lifts Its Strategy (MSTR) Stake 36% and Holds $540 Million in Bitcoin ETFs",
+      "summary": "Bitcoin Magazine JPMorgan Lifts Its Strategy (MSTR) Stake 36% and Holds $540 Million in Bitcoin ETFs A 13F filed Thursday shows JPMorgan held 848,932 Strategy shares, up 36% from June, and 11.4 million IBIT shares worth",
       "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/markets/msci-rules-today-strategy-mstr-deleted",
-      "published_at": "2026-11-12T01:05:00+08:00"
+      "url": "https://bitcoinmagazine.com/markets/jpmorgan-lifts-strategy-mstr-stake-36",
+      "published_at": "2026-11-13T00:19:17+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Crypto Exchange Gemini Sells U.K. and EU Units to KAST for Under $10 Million",
+      "summary": "Bitcoin Magazine Crypto Exchange Gemini Sells U.K. and EU Units to KAST for Under $10 Million A person familiar with the matter said Gemini sold its already shuttered U.K.",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/gemini-said-to-sell-uk-eu-units-kast",
+      "published_at": "2026-11-13T00:07:57+08:00"
     },
     {
       "category": "项目",
-      "title": "StoneX sees 111% upside for Securitize shares as tokenization revenue rebounds",
-      "summary": "StoneX maintained its Buy rating on Securitize, citing tokenized equities, fund demand, and structured credit as growth drivers.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-11-11-stonex-sees-111-upside-for-securitize-shares-as-tokenization-revenue-rebounds-437910",
-      "published_at": "2026-11-12T00:22:13+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "OKX-ICE Tokenized Stock Venue Sets Launch, Turning to Crypto Companies After Big Tech Opts Out",
-      "summary": "OKXICE will open its tokenized securities venue Nov. 23 with more than 70 assets, led by crypto companies like Coinbase, Circle, Robinhood and Strategy, after 67 companies objected to having their shares listed.",
+      "title": "Anchorage Digital’s Stablecoins Can Now Settle Payments on Visa’s Network",
+      "summary": "Visa and eligible companies can now use Western Union’s USDPT—issued and custodied by the federally chartered Anchorage Digital Bank—to settle VisaNet obligations.",
       "source": "Decrypt",
-      "url": "https://decrypt.co/383040/okx-ice-tokenized-stock-venue-sets-launch-crypto-companies-big-tech-opts-out",
-      "published_at": "2026-11-12T00:14:01+08:00"
+      "url": "https://decrypt.co/383098/anchorage-digital-stablecoins-settle-payments-visa-network",
+      "published_at": "2026-11-13T00:01:03+08:00"
     },
     {
       "category": "项目",
-      "title": "Stacks Tests Post-Quantum Signatures With sBTC Transfer",
-      "summary": "A mainnet vault withdrawal used a Lamport one-time signature. The test does not upgrade ordinary sBTC wallets or the Bitcoin backing the token.",
+      "title": "Visa adds Western Union’s USDPT stablecoin to its settlement network in Anchorage tie-up",
+      "summary": "Anchorage Digital and Visa will support select Anchorage-issued stablecoins as settlement assets on VisaNet, starting with USDPT.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520",
+      "published_at": "2026-11-13T00:00:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "美联储理事巴尔：AI快速普及恐加剧收入不平等",
+      "summary": "PANews 11月12日消息，据金十报道，美联储理事巴尔警告称，人工智能的迅速普及可能在短期内加剧不平等，政策制定者需要为劳动力市场可能出现的严重短期冲击做好准备。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d07b-16f2-72ce-b4f6-241dbac7e0c5",
+      "published_at": "2026-11-12T23:58:10+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "XRP, SHIB, BTC and Other Tokens Hit Hard by Abrupt Resignation of Nvidia CEO",
+      "summary": "Bitcoin, XRP, Ethereum and Shiba Inu are facing mounting selling pressure as Nvidia CEO Jensen Huang's abrupt resignation rattles financial markets, triggering a massive stock sell-off and adding to the ongoing crypto",
+      "source": "U.Today",
+      "url": "https://u.today/xrp-shib-btc-and-other-tokens-hit-hard-by-abrupt-resignation-of-nvidia-ceo",
+      "published_at": "2026-11-12T23:56:43+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "MSCI Drops Saylor's Strategy From Its Index Amid BTC Sell-Off",
+      "summary": "MSCI's November 2026 index review will remove Strategy from the MSCI USA Index.",
+      "source": "U.Today",
+      "url": "https://u.today/msci-drops-saylors-strategy-from-its-index-amid-btc-sell-off",
+      "published_at": "2026-11-12T23:56:17+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Tether Gold Gets Clean KPMG Audit Confirming $2.2B in Physical Gold Backing",
+      "summary": "KPMG counted every gold bar behind XAUT, making it Tether's second stablecoin to complete a full audit by a Big Four accounting firm.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383137/tether-gold-gets-clean-kpmg-audit-confirming-2-2b-in-physical-gold-backing",
+      "published_at": "2026-11-12T23:55:38+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Charles Hoskinson Says Buy This Stock As Neoclouds Suffer Nvidia's Crisis",
+      "summary": "Nebius and CoreWeave sank after Jensen Huang quit Nvidia. Charles Hoskinson says AMD is the stock to buy.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/hoskinson-amd-stock-neoclouds-nvidia-crisis/",
+      "published_at": "2026-11-12T23:53:07+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Trezor更新Safe 5硬件植入事件调查：3台设备被篡改，未造成用户资金损失",
+      "summary": "PANews 11月12日消息，硬件钱包厂商 Trezor 更新对 Trezor Safe 5 硬件植入事件的调查结果。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d070-df61-7107-967b-810d03d49655",
+      "published_at": "2026-11-12T23:47:00+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
+      "summary": "Bitcoin fell to its lowest leve since Aug. 20 as tech stocks slid following the resignation of Nvidia CEO Jensen Huang.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation",
+      "published_at": "2026-11-12T23:46:06+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
+      "summary": "The securities infrastructure giant plans to bring tokenized stocks, ETFs and U.S. Treasuries to Solana as it expands next year's roadmap beyond Stellar and Arc.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
+      "published_at": "2026-11-12T23:45:48+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Bitcoin’s spot-demand signal is improving. A bigger futures slump is drowning it out",
+      "summary": "Both demand components remain negative, leaving Bitcoin’s tentative stabilization dependent on persistent spot improvement and easing futures weakness.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/bitcoin-spot-demand-futures-slump/",
+      "published_at": "2026-11-12T23:45:21+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Unocoin ‘login suspension’ continues as exchange flags outgoing BitGo ETH transactions",
+      "summary": "Indian crypto exchange Unocoin flagged outgoing BitGo ether transactions as a multi-day login suspension continues.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-12-unocoin-login-suspension-continues-as-exchange-flags-outgoing-bitgo-eth-transactions-438654",
+      "published_at": "2026-11-12T23:36:17+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Crypto for Advisors: The blockchain built to run financial markets",
+      "summary": "Crypto for Advisors: The blockchain built to run financial markets",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/11/12/crypto-for-advisors-the-blockchain-built-to-run-financial-markets",
+      "published_at": "2026-11-12T23:34:29+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Geopolitical Strategist: Bitcoin Is the “Third Way” Between the Dollar and Yuan",
+      "summary": "▶ Bitcoin Magazine Geopolitical Strategist: Bitcoin Is the “Third Way” Between the Dollar and Yuan Velina Tchakarova, geopolitical strategist and founder of FACE (For A Conscious Experience), argues that we're in a new",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/videos/geopolitical-strategist-bitcoin-is-the-third-way-between-the-dollar-and-yuan",
+      "published_at": "2026-11-12T23:30:05+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "过去24小时全网合约爆仓7.51亿美元，主爆多单",
+      "summary": "PANews 11月12日消息，CoinGlass数据显示，过去24小时加密货币市场全网合约爆仓7.51亿美元，其中多单爆仓6.35亿美元，空单爆仓1.16亿美元。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d061-4f1e-7275-8b7e-a3c128ac4251",
+      "published_at": "2026-11-12T23:30:00+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Hyperliquid Burns $1.53 Million in HYPE Tokens in 24 Hours Amid Price Dip",
+      "summary": "As HYPE dips below $70, Hyperliquid buys back 21,200 tokens and pushes total lifetime burns past 5% of supply.",
+      "source": "U.Today",
+      "url": "https://u.today/hyperliquid-burns-153-million-in-hype-tokens-in-24-hours-amid-price-dip",
+      "published_at": "2026-11-12T23:24:45+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "黄仁勋辞任，CFO出任英伟达临时CEO，克雷斯是谁？",
+      "summary": "原创 | Odaily 星球日报（@OdailyChina） 作者｜jk﻿ 11 月 12 日晚，英伟达（NVIDIA）宣布， 联合创始人黄仁勋已辞去总裁、首席执行官和董事会成员职务，即刻生效。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5213899",
+      "published_at": "2026-11-12T23:20:46+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Can AMD Stock Hit $600? The Bull Case and the Risks to Watch",
+      "summary": "AMD stock has climbed 40% from its November 5 low in the same week Nvidia lost its founder and CEO. Jensen Huang resigned on Thursday as Nvidia shares slid more than 18% from their recent peak.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/can-amd-stock-hit-600/",
+      "published_at": "2026-11-12T23:20:28+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "a16z等多家加密机构联名反对伊利诺伊州数字资产税法",
+      "summary": "PANews 11月12日消息，据 The Block 报道，由 a16z、DeFi Education Fund、Paradigm 和 Uniswap 领衔，包括 Aave Labs、Aptos Labs、Chainlink Labs、Multicoin Capital、Phantom Technologies 及 Solana 政策研究所等在内的多家加密行业机构联合提交“法庭之友”意见书，支持加密行业针对伊利诺伊州《数字资产税法案》所发起的挑战。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d053-b2a4-77c3-ac01-8917cb91c561",
+      "published_at": "2026-11-12T23:15:08+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "BTCC Exchange Launches Anthropic Pre-IPO Trading Campaign with 0 Fees and an AI Tech Prize Pool",
+      "summary": "GEORGE TOWN, Cayman Islands – November 12, 2026 – BTCC, the world’s longest-serving cryptocurrency exchange, today launched Anthropic pre-IPO trading, with zero fees on ANTHROPICUSDT futures from Nov 11 to Nov 30, 2026.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/btcc-anthropic-pre-ipo-futures-zero-fees/",
+      "published_at": "2026-11-12T23:12:50+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Solana (SOL) at a Pivotal Moment: Buy the Dip or Brace for Another Crash?",
+      "summary": "One popular X user believes SOL may find its local bottom around the $80 level.",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/solana-sol-at-a-pivotal-moment-buy-the-dip-or-brace-for-another-crash/",
+      "published_at": "2026-11-12T23:01:24+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Andreessen Horowitz, DeFi Education Fund push back against Illinois crypto tax",
+      "summary": "Crypto industry heavyweights are banding together to challenge Illinois over its controversial crypto tax.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-12-andreessen-horowitz-defi-education-fund-push-back-against-illinois-crypto-tax-438573",
+      "published_at": "2026-11-12T23:01:02+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Bitcoin Breaks Below $72,000 as Multiweek Slide Deepens",
+      "summary": "Coinbase recorded a $71,500 low, while Coinalyze's tracked derivatives markets showed $368 million in 24-hour liquidations, mostly bullish bets.",
       "source": "The Defiant",
-      "url": "https://thedefiant.io/news/blockchains/stacks-tests-post-quantum-signatures-with-sbtc-transfer",
-      "published_at": "2026-11-12T00:10:10+08:00"
+      "url": "https://thedefiant.io/news/markets/bitcoin-breaks-below-72-000-as-multiweek-slide-deepens",
+      "published_at": "2026-11-12T22:53:36+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "德勤收购Flipside Crypto的AI业务，并推出企业级AI公司Edisyl",
+      "summary": "PANews 11月12日消息，据 PR Newswire 报道，德勤推出企业 AI 公司 Edisyl，该公司是在德勤于 2026 年 7 月完成收购链上数据平台 Flipside Crypto 的 AI 业务后成立的。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d03a-accf-7549-9988-37fb42fcb7a8",
+      "published_at": "2026-11-12T22:47:48+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "‘Do not let Sauron have the ring’: Voorhees warns against a government veto on AI",
+      "summary": "His Sauron warning targets control over AI releases, a power already proposed in a September bill and El-Sayed’s campaign platform.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/voorhees-sauron-government-ai-veto/",
+      "published_at": "2026-11-12T22:45:29+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "英伟达市值跌破4万亿美元",
+      "summary": "PANews 11月12日消息，据币安行情，英伟达股价下跌14%，市值跌破4万亿美元，为2025年7月来首次。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d031-7a43-723d-98b4-0341b4dd97ce",
+      "published_at": "2026-11-12T22:37:45+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "SanDisk（SNDK）股票盘中跌幅达10.32%，现报877.94美元",
+      "summary": "PANews 11月12日消息，据币安行情，SanDisk（SNDK）股票盘中跌幅达10.32%，现报877.94美元。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d02a-b94c-7293-a6f1-ac53fd94838c",
+      "published_at": "2026-11-12T22:30:21+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
+      "summary": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/11/12/the-next-congress-will-write-rules-for-ai-and-emerging-tech-they-should-use-the-stuff-first",
+      "published_at": "2026-11-12T22:24:51+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "DTCC plans to bring tokenized securities to Solana in second half of 2027",
+      "summary": "DTCC plans to add Solana to its tokenization service in the second half of 2027, alongside Canton and Besu.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-12-dtcc-plans-bring-tokenized-securities-solana-second-half-of-2027-438559",
+      "published_at": "2026-11-12T22:23:11+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Layer 1, Rollups and Sidechains: The Key Differences",
+      "summary": "Where transactions run is only part of the difference. Ethereum, OP Mainnet, Linea and Polygon PoS show how checks, settlement and withdrawal waits diverge.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/blockchains/layer-1-rollups-and-sidechains-the-key-differences",
+      "published_at": "2026-11-12T22:16:32+08:00"
     },
     {
       "category": "DeFi",
-      "title": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
-      "summary": "Institutions weighing DeFi lending tend to ask which markets are safest.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/11/crypto-long-and-short-the-genius-act-s-guarantees-don-t-cover-defi-lending",
-      "published_at": "2026-11-12T00:00:45+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Russia’s Central Bank Clears Exchange to Open Bitcoin and Crypto Trading on Nov. 22",
-      "summary": "Bitcoin Magazine Russia’s Central Bank Clears Exchange to Open Bitcoin and Crypto Trading on Nov. 22 A Bank of Russia ordinance published Wednesday lets exchanges start organized crypto trading on Nov.",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/russia-clears-exchange-crypto-trading",
-      "published_at": "2026-11-11T23:54:08+08:00"
+      "title": "Securitize and Ethena’s $100 million BlackRock BUIDL liquidity facility goes live",
+      "summary": "Securitize & Ethena Labs launch a $100M liquidity facility letting eligible BUIDL holders swap into USDC and other stablecoins 24/7.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442",
+      "published_at": "2026-11-12T22:00:00+08:00"
     },
     {
       "category": "项目",
-      "title": "ICE and OKX Set Nov. 23 Tokenized Stock Launch After 67 Companies Opt Out",
-      "summary": "Bitcoin Magazine ICE and OKX Set Nov.",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/ice-okx-nov-23-tokenized-stock-launch",
-      "published_at": "2026-11-11T23:49:04+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Avalanche (AVAX) Gains 4% After Securing Major NYSE Partnership",
-      "summary": "AVAX has rebounded approximately 4% in 24 hours as the NYSE plans to use Avalanche technology for a tokenized securities platform.",
-      "source": "U.Today",
-      "url": "https://u.today/avalanche-avax-gains-4-after-securing-major-nyse-partnership",
-      "published_at": "2026-11-11T23:17:22+08:00"
+      "title": "SoFiUSD goes live on Polygon as bank-issued stablecoin expands reach",
+      "summary": "SoFiUSD went live on Polygon, adding the network alongside Ethereum and Solana for SoFi's more than 17 million members.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-12-sofiusd-goes-live-on-polygon-as-bank-issued-stablecoin-expands-reach-438542",
+      "published_at": "2026-11-12T22:00:00+08:00"
     },
     {
       "category": "政策",
-      "title": "Pyth Adds Real-Time NYSE Data to Its Data Marketplace",
-      "summary": "The Level 1 feed covers five NYSE Group exchanges. Clients must license the data directly with NYSE before receiving it through Pyth.",
+      "title": "Thailand proposes $148K daily cap on stablecoin deposits and withdrawals",
+      "summary": "Thailand’s SEC would set separate daily caps for stablecoin deposits and withdrawals and require customers to use wallets they own.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/thailand-tighter-stablecoin-rules-crypto-exchange",
+      "published_at": "2026-11-12T21:44:03+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "DTCC Plans Solana Support for Tokenized Assets in 2027",
+      "summary": "The second-half integration would add another network to a service already live on Canton and DTCC's private Besu blockchain.",
       "source": "The Defiant",
-      "url": "https://thedefiant.io/news/infrastructure/pyth-adds-real-time-nyse-data-to-its-data-marketplace",
-      "published_at": "2026-11-11T23:09:59+08:00"
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/dtcc-plans-solana-support-for-tokenized-assets-in-2027",
+      "published_at": "2026-11-12T21:38:32+08:00"
     },
     {
-      "category": "政策",
-      "title": "个税收入增长 90%：加密货币征税还远吗？",
-      "summary": "离岸信托个税落地，加密资产的税收盲区正在被逐个填平。",
+      "category": "DeFi",
+      "title": "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum",
+      "summary": "L1 blockchains Zilliqa, Gnosis and Ronin join the Ethereum ecosystem as the costs of going it alone grow, and the security and liquidity advantages become too hard to resist.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/magazine/are-alt-l1s-over-security-costs-drive-smaller-chains-to-ethereum",
+      "published_at": "2026-11-12T21:30:00+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "DTCC to Bring Tokenized Stocks and Treasuries to Solana in 2027",
+      "summary": "Wall Street's main settlement firm will add Solana to its tokenization service, which went live last month on Canton and a private network.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383132/dtcc-to-bring-tokenized-stocks-and-treasuries-to-solana-in-2027",
+      "published_at": "2026-11-12T21:25:47+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "EU DeFi proposals could push users to riskier platforms, says Coinbase exec",
+      "summary": "Coinbase’s EU policy chief says applying suitability tests beyond crypto lending and borrowing could limit access and fragment liquidity.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/eu-defi-riskier-platforms-coinbase-exec",
+      "published_at": "2026-11-12T20:21:43+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "1KX区块链收入报告：千亿美元关口下的结构性重塑",
+      "summary": "区块链收入、其驱动因素和来源、行业趋势和估值影响",
       "source": "金色财经",
-      "url": "https://www.jinse.com.cn/blockchain/3740911.html",
-      "published_at": "2026-11-11T22:15:11+08:00"
+      "url": "https://www.jinse.com.cn/blockchain/3740960.html",
+      "published_at": "2026-11-12T19:43:47+08:00"
     }
   ]
 }
