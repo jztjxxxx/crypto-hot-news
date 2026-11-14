@@ -1,29 +1,197 @@
 {
-  "updated_at": "2026-11-14T22:41:33+08:00",
+  "updated_at": "2026-11-15T04:17:13+08:00",
   "items": [
     {
+      "category": "市场",
+      "title": "数据：Arbitrum稳定币单日增加约1亿美元，升至38.35亿美元",
+      "summary": "PANews 11月15日消息，据DefiLlama数据，Arbitrum链上稳定币流通量11月14日约为38.35亿美元，较前一日的37.34亿美元增加约1.02亿美元，近7日累计增加约2.18亿美元。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dba0-2fb0-73d2-aef2-3259f2331d4a",
+      "published_at": "2026-11-15T03:54:34+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Analyst Explains Why Bitcoin Dumped to $65K on Saturday: Details",
+      "summary": "Was a group of large players dumping major holdings during the weekend or was there something else behind today's crash?",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/analyst-explains-why-bitcoin-dumped-to-65k-on-saturday-details/",
+      "published_at": "2026-11-15T03:47:28+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Your wallet may show a dollar balance for fake USDT that you cannot sell",
+      "summary": "Keeper wallets maintained the quotations through restricted pools, where Forta's simulated outside sales failed for all 32 identified tokens.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/your-wallet-may-show-a-dollar-balance-for-fake-usdt-that-you-cannot-sell/",
+      "published_at": "2026-11-15T03:40:06+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Louisiana AG calls CFTC chair an ‘obsequious standard bearer’ for prediction markets following agency lawsuit",
+      "summary": "The CFTC sued Louisiana Friday to block a state judge's order banning 31 prediction markets, including Kalshi and Polymarket, in the state.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
+      "published_at": "2026-11-15T03:06:59+08:00"
+    },
+    {
       "category": "行情",
-      "title": "BTC跌破66000美元，日内下跌 4.23%",
-      "summary": "PANews 11月14日消息，欧易OKX行情显示，BTC刚刚跌破66000美元，现报65980.00美元/枚，日内下跌 4.23%。",
+      "title": "分析：BTC本轮下跌中巨鲸增持约4.7万枚，但中型持有者抛售更多",
+      "summary": "PANews 11月15日消息，据CryptoQuant在X平台发布的链上分析，比特币本轮下跌约24%，持有1000枚以上BTC的巨鲸钱包合计增持约4.7万枚（其中1000至1万枚钱包增持4.37万枚），但持有100至1000枚的钱包减持5.05万枚，10至100枚钱包减持1.44万枚。",
       "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1da73-dd0d-76d2-bb74-3b33f4c82c3e",
-      "published_at": "2026-11-14T22:26:28+08:00"
+      "url": "https://www.panewslab.com/zh/articles/01a1db6a-0085-7457-ab82-222f1f7c151a",
+      "published_at": "2026-11-15T02:55:23+08:00"
     },
     {
       "category": "市场",
-      "title": "某巨鲸从币安提取441枚BTC，当前持仓达1.15亿美元",
-      "summary": "PANews 11月14日消息，据Onchain Lens监测，一头巨鲸刚从币安提取了441枚BTC（约2931万美元）。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1da71-8b6e-740f-b049-16fc13963b0b",
-      "published_at": "2026-11-14T22:23:59+08:00"
+      "title": "JPMorgan Lifts Strategy Stake 36% and Holds $540M in BlackRock’s Bitcoin ETF",
+      "summary": "JPMorgan's US broker-dealer held 370,680 Strategy shares at the end of September, up from 11,876 in June, along with puts on 1,148,500 Strategy shares.",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/jpmorgan-lifts-strategy-stake-36-and-holds-540m-in-blackrocks-bitcoin-etf/",
+      "published_at": "2026-11-15T02:49:14+08:00"
     },
     {
       "category": "市场",
-      "title": "超9万人请愿黄仁勋复职",
-      "summary": "PANews 11月14日消息，据金十报道，截至发稿，“Stand with Jensen”请愿活动已获超9万人签名，特斯拉CEO马斯克等行业人士参与。",
+      "title": "MiCA gave crypto a passport, but customers still face borders",
+      "summary": "Hungary scrapped an extra set of crypto restrictions in August, and for customers who had spent months wondering when they could trade normally again, that should have made things simpler.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/mica-gave-crypto-a-passport-but-customers-still-face-borders/",
+      "published_at": "2026-11-15T02:40:48+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Who Sells Shares When a Stock Leaves a Market Index?",
+      "summary": "An index change can prompt tracking funds to sell shares. That is different from exchange delisting—or a bitcoin-holding company selling its coins.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/markets/who-sells-shares-when-a-stock-leaves-a-market-index",
+      "published_at": "2026-11-15T02:14:23+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
+      "summary": "In a matter of days, the executive synonymous with the AI boom resigned after 33 years amid reports of affairs and suspected Chinese intelligence ties—sending Nvidia’s stock reeling and leaving the chipmaker leaderless.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo",
+      "published_at": "2026-11-15T02:01:02+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+      "summary": "U.S. spot crypto ETFs lost about $1.55 billion combined, and Avalanche funds' $227,000 was the only weekly inflow among the 15 categories SoSoValue tracks.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
+      "published_at": "2026-11-15T01:50:41+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Charles Hoskinson Clashes With Angry ADA Holders Over Promises of Price Gains",
+      "summary": "Cardano founder Charles Hoskinson says he never promised that ADA would rise. He made the remarks during a heated livestream with frustrated investors.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/charles-hoskinson-never-promised-ada-rise/",
+      "published_at": "2026-11-15T01:39:04+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "ETH Tanks Another 5% as Ethereum Foundation Keeps Selling and Schiff Sounds the Alarm",
+      "summary": "Peter Schiff believes $1,000 won't be ETH's lowest target soon as crash accelerates.Alth",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/eth-tanks-another-5-as-ethereum-foundation-keeps-selling-and-schiff-sounds-the-alarm/",
+      "published_at": "2026-11-15T01:05:53+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
+      "summary": "Four nonprofit advocacy groups want a California court to stop major AI developers from building stronger models, alleging their technology could cause catastrophic harm worldwide.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze",
+      "published_at": "2026-11-15T01:01:02+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
+      "summary": "\"They are now selling at the very price they wish they had taken advantage of three months ago,\" wrote James Check.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+      "published_at": "2026-11-15T00:33:29+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
+      "summary": "Decentralized Finance total value locked on MegaETH dropped significantly from over $245 million to $8.8 million.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
+      "published_at": "2026-11-15T00:33:23+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "印度交易所Unocoin承认3个热钱包被盗，损失约20万美元",
+      "summary": "PANews 11月15日消息，印度加密货币交易所Unocoin在X平台发布安全调查最新进展称，其逾20个运营热钱包中有3个遭入侵，估计加密资产损失约20万美元，Unocoin将全额承担用户损失。",
       "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1da6f-f35b-7592-ab1b-9f7cf759242c",
-      "published_at": "2026-11-14T22:22:14+08:00"
+      "url": "https://www.panewslab.com/zh/articles/01a1dae5-1760-72c6-b6a7-df913c90a1ec",
+      "published_at": "2026-11-15T00:30:11+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Ripple Price Analysis: Is the Worst Yet to Come as XRP Dumps to a 2-Year Low?",
+      "summary": "XRP has extended its November sell-off, falling more than 10% this week and dropping below the $1.00 mark.",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/ripple-price-analysis-is-the-worst-yet-to-come-as-xrp-dumps-to-a-2-year-low/",
+      "published_at": "2026-11-15T00:28:42+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Upbit因疑似安全事件暂停KAVA充提并发布交易警示",
+      "summary": "PANews 11月15日消息，据Upbit公告，因Kava网络出现疑似安全事件，Upbit已暂停KAVA（Kava网络）的充值和提现服务，确认充提稳定后再另行通知恢复时间。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dadf-a48a-77d9-b148-a3206af05ec4",
+      "published_at": "2026-11-15T00:24:16+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Bitcoin’s $67,000 crash puts $57 billion holder cluster at risk as ETF investors flee",
+      "summary": "Coinbase’s November 10 distribution placed roughly 855,000 BTC near current prices, leaving sustained buying central to the support case.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/bitcoins-67000-crash-puts-57-billion-holder-cluster-at-risk-as-etf-investors-flee/",
+      "published_at": "2026-11-15T00:20:11+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Polkadot社区投票通过新dotUSD战略，重点转向消费者应用和数字支付",
+      "summary": "PANews 11月15日消息，据官方消息，Polkadot披露社区已于11月11日以97%的支持率通过了一项新的dotUSD战略，将发展重心转向消费者应用、数字支付及可衡量的用户增长。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dacb-be7e-736e-9382-bef0dbf94905",
+      "published_at": "2026-11-15T00:02:30+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "哈萨克斯坦计划于2027年Q1发行代币化政府债券",
+      "summary": "PANews 11月14日消息，据CoinDesk报道，哈萨克斯坦央行行长Timur Suleimenov表示，哈萨克斯坦计划在2027年第一季度发行代币化政府债券。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dabc-0ad9-70fb-a492-662f35e9ca35",
+      "published_at": "2026-11-14T23:45:21+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "江卓尔：已在比特币65720美元处开出200%仓位对冲空单，目前整体仓位相当于空仓",
+      "summary": "PANews 11月14日消息，莱比特矿池创始人江卓尔发文公布交易记录称，由于市场表现过于弱势，他先在比特币65,720美元处开出了200%仓位的对冲空单，计划先离场观望，若价格涨回则原价平仓。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1daae-91e3-72b4-8c40-828b9a98e12b",
+      "published_at": "2026-11-14T23:30:38+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Bitcoin Price Falls 14% in a Week to $65,000 as Weekend Selling Breaks Friday’s Low",
+      "summary": "Bitcoin Magazine Bitcoin Price Falls 14% in a Week to $65,000 as Weekend Selling Breaks Friday’s Low Bitcoin price crashed about 13% over the past week and traded near $65,600 on Saturday.",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/markets/bitcoin-price-crashes-13-percent-65600",
+      "published_at": "2026-11-14T23:27:33+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
+      "summary": "Project Meridian FX APAC said it demonstrated how transactions can be coordinated across conventional settlement systems and those built using blockchain technology.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
+      "published_at": "2026-11-14T23:00:00+08:00"
     },
     {
       "category": "政策",
@@ -34,68 +202,12 @@
       "published_at": "2026-11-14T22:20:44+08:00"
     },
     {
-      "category": "市场",
-      "title": "Bitcoin’s Crash Isn’t Over Yet? Analysts See More Downside Toward $60K",
-      "summary": "Bitcoin's collapse has accelerated dramatically over the past several days, but the rebound might not be coming soon.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/bitcoins-crash-isnt-over-yet-analysts-see-more-downside-toward-60k/",
-      "published_at": "2026-11-14T22:15:13+08:00"
-    },
-    {
       "category": "项目",
       "title": "OpenAI Launches ChatGPT Wallet to Let AI Agents Shop—Without Crypto",
       "summary": "OpenAI’s new wallet lets AI agents buy products using ordinary cards, challenging crypto payment tools from Coinbase and Circle as companies compete to control everyday online shopping by autonomous software.",
       "source": "Decrypt",
       "url": "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto",
       "published_at": "2026-11-14T22:01:02+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Michael Saylor：尽管过去一月比特币跌17.3%，STRC总回报仍为正",
-      "summary": "PANews 11月14日消息，Strategy创始人Michael Saylor发文称，比特币是数字资本，Strategy将其转化为数字信贷。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1da56-9877-7348-8e19-cec76ad1a312",
-      "published_at": "2026-11-14T21:54:34+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "彭博策略师：比特币回落或向风险资产扩散，美联储加息预期或终结涨势",
-      "summary": "PANews 11月14日消息，据彭博智库高级宏观策略师Mike McGlone发文称，比特币曾引领风险资产通胀，如今可能预示通缩。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1da53-f54b-7010-821f-cd517101d840",
-      "published_at": "2026-11-14T21:51:40+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "XRP Ledger Activity Hits New November Highs as Batch, Ticket Usage Surge",
-      "summary": "XRP Ledger activity gains momentum as batch and ticket metrics hit new highs.",
-      "source": "U.Today",
-      "url": "https://u.today/xrp-ledger-activity-hits-new-november-highs-as-batch-ticket-usage-surge",
-      "published_at": "2026-11-14T21:30:33+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Microsoft found a way to turn a helpful AI into a sleeper agent",
-      "summary": "Seven neurons controlled a harmless marker, while a separate 60-neuron test predicted a destructive command format. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/microsoft-found-a-way-to-turn-a-helpful-ai-into-a-sleeper-agent/",
-      "published_at": "2026-11-14T21:20:37+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Hyperliquid's HYPE Token Shows Resilience as Crypto Market Crash Deepens",
-      "summary": "Hyperliquid’s HYPE token has lost roughly a quarter of its value since its peak. Yet amid the latest crypto market crash, it is holding up better than Bitcoin and Ethereum.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/hyperliquid-hype-price-resilience-crypto-market-crash/",
-      "published_at": "2026-11-14T21:15:31+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "分析：BTC和ETH处于深度负伽马区域，做市商对冲或加剧波动",
-      "summary": "PANews 11月14日消息，据CoinDesk报道，期权平台Greeks.Live的数据显示，比特币和以太坊目前均处于“负伽马”区域，这意味着做市商的常规对冲操作可能会放大价格波动。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1da2b-0829-7344-8d04-29d5627d09a2",
-      "published_at": "2026-11-14T21:06:58+08:00"
     },
     {
       "category": "项目",
@@ -114,14 +226,6 @@
       "published_at": "2026-11-14T21:00:00+08:00"
     },
     {
-      "category": "行情",
-      "title": "A behind the scenes force may amplify bitcoin and ether price volatility",
-      "summary": "Both bitcoin and ether are trading in price ranges where market makers and dealers may add to market volatility.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
-      "published_at": "2026-11-14T20:57:00+08:00"
-    },
-    {
       "category": "项目",
       "title": "Charles Hoskinson Speaks Out on Finishing Cardano",
       "summary": "Cardano founder Charles Hoskinson addresses speculation of leaving the project, saying the roadmap isn't abandoned.",
@@ -130,60 +234,12 @@
       "published_at": "2026-11-14T20:06:16+08:00"
     },
     {
-      "category": "市场",
-      "title": "XRP ETF Outflows Hit an 8-Month High. December Rarely Brings Relief",
-      "summary": "US spot XRP ETFs lost $19.13 million in the week ending November 13. It was their largest weekly outflow in 8 months, and it came as the altcoin fell below $1.00.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/xrp-etf-outflows-8-month-high/",
-      "published_at": "2026-11-14T20:00:00+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "9 Reasons Bitcoin Crashed From $81K to $67K in Just 10 Days",
-      "summary": "There's no single catalyst behind the move. Instead, BTC was hit by a succession of negative developments while underlying demand and liquidity have weakened considerably.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/9-reasons-bitcoin-crashed-from-81k-to-67k-in-just-10-days/",
-      "published_at": "2026-11-14T19:56:54+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "XRP ETFs Mark 1-Year Anniversary With 1.16 Billion XRP Accumulated",
-      "summary": "XRP ETFs have marked one year since launch, boasting of impressive progress over the period as they have accumulated about 1.16 billion XRP since then.",
-      "source": "U.Today",
-      "url": "https://u.today/xrp-etfs-mark-1-year-anniversary-with-116-billion-xrp-accumulated",
-      "published_at": "2026-11-14T19:43:59+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Here’s what happened in crypto today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "published_at": "2026-11-14T19:28:12+08:00"
-    },
-    {
       "category": "项目",
       "title": "Microsoft confirms global outage resolved, rules out cyberattack",
       "summary": "Microsoft attributed the outage to a network capacity upgrade issue, confirming that the disruption was unrelated to cyberattacks or AI agents.",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out",
       "published_at": "2026-11-14T18:34:06+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Dogecoin ETFs Mark One Month of Zero Activity",
-      "summary": "Dogecoin ETFs have remained silent for the past month, recording zero trading activity over the period as Dogecoin's price continues to trend downward.",
-      "source": "U.Today",
-      "url": "https://u.today/dogecoin-etfs-mark-one-month-of-zero-activity",
-      "published_at": "2026-11-14T18:02:27+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Big Banks Have Nearly $1 Trillion Tied to AI. What If the Boom Cracks?",
-      "summary": "The largest US bank holding companies have close to $1 trillion in exposure to firms behind the AI buildout. The Federal Reserve (Fed) disclosed the figure in its November Financial Stability Report.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/fed-banks-1-trillion-ai-exposure/",
-      "published_at": "2026-11-14T17:00:00+08:00"
     },
     {
       "category": "项目",
@@ -210,6 +266,14 @@
       "published_at": "2026-11-14T16:07:12+08:00"
     },
     {
+      "category": "行情",
+      "title": "美股日报｜芯片指数单日再跌3.43%，PPI 6.5%推10年期美债至5.15%（11月14日）",
+      "summary": "一、头条 10 月 PPI 同比 6.5%，近四年最高，利率预期再度上修。 美国 10 月生产者价格指数环比+0.3%、同比+6.5%，Reuters 称\"涨幅温和但通胀面在扩散\"。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5213927",
+      "published_at": "2026-11-14T16:00:03+08:00"
+    },
+    {
       "category": "项目",
       "title": "Deutsche Bank Crypto Custody Goes Live for Paying Clients",
       "summary": "The European service supports bitcoin, ether and three stablecoins. Stablecoin conversion and tokenized financial instruments remain later steps.",
@@ -224,14 +288,6 @@
       "source": "CryptoPotato",
       "url": "https://cryptopotato.com/pi-network-reveals-why-developers-should-pay-attention-ahead-of-its-biggest-november-event/",
       "published_at": "2026-11-14T15:16:37+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Microsoft Blames 365 Outage on Network Upgrade Issue",
-      "summary": "Microsoft apologized and said the incident was unrelated to cyber activity or AI agents. Its status account now says service is restored to remaining affected customers and regions.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/infrastructure/microsoft-blames-365-outage-on-network-upgrade-issue",
-      "published_at": "2026-11-14T15:07:15+08:00"
     },
     {
       "category": "政策",
@@ -256,62 +312,6 @@
       "source": "The Defiant",
       "url": "https://thedefiant.io/news/defi/maple-reports-1-89-billion-in-syrup-loan-collateral",
       "published_at": "2026-11-14T14:50:23+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
-      "summary": "In today's newsletter, Meta tests prediction-market app using points instead of cash; DOJ moves to seize $1.2 billion from Binance hack, disrupts North Korean deepfake scheme; and more.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
-      "published_at": "2026-11-14T13:40:00+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "AAVE Slides 30% in Four Weeks, Trailing Bitcoin and Ether",
-      "summary": "The governance token's losses exceeded those of bitcoin and ether, while Aave's dollar-denominated locked value fell by a smaller proportion.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/markets/aave-slides-30-in-four-weeks-trailing-bitcoin-and-ether",
-      "published_at": "2026-11-14T10:39:42+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "万人请愿挽留，黄仁勋能否王者归来？",
-      "summary": "原创 | Odaily 星球日报（@OdailyChina） 作者｜Azuma（@azuma_eth） 黄仁勋离开英伟达之后，谁能接过这家 AI 芯片巨头的掌舵权，已成为了市场最关心的问题。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5213926",
-      "published_at": "2026-11-14T10:11:28+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
-      "summary": "OpenAI’s new payment wallet lets AI agents complete purchases using existing card networks, with plans to eventually allow preauthorized transactions.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex",
-      "published_at": "2026-11-14T06:01:03+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
-      "summary": "Blockstream’s new custody system, developed with Thales, uses dedicated hardware for transaction signing as Adam Back advocates for offline security to reduce cyber risks.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system",
-      "published_at": "2026-11-14T05:49:27+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Nakamoto Extends $60M Kraken Loan, Adds Bitcoin Derivatives to Its Collateral",
-      "summary": "Nakamoto has bought itself more breathing room on its Kraken loan, as the remaining $165 million is now scheduled across 2027.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/nakamoto-extends-60m-kraken-loan-adds-bitcoin-derivatives-to-its-collateral/",
-      "published_at": "2026-11-14T05:16:45+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Joe Carlasare on “Extreme Fear” in Bitcoin: “I’m A Buyer Here”",
-      "summary": "▶ Bitcoin Magazine Joe Carlasare on “Extreme Fear” in Bitcoin: “I’m A Buyer Here” Bitcoin went from 57,000 to 82,000 in less than 90 days earlier this year, and Joe Carlasare says that's why he rejects the idea that",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/videos/joe-carlasare-on-extreme-fear-in-bitcoin-im-a-buyer-here",
-      "published_at": "2026-11-14T05:00:18+08:00"
     },
     {
       "category": "市场",
