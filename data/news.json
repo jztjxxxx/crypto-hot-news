@@ -1,21 +1,205 @@
 {
-  "updated_at": "2026-11-14T05:45:23+08:00",
+  "updated_at": "2026-11-14T12:27:51+08:00",
   "items": [
     {
       "category": "市场",
-      "title": "Should Government Officials Be Banned From Prediction Markets? House Oversight Says Maybe",
-      "summary": "A House Oversight staff memorandum, citing suspicious trades by officials, military personnel and clearance holders, recommends Congress weigh new limits on federal personnel betting on platforms like Kalshi and",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/383271/government-officials-banned-prediction-markets-house-oversight",
-      "published_at": "2026-11-14T05:36:03+08:00"
+      "title": "ARK Invest加密主管质疑ETH价值叙事转向：仍存L1定位、抗量子路线等5大难题",
+      "summary": "PANews 11月14日消息，ARK Invest数字资产研究主管Lorenzo Valente 发文表示，Vitalik Buterin近期关于将ETH定位为价值储存资产（SoV）的观点，可能是自“超声波货币”（Ultrasound Money）以来，ETH价值叙事最大的一次转变，但市场对此尚未展开足够讨论，并且围绕这一转变提出五大问题： 1、以太坊是否将永久放弃通缩路线，通过持续增发解决长期网络安全预算问题，价值储存投资者能否接受长期通胀仍有待观察。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d845-02f3-74ac-9931-95a28160db38",
+      "published_at": "2026-11-14T12:16:08+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "币安：本周已重新开放87条网络提现服务，争取下周开放所有剩余网络及资产的提现服务",
+      "summary": "PANews 11月14日消息，据官方公告，币安本周已重新开放 87 条网络的提现服务，提现服务恢复工作仍在持续推进。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d839-3d45-70f7-a763-1b2a03d5b9e0",
+      "published_at": "2026-11-14T12:03:15+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "XRP Is Not in Free Fall According to Bollinger Bands, Even After Nine Red Days",
+      "summary": "XRP fell below $1 for the first time since August after nine red days, but weekly Bollinger Bands show no free fall and whale wallets hit a 2026 high.",
+      "source": "U.Today",
+      "url": "https://u.today/xrp-is-not-in-free-fall-according-to-bollinger-bands-even-after-nine-red-days",
+      "published_at": "2026-11-14T12:00:00+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Will Bitcoin Never Set Another All-Time High? Analysts Debate On X",
+      "summary": "Bitcoin price fell below $68,000 on November 13. The price now sits more than 45% below its record high of $126,080.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/bitcoin-never-all-time-high-analyst-key-levels/",
+      "published_at": "2026-11-14T12:00:00+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "易理华：黄仁勋事件持续冲击美股，短期不考虑抄底加密市场",
+      "summary": "PANews 11月14日消息， Liquid Capital 创始人易理华分析称，加密市场周六下跌主要受到黄仁勋事件影响，市场对美股后续走势的预期转向悲观，美股进一步下跌 30% 也很正常。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d836-326c-75a4-af34-e09243acd342",
+      "published_at": "2026-11-14T11:59:57+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Ether Falls Below $1,900 as Losses Outpace Bitcoin",
+      "summary": "US spot ether ETFs recorded a sixth session of net withdrawals, while the next day's flow tally remained incomplete.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/markets/ether-falls-below-1-900-as-losses-outpace-bitcoin",
+      "published_at": "2026-11-14T11:44:29+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Crypto Market’s Nearly 6% Slide Costs Bulls $1 Billion in a Day",
+      "summary": "Crypto traders lost $1.23 billion to forced liquidations over the past 24 hours, nearly double the previous day’s total.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/bitcoin-below-68000-crypto-liquidations-bulls/",
+      "published_at": "2026-11-14T11:35:48+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "去年11月开多138万枚HYPE后持仓至今的地址属于巨鲸smartestmoney，目前浮盈4295万美元",
+      "summary": "PANews 11月14日消息，据链上分析师余烬监测，去年 11 月 38.6 美元开多 138 万枚 HYPE 后一直持仓至今的地址属于巨鲸 smartestmoney。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d818-28ff-7126-bb6f-044a1c80d7bc",
+      "published_at": "2026-11-14T11:27:08+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Aster 推出 Anthropic 永续合约交易赛，总奖池达 2 万 USDT",
+      "summary": "PANews 11月14日消息，据官方消息，去中心化交易平台 Aster 宣布推出 Anthropic（$ANT）永续合约交易竞赛，总奖池高达 2 万 USDT。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d802-4787-766e-b875-d4f33b2e0ebc",
+      "published_at": "2026-11-14T11:03:12+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Key Bullish Shiba Inu (SHIB) Metric Surges by 30%: When to Expect the Reversal?",
+      "summary": "Shiba Inu's average exchange outflow has crossed 1 billion SHIB per transaction, a metric that has surged by 30%.",
+      "source": "U.Today",
+      "url": "https://u.today/key-bullish-shiba-inu-shib-metric-surges-by-30-when-to-expect-the-reversal",
+      "published_at": "2026-11-14T11:00:00+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "100 个信徒 + 10 个 ETH：早期加密项目募资应该这样融资？",
+      "summary": "加密项目的融资顺序应当彻底反转——从“先造势募资再做事”转变为“先做出产品再融资”。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d55c-8c38-7657-8f5f-36500b275983",
+      "published_at": "2026-11-14T10:55:00+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "以太坊基金会关联地址卖出1000枚ETH，自10月26日以来在链上累计抛售7785枚ETH",
+      "summary": "PANews 11月14日消息，据 Ai 姨监测，以太坊基金会关联地址再卖 1000 枚 ETH。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d7f9-1ecd-708f-92da-46da35087c4c",
+      "published_at": "2026-11-14T10:53:14+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Bitcoin Drops Below $67,000 as Crypto Selloff Deepens",
+      "summary": "Ether's four-week loss reached 21.4%, while 42 of 44 tokens in a curated crypto watchlist were lower over 24 hours.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/markets/bitcoin-drops-below-67-000-as-crypto-selloff-deepens",
+      "published_at": "2026-11-14T10:51:35+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Google向美国Gemini用户开放钱包连接功能，并支持通过Plaid进行关联",
+      "summary": "PANews 11月14日消息，Google 向美国所有 Gemini 应用用户开放 Google Wallet 功能，可基于用户消费习惯提供更个性化的理财问答。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d7f3-735d-72c4-bb13-3fffabc85b3a",
+      "published_at": "2026-11-14T10:47:00+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "AAVE Slides 30% in Four Weeks, Trailing Bitcoin and Ether",
+      "summary": "The governance token's losses exceeded those of bitcoin and ether, while Aave's dollar-denominated locked value fell by a smaller proportion.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/markets/aave-slides-30-in-four-weeks-trailing-bitcoin-and-ether",
+      "published_at": "2026-11-14T10:39:42+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "每周编辑精选 Weekly Editor's Picks（1107-1113）",
+      "summary": "信息流太快，深度分析文章容易被热点淹没。「每周编辑精选」栏目将这些有判断价值的内容从海量资讯里捞出来，帮你滤掉噪音，留下洞察，带来启发。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5213815",
+      "published_at": "2026-11-14T10:20:49+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Lido将停用GGV金库，11月17日前可赎回wstETH",
+      "summary": "PANews 11月14日消息，Lido 发文表示，Lido GGV 金库将停止运营，现有的 GGV 持有者可无缝迁移至 EarnETH 金库，或选择提取资金。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1d7db-58b8-75ac-9ff5-4f7db44e966a",
+      "published_at": "2026-11-14T10:20:42+08:00"
     },
     {
       "category": "政策",
-      "title": "美联储报告：87%受访者视AI为金融体系主要风险",
-      "summary": "PANews 11月14日消息，据CNBC报道，美联储周五发布半年度金融稳定报告，其中的调查显示，87%的受访者将人工智能列为金融体系的“显著风险”，高于今年春季调查的50%，远超排在第二位的风险资产回调（52%）。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1d6c7-f11e-72b6-930f-53765c0a5b96",
-      "published_at": "2026-11-14T05:19:54+08:00"
+      "title": "万人请愿挽留，黄仁勋能否王者归来？",
+      "summary": "原创 | Odaily 星球日报（@OdailyChina） 作者｜Azuma（@azuma_eth） 黄仁勋离开英伟达之后，谁能接过这家 AI 芯片巨头的掌舵权，已成为了市场最关心的问题。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5213926",
+      "published_at": "2026-11-14T10:11:28+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Unocoin halts all services after hackers bypass BitGo freeze",
+      "summary": "Unocoin says disputed transfers were signed outside BitGo while it investigates suspected misuse of a backup mechanism. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/unocoin-halts-all-services-after-hackers-bypass-bitgo-freeze/",
+      "published_at": "2026-11-14T10:10:17+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Can Elon Musk Bring Jensen Huang Back as Nvidia CEO?",
+      "summary": "Elon Musk backs a petition to reinstate Jensen Huang, but only Nvidia's board can make him CEO again. Here's what it takes.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/elon-musk-jensen-huang-nvidia-ceo-return/",
+      "published_at": "2026-11-14T09:00:00+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "GHO's 61% Supply Drop Reflects an Accounting Change",
+      "summary": "DefiLlama now excludes idle, pre-minted GHO from circulation. The Ethereum token contract still reports 699 million tokens issued.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/gho-s-61-supply-drop-reflects-an-accounting-change",
+      "published_at": "2026-11-14T08:26:16+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Hyperliquid (HYPE) Prints Growth Amid Panic, Stellar (XLM) Avoids Sell-Off, Bitcoin (BTC) Losses Are Not Critical: Crypto Market Review",
+      "summary": "Hyperliquid gains ground while the wider crypto market sells off, Stellar holds its bounce, and Bitcoin slips below $70,000.",
+      "source": "U.Today",
+      "url": "https://u.today/hyperliquid-hype-prints-growth-amid-panic-stellar-xlm-avoids-sell-off-bitcoin-btc-losses-are-not",
+      "published_at": "2026-11-14T08:01:00+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "US courts target $1.2B in stolen Binance funds, yet victims face a new hurdle",
+      "summary": "DOJ's Nov. 12 release reports seizure or restraint authority within more than $2.7 billion frozen, without a return timetable.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/binance-funds-theft-us-court-orders-cover-over-1-2-billion-with-return-unresolved/",
+      "published_at": "2026-11-14T07:40:49+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
+      "summary": "OpenAI’s new payment wallet lets AI agents complete purchases using existing card networks, with plans to eventually allow preauthorized transactions.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex",
+      "published_at": "2026-11-14T06:01:03+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
+      "summary": "Blockstream’s new custody system, developed with Thales, uses dedicated hardware for transaction signing as Adam Back advocates for offline security to reduce cyber risks.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system",
+      "published_at": "2026-11-14T05:49:27+08:00"
     },
     {
       "category": "DeFi",
@@ -26,132 +210,12 @@
       "published_at": "2026-11-14T05:16:45+08:00"
     },
     {
-      "category": "市场",
-      "title": "AMD Sinks 9% as Chip Rally Falters After Huang Exit",
-      "summary": "Broadcom and Marvell also fell more than Nvidia on Friday, but all three held onto double-digit weekly gains.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/markets/amd-sinks-9-as-chip-rally-falters-after-huang-exit",
-      "published_at": "2026-11-14T05:13:45+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Coinbase Wins Final OCC Clearance for US Trust Company",
-      "summary": "The charter brings a federal framework to Coinbase’s custody business, following conditional approval in April. It does not make the exchange a commercial bank.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/cefi/coinbase-wins-final-occ-clearance-for-us-trust-company",
-      "published_at": "2026-11-14T05:11:54+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Kraken parent Payward gains market share as slower trading weighs on earnings",
-      "summary": "Payward’s adjusted EBITDA fell 66% year over year to $60 million, even as its share of global spot trading nearly doubled and fee-based services expanded.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/kraken-parent-payward-gains-market-share-slower-trading-earnings",
-      "published_at": "2026-11-14T05:01:39+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "美股收盘光模块/高速互联、Neocloud普跌，Bit Digital跌超11%",
-      "summary": "PANews 11月14日消息，据币安行情，美股收盘，三大指数集体收跌，道指跌约0.10%，标普500跌约0.62%，纳指跌约1.39%。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1d6b6-b96d-76b2-9877-22c887502d21",
-      "published_at": "2026-11-14T05:01:00+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Joe Carlasare on “Extreme Fear” in Bitcoin: “I’m A Buyer Here”",
-      "summary": "▶ Bitcoin Magazine Joe Carlasare on “Extreme Fear” in Bitcoin: “I’m A Buyer Here” Bitcoin went from 57,000 to 82,000 in less than 90 days earlier this year, and Joe Carlasare says that's why he rejects the idea that",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/videos/joe-carlasare-on-extreme-fear-in-bitcoin-im-a-buyer-here",
-      "published_at": "2026-11-14T05:00:18+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Meta tests prediction market app using ‘cred’ points instead of cash: WSJ",
-      "summary": "Meta employees are testing Takes, a prediction app that rewards correct calls with credibility points.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-instead-cash-wsj-440215",
-      "published_at": "2026-11-14T04:55:26+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
-      "summary": "Coinbase’s trust company received final clearance as lawmakers seek records on crypto firms’ compliance and potential conflicts of interest.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows",
-      "published_at": "2026-11-14T04:53:20+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "XRP loans trigger 883 liquidations, and $53M remains at risk",
-      "summary": "Borrowers surrendered 4.18 million cbXRP on Base, while the records leave a native XRP selling link unproven. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk/",
-      "published_at": "2026-11-14T04:50:08+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "China’s $3.2 Billion AI Pipeline Still Calls for Nvidia Chips Washington Restricts",
-      "summary": "Chinese data center projects are still being designed around restricted Nvidia processors, even as Beijing pushes domestic alternatives.",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/383266/china-ai-pipeline-nvidia-chips-washington-restricts",
-      "published_at": "2026-11-14T04:45:03+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "After Mukesh Ambani, India’s Other Telecom Billionaire Targets Elon Musk",
-      "summary": "First it was Mukesh Ambani. Now India’s other telecom billionaire, Sunil Mittal, has a condition for Elon Musk: Starlink can come, but the power to switch it off stays in India.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/ambani-mittal-musk-starlink-kill-switch-india/",
-      "published_at": "2026-11-14T04:29:25+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Meta内部测试预测市场应用Takes",
-      "summary": "PANews 11月14日消息，据《华尔街日报》援引知情人士报道，Meta员工正在内部测试一款名为Takes的预测市场应用，用户可以用“cred”（信誉）积分对问题和事件结果下注。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1d694-c098-761d-ae16-8c892b9007a8",
-      "published_at": "2026-11-14T04:24:02+08:00"
-    },
-    {
       "category": "政策",
       "title": "Bill Miller IV: “They’re Not Printing More Bitcoin”",
       "summary": "▶ Bitcoin Magazine Bill Miller IV: “They’re Not Printing More Bitcoin” Bill Miller IV, Chairman and CIO of Miller Value Partners, joins Grace Remington and Sean Hagan on BMTV to explain why he is still bullish on",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/videos/bill-miller-iv-theyre-not-printing-more-bitcoin",
       "published_at": "2026-11-14T04:00:39+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "美众议院监督委员会建议限制或禁止政府人员交易预测市场",
-      "summary": "PANews 11月14日消息，据美国众议院监督与政府改革委员会公告，该委员会发布预测市场内幕交易调查备忘录，建议国会立法限制联邦政府人员、国会议员及其工作人员参与预测市场，方案包括全面禁止交易或限制交易政府相关合约。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1d67c-d668-715f-98cf-9df0bb555374",
-      "published_at": "2026-11-14T03:57:54+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Twenty One Capital Made $1 Billion in Bitcoin Profit. 60% is Already Gone",
-      "summary": "Twenty One Capital reported a $1.087 billion third-quarter profit on Friday. The money came from Bitcoin (BTC) rising in value, and about 60% of it has already disappeared.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/twenty-one-capital-bitcoin-profit-gone/",
-      "published_at": "2026-11-14T03:34:41+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Strategy Sends Crucial Message on Bitcoin's Quantum Security",
-      "summary": "Strategy, the world's largest corporate Bitcoin holder, has weighed in on the growing quantum computing threat, stressing that Bitcoin can adopt quantum-resistant security upgrades when necessary.",
-      "source": "U.Today",
-      "url": "https://u.today/strategy-sends-crucial-message-on-bitcoins-quantum-security",
-      "published_at": "2026-11-14T03:19:38+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Coinbase将调整Anthropic上市前永续合约指数",
-      "summary": "PANews 11月14日消息，Coinbase Assets在X平台发帖称，计划于北京时间11月16日18:00调整Anthropic上市前永续合约的指数基准，由基于10亿股的估值指数改为基于131.16亿股的每股价格指数。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1d648-163c-7305-ae02-b8ac96484c33",
-      "published_at": "2026-11-14T03:00:17+08:00"
     },
     {
       "category": "DeFi",
@@ -162,36 +226,12 @@
       "published_at": "2026-11-14T02:30:35+08:00"
     },
     {
-      "category": "行情",
-      "title": "Bitcoin Fear and Greed Drops to a 4-Month Low: A Blessing in Disguise?",
-      "summary": "Is the worst for BTC over or the bears are not done yet?",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/bitcoin-fear-and-greed-drops-to-a-4-month-low-a-blessing-in-disguise/",
-      "published_at": "2026-11-14T02:18:36+08:00"
-    },
-    {
       "category": "政策",
       "title": "Trump’s First Democratic Picks for SEC and CFTC Could Reshape Crypto’s Regulators",
       "summary": "The bipartisan slate—two Republicans and two Democrats, Trump’s first Democratic picks for either agency—would refill commissions that have driven crypto policy since the Clarity Act’s collapse.",
       "source": "Decrypt",
       "url": "https://decrypt.co/383260/trump-first-democratic-picks-sec-cftc-could-reshape-crypto",
       "published_at": "2026-11-14T01:56:03+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "BTC突破69000美元，日内涨幅 0.16%",
-      "summary": "PANews 11月14日消息，欧易OKX行情显示，BTC刚刚突破69000美元，现报69009.30美元/枚，日内涨幅 0.16%。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1d5ff-d526-72da-947f-72fe305ecfae",
-      "published_at": "2026-11-14T01:41:14+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Bitcoin Hits 12-Week Low as Fed Rate Fears Undo Most of Summer Rally",
-      "summary": "Bitcoin is back near August levels as persistent inflation, growing expectations of another interest-rate hike and ETF withdrawals pressure prices.",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally",
-      "published_at": "2026-11-14T01:22:54+08:00"
     },
     {
       "category": "政策",
@@ -208,38 +248,6 @@
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/lido-earn-loss-protection-depositors/",
       "published_at": "2026-11-14T00:30:25+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Polymarket新交易系统Nex开放沙盒测试，拟12月中旬上线",
-      "summary": "PANews 11月13日消息，Polymarket的DeFi业务工程副总裁Josh在X平台宣布，采用Rust重写的新交易系统Nex已开放沙盒测试。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1d597-cc03-7110-9187-af338542e474",
-      "published_at": "2026-11-13T23:47:37+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "USDe接入Ink借贷协议Tydro，初始存入上限2亿美元",
-      "summary": "PANews 11月13日消息，Ethena在X平台宣布，合成美元USDe已接入Ink网络上基于Aave v3的借贷协议Tydro。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1d58f-37ee-7315-99ee-2c2f92ae5de2",
-      "published_at": "2026-11-13T23:38:15+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Robinhood’s Crypto Trading Volume Falls 48% in October as Event Contracts More Than Double",
-      "summary": "Bitcoin Magazine Robinhood’s Crypto Trading Volume Falls 48% in October as Event Contracts More Than Double Robinhood customers traded $17 billion of crypto in October, down 48% from a year earlier, while event",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/robinhood-crypto-volume-falls-48-percent",
-      "published_at": "2026-11-13T23:30:00+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Ethereum Price Predictions: What’s Next for ETH After $2K Fell?",
-      "summary": "Ethereum has fallen below $2K and entered a major daily demand zone near $1.90K–$1.98K.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/ethereum-price-predictions-whats-next-for-eth-after-2k-fell/",
-      "published_at": "2026-11-13T23:11:08+08:00"
     },
     {
       "category": "政策",
@@ -275,14 +283,6 @@
     },
     {
       "category": "政策",
-      "title": "从私钥保护，到系统性防御：AI 时代，Crypto 如何重建安全与信任？",
-      "summary": "在过去十余年里，加密行业的安全叙事几乎都浓缩在一句经典口号中：「Not your keys, not your coins」。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5213925",
-      "published_at": "2026-11-13T19:55:14+08:00"
-    },
-    {
-      "category": "政策",
       "title": "抢在参议院变天前「卡位」：特朗普提名四名SEC、CFTC委员，加密监管迎新局",
       "summary": "原文作者：angelilu，Foresight News 11 月 12 日，特朗普向参议院提交四名金融监管机构委员 提名 ：SEC 和 CFTC 各有一名共和党、一名民主党人选。",
       "source": "Odaily",
@@ -314,12 +314,12 @@
       "published_at": "2026-11-13T18:26:55+08:00"
     },
     {
-      "category": "项目",
-      "title": "BoE and Asian Central Banks Test Linked FX Settlement",
-      "summary": "Project Meridian FX APAC linked traditional and tokenised test systems, but did not involve live participants or production operating conditions.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/boe-and-asian-central-banks-test-linked-fx-settlement",
-      "published_at": "2026-11-13T17:37:34+08:00"
+      "category": "政策",
+      "title": "Thailand seeks $148,000 daily cap on certain stablecoin transfers to curb money laundering",
+      "summary": "The draft rules also require that stablecoins be transferred only between accounts or wallets belonging to the same person.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
+      "published_at": "2026-11-13T18:16:04+08:00"
     }
   ]
 }
