@@ -34,6 +34,14 @@
 // 强制重翻；滚动时（防抖）也触发一轮检查，覆盖滚到底部才看到的页脚。
 // 此前用的 Google 翻译小部件已于 2026-10-01 停服、实测无法渲染下拉框，
 // 故全部移除，改用 GTranslate（见 README“翻译”一节）。
+//
+// 实时币价：快照（data/market.json，CoinGecko，每 8 小时更新）负责首屏
+// 与兜底；页面打开期间再每 30 秒直接从 Binance 公开接口
+// （data-api.binance.vision，无需 key，CORS 全开，2026-11-14 实测
+// HTTP 200 + Access-Control-Allow-Origin: *）拉一次 24 小时行情，
+// 就地更新币价卡片，并显示“价格实时更新 · HH:MM:SS”指示。拉取失败
+// 时保留当前显示、退避 2 分钟再试，绝不清空卡片。恐惧贪婪 / 总市值 /
+// BTC 占比变化慢，继续用快照，不做伪实时。详见下方实时币价一节。
 (function () {
   "use strict";
 
@@ -227,7 +235,7 @@
       var chg = c.change_24h_pct;
       var cls = chg == null ? "" : (chg >= 0 ? "up" : "down");
       var chgText = chg == null ? "" : (chg >= 0 ? "+" : "") + chg.toFixed(2) + "%";
-      html += '<div class="coin">' +
+      html += '<div class="coin" data-symbol="' + escapeHtml(c.symbol) + '">' +
         '<div class="name">' + escapeHtml(c.symbol) + "<span>" + escapeHtml(c.name) + "</span></div>" +
         '<div class="price">' + escapeHtml(formatPrice(c.price_usd)) +
         '<span class="change ' + cls + '">' + escapeHtml(chgText) + "</span></div>" +
@@ -235,6 +243,112 @@
     });
     document.getElementById("coins").innerHTML = html;
     pulseEl.hidden = false;
+  }
+
+  /* ---- 实时币价 ----
+     快照渲染完成后启动：先立即拉一次，之后每 30 秒轮询一次；
+     切走标签页时暂停（interval 回调里检查 document.hidden），
+     切回时立即补拉一次。失败时保留当前显示（快照或上次实时值），
+     并退避 2 分钟再试——轮询失败绝不影响已渲染的内容。
+     Binance 交易对以 USDT 计价（≈USD）：BTC/ETH/BNB/XRP/SOL/TRX
+     与 USDC 直接用各自的 USDT 交易对；USDT 本身没有 USDT 交易对，
+     由 USDCUSDT 反推：USDT/USD = 1 / USDCUSDT 价格，24 小时涨跌幅
+     取 USDCUSDT 涨跌幅的相反数。 */
+  var LIVE_API = "https://data-api.binance.vision/api/v3/ticker/24hr?symbols=" +
+    encodeURIComponent('["BTCUSDT","ETHUSDT","BNBUSDT","USDCUSDT","XRPUSDT","SOLUSDT","TRXUSDT"]');
+  var LIVE_PAIRS = {
+    BTC: "BTCUSDT", ETH: "ETHUSDT", BNB: "BNBUSDT", USDC: "USDCUSDT",
+    XRP: "XRPUSDT", SOL: "SOLUSDT", TRX: "TRXUSDT"
+  };
+  var liveTimer = null;
+  var liveStarted = false;
+  var liveRetryAfter = 0;   // 失败退避截止时间（ms 时间戳），轮询在此之前跳过
+
+  function setLiveIndicator(date) {
+    var el = document.getElementById("live-indicator");
+    var textEl = document.getElementById("live-text");
+    if (!el || !textEl) return;
+    textEl.textContent = "价格实时更新 · " +
+      date.toLocaleTimeString("zh-CN", { hour12: false });
+    el.hidden = false;
+  }
+
+  /* 就地更新一张币卡的价格文本与涨跌幅（颜色 class 一并切换）。 */
+  function updateCoinCard(symbol, price, chg) {
+    var card = document.querySelector('#coins .coin[data-symbol="' + symbol + '"]');
+    if (!card) return;
+    var priceEl = card.querySelector(".price");
+    if (!priceEl) return;
+    /* .price 的第一个子节点是价格文本节点，其后是涨跌幅 span；
+       结构不如预期时直接跳过，保留原显示。 */
+    var first = priceEl.childNodes && priceEl.childNodes[0];
+    if (!first || first.nodeType !== 3) return;
+    first.nodeValue = formatPrice(price);
+    var chgEl = card.querySelector(".change");
+    if (chgEl) {
+      var cls = chg == null ? "" : (chg >= 0 ? "up" : "down");
+      chgEl.className = "change" + (cls ? " " + cls : "");
+      chgEl.textContent = chg == null ? "" : (chg >= 0 ? "+" : "") + chg.toFixed(2) + "%";
+    }
+  }
+
+  function applyLiveTickers(tickers) {
+    var byPair = {};
+    tickers.forEach(function (t) { if (t && t.symbol) byPair[t.symbol] = t; });
+    Object.keys(LIVE_PAIRS).forEach(function (sym) {
+      var t = byPair[LIVE_PAIRS[sym]];
+      if (!t) return;
+      var price = parseFloat(t.lastPrice);
+      var chg = parseFloat(t.priceChangePercent);
+      if (isNaN(price)) return;
+      updateCoinCard(sym, price, isNaN(chg) ? null : chg);
+    });
+    /* USDT 由 USDCUSDT 反推（见本节开头注释）。 */
+    var usdc = byPair.USDCUSDT;
+    if (usdc) {
+      var p = parseFloat(usdc.lastPrice);
+      var c = parseFloat(usdc.priceChangePercent);
+      if (!isNaN(p) && p > 0) {
+        updateCoinCard("USDT", 1 / p, isNaN(c) ? null : -c);
+      }
+    }
+  }
+
+  function fetchLivePrices() {
+    fetch(LIVE_API)
+      .then(function (resp) {
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        return resp.json();
+      })
+      .then(function (tickers) {
+        if (!Array.isArray(tickers) || !tickers.length) throw new Error("empty tickers");
+        applyLiveTickers(tickers);
+        liveRetryAfter = 0;
+        setLiveIndicator(new Date());
+      })
+      .catch(function () {
+        /* 失败：保留当前显示，退避 2 分钟再试（切回标签页时
+           的立即刷新不受退避限制，见 startLivePrices）。 */
+        liveRetryAfter = Date.now() + 120000;
+      });
+  }
+
+  function liveTick() {
+    if (document.hidden) return;                    // 标签页不可见时暂停
+    if (Date.now() < liveRetryAfter) return;         // 失败退避中，跳过本轮
+    fetchLivePrices();
+  }
+
+  function startLivePrices() {
+    if (liveStarted) return;
+    var coinsEl = document.getElementById("coins");
+    if (!coinsEl || !coinsEl.querySelector(".coin")) return;  // 快照未渲染则不启动
+    liveStarted = true;
+    fetchLivePrices();
+    liveTimer = setInterval(liveTick, 30000);
+    document.addEventListener("visibilitychange", function () {
+      if (!document.hidden) fetchLivePrices();       // 切回标签页立即刷新一次
+    });
   }
 
   function matches(item) {
@@ -354,7 +468,10 @@
       if (!resp.ok) throw new Error("HTTP " + resp.status);
       return resp.json();
     })
-    .then(renderMarket)
+    .then(function (data) {
+      renderMarket(data);
+      startLivePrices();   // 快照渲染后启动实时币价；拉取失败自动回退快照显示
+    })
     .catch(function () {
       // 行情加载失败时仅隐藏市场脉搏，新闻照常显示。
       pulseEl.hidden = true;

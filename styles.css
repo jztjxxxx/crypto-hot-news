@@ -226,6 +226,37 @@ main {
   margin: 10px 0 0;
 }
 
+/* ---- 实时币价指示（app.js 拉到实时价后才显示） ---- */
+.pulse-live { margin: 0; }
+
+.live-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  letter-spacing: 0.06em;
+  color: var(--up);
+  text-shadow: 0 0 8px rgba(0, 255, 156, 0.45);
+}
+
+/* display: inline-flex 会盖过 [hidden] 的默认隐藏，必须显式补回。 */
+.live-indicator[hidden] { display: none; }
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--up);
+  box-shadow: 0 0 8px rgba(0, 255, 156, 0.85);
+  animation: live-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.75); }
+}
+
 /* ---- 翻译（GTranslate 小部件） ---- */
 .controls-row {
   display: flex;
@@ -533,6 +564,7 @@ footer p { margin: 4px 0; }
 
 @media (prefers-reduced-motion: reduce) {
   .headline h2 { animation: none; }
+  .live-dot { animation: none; }
   .card, .coin, .tabs button { transition: none; }
   .card:hover, .coin:hover { transform: none; }
 }
