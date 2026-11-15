@@ -1,101 +1,205 @@
 {
-  "updated_at": "2026-11-15T04:17:13+08:00",
+  "updated_at": "2026-11-15T12:13:04+08:00",
   "items": [
     {
       "category": "市场",
-      "title": "数据：Arbitrum稳定币单日增加约1亿美元，升至38.35亿美元",
-      "summary": "PANews 11月15日消息，据DefiLlama数据，Arbitrum链上稳定币流通量11月14日约为38.35亿美元，较前一日的37.34亿美元增加约1.02亿美元，近7日累计增加约2.18亿美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1dba0-2fb0-73d2-aef2-3259f2331d4a",
-      "published_at": "2026-11-15T03:54:34+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Analyst Explains Why Bitcoin Dumped to $65K on Saturday: Details",
-      "summary": "Was a group of large players dumping major holdings during the weekend or was there something else behind today's crash?",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/analyst-explains-why-bitcoin-dumped-to-65k-on-saturday-details/",
-      "published_at": "2026-11-15T03:47:28+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Your wallet may show a dollar balance for fake USDT that you cannot sell",
-      "summary": "Keeper wallets maintained the quotations through restricted pools, where Forta's simulated outside sales failed for all 32 identified tokens.",
+      "title": "Solana’s “retired” validators still vote with 15% of active stake",
+      "summary": "A November 14 cross-check found 31 program-retired identities still voting, while smaller validators’ ability to replace Foundation support remains unresolved.",
       "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/your-wallet-may-show-a-dollar-balance-for-fake-usdt-that-you-cannot-sell/",
-      "published_at": "2026-11-15T03:40:06+08:00"
+      "url": "https://cryptoslate.com/solanas-retired-validators-still-vote-with-15-of-active-stake/",
+      "published_at": "2026-11-15T12:00:00+08:00"
     },
     {
-      "category": "市场",
-      "title": "Louisiana AG calls CFTC chair an ‘obsequious standard bearer’ for prediction markets following agency lawsuit",
-      "summary": "The CFTC sued Louisiana Friday to block a state judge's order banning 31 prediction markets, including Kalshi and Polymarket, in the state.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
-      "published_at": "2026-11-15T03:06:59+08:00"
+      "category": "政策",
+      "title": "OpenAI等五家AI公司遭起诉，要求叫停前沿AI研发",
+      "summary": "PANews 11月15日消息，据智通财经报道，美国四家非营利组织联合向旧金山高等法院提起诉讼，将OpenAI、Anthropic、谷歌、Meta以及SpaceX AI列为被告，要求法院叫停这些企业进一步开发最先进的人工智能模型。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dd54-a546-7294-9184-26c05756460f",
+      "published_at": "2026-11-15T11:51:17+08:00"
     },
     {
       "category": "行情",
-      "title": "分析：BTC本轮下跌中巨鲸增持约4.7万枚，但中型持有者抛售更多",
-      "summary": "PANews 11月15日消息，据CryptoQuant在X平台发布的链上分析，比特币本轮下跌约24%，持有1000枚以上BTC的巨鲸钱包合计增持约4.7万枚（其中1000至1万枚钱包增持4.37万枚），但持有100至1000枚的钱包减持5.05万枚，10至100枚钱包减持1.44万枚。",
+      "title": "BIT：加密总市值自10月初以来蒸发约8000亿美元，市场流动性承压",
+      "summary": "PANews 11月15日消息，据官方消息，BIT 独立分析师发文指出，自 10 月初以来，加密货币总市值已从 2.9 万亿美元降至 2.1 万亿美元，蒸发约 8000 亿美元。",
       "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1db6a-0085-7457-ab82-222f1f7c151a",
-      "published_at": "2026-11-15T02:55:23+08:00"
+      "url": "https://www.panewslab.com/zh/articles/01a1dd51-0287-761d-8b2e-2e6e76988b33",
+      "published_at": "2026-11-15T11:47:18+08:00"
     },
     {
-      "category": "市场",
-      "title": "JPMorgan Lifts Strategy Stake 36% and Holds $540M in BlackRock’s Bitcoin ETF",
-      "summary": "JPMorgan's US broker-dealer held 370,680 Strategy shares at the end of September, up from 11,876 in June, along with puts on 1,148,500 Strategy shares.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/jpmorgan-lifts-strategy-stake-36-and-holds-540m-in-blackrocks-bitcoin-etf/",
-      "published_at": "2026-11-15T02:49:14+08:00"
+      "category": "行情",
+      "title": "BTC跌至6.2万美元，到底发生了什么？",
+      "summary": "原创 | Odaily 星球日报（@OdailyChina） 作者｜Azuma（@azuma_eth） 眼睛一睁，又是一场暴跌，又是一个新低……过去几天，这几乎成了加密货币投资者每天早上的固定体验。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5213928",
+      "published_at": "2026-11-15T11:42:59+08:00"
     },
     {
-      "category": "市场",
-      "title": "MiCA gave crypto a passport, but customers still face borders",
-      "summary": "Hungary scrapped an extra set of crypto restrictions in August, and for customers who had spent months wondering when they could trade normally again, that should have made things simpler.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/mica-gave-crypto-a-passport-but-customers-still-face-borders/",
-      "published_at": "2026-11-15T02:40:48+08:00"
+      "category": "行情",
+      "title": "10月建仓959万美元UNI的某巨鲸卖出部分UNI，预计亏损154.6万美元",
+      "summary": "PANews 11月15日消息，据 Ai 姨监测，10 月以均价 7.42 美元建仓 959 万美元 UNI 的大户疑似割肉，预计亏损 154.6 万美元。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dd49-e563-7149-9c7c-470b4b7e34e2",
+      "published_at": "2026-11-15T11:39:36+08:00"
     },
     {
-      "category": "市场",
-      "title": "Who Sells Shares When a Stock Leaves a Market Index?",
-      "summary": "An index change can prompt tracking funds to sell shares. That is different from exchange delisting—or a bitcoin-holding company selling its coins.",
+      "category": "DeFi",
+      "title": "Aave高管：过去两天借款人共发生约3900万美元的清算",
+      "summary": "PANews 11月15日消息，据 The Defiant 报道，Aave 首席战略与业务官 Luigi D’Onorio DeMeo 发文表示，在过去两天内，借款人共发生了约 3900 万美元的清算。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dd46-3bb9-713b-9880-c8f5e24155fa",
+      "published_at": "2026-11-15T11:35:32+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "韩国加密交易所Coinone客服外包服务器遭入侵，部分用户咨询信息泄露",
+      "summary": "PANews 11月15日消息，韩国加密交易所 Coinone 发布公告称，其客户咨询业务外包商服务器于 11 月 12 日凌晨遭外部攻击者非法入侵，导致部分客户咨询相关个人信息泄露。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dd37-957a-72d3-a02e-7fd5633c202b",
+      "published_at": "2026-11-15T11:19:32+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Aave Executive Reports $39 Million in Liquidations",
+      "summary": "Luigi D'Onorio DeMeo reported about $18 million for one day and $21 million so far the next.",
       "source": "The Defiant",
-      "url": "https://thedefiant.io/news/markets/who-sells-shares-when-a-stock-leaves-a-market-index",
-      "published_at": "2026-11-15T02:14:23+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
-      "summary": "In a matter of days, the executive synonymous with the AI boom resigned after 33 years amid reports of affairs and suspected Chinese intelligence ties—sending Nvidia’s stock reeling and leaving the chipmaker leaderless.",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo",
-      "published_at": "2026-11-15T02:01:02+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
-      "summary": "U.S. spot crypto ETFs lost about $1.55 billion combined, and Avalanche funds' $227,000 was the only weekly inflow among the 15 categories SoSoValue tracks.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
-      "published_at": "2026-11-15T01:50:41+08:00"
+      "url": "https://thedefiant.io/news/defi/aave-executive-reports-39-million-in-liquidations",
+      "published_at": "2026-11-15T11:09:50+08:00"
     },
     {
       "category": "行情",
-      "title": "Charles Hoskinson Clashes With Angry ADA Holders Over Promises of Price Gains",
-      "summary": "Cardano founder Charles Hoskinson says he never promised that ADA would rise. He made the remarks during a heated livestream with frustrated investors.",
+      "title": "XRP Falls to 89 Cents on Coinbase, Its Lowest Since November 2024",
+      "summary": "Coinbase recorded the low Saturday evening. XRP's seven-day and four-week losses exceeded bitcoin's and ether's over matching windows.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/markets/xrp-falls-to-89-cents-on-coinbase-its-lowest-since-november-2024",
+      "published_at": "2026-11-15T11:03:49+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "某交易员过去10小时遭遇7次爆仓，累计被清算1103万美元BTC和544万美元ETH",
+      "summary": "PANews 11月15日消息，据 Lookonchain 监测，交易员 0xc05b 在过去 10 小时内遭遇了 7 次爆仓，累计被清算了 172 枚 BTC（价值 1103 万美元）和 2984 枚 ETH（价值 544 万美元）。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dd1d-dfdd-7593-b1c4-57c03f7b1006",
+      "published_at": "2026-11-15T10:51:27+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+      "summary": "XRP tanked to its lowest level since November 2024 as ETF outflows and shrinking stablecoin supply add to pressure on crypto markets.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
+      "published_at": "2026-11-15T10:50:57+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Forward Industries Denies $123 Million SOL Transfer",
+      "summary": "Trackers linked 1.78 million SOL in stake withdrawals to the treasury company. The chain confirms the movements, but ownership remains disputed.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/markets/forward-industries-denies-123-million-sol-transfer",
+      "published_at": "2026-11-15T10:45:46+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "巨鲸fiyopi平多ETH亏损1049万美元，并开多价值2700万美元的SOL",
+      "summary": "PANews 11月15日消息，据余烬监测，巨鲸 fiyopi 几天前以 2,207.5 美元的价格开多 2.45 万枚 ETH (约 5408 万美元)，随着 ETH 崩盘式下跌，该巨鲸在今天早上以 1,783.3 美元的价格认输平多，亏损 1049 万美元。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dd14-7df6-7126-9243-6d71f3cc8a26",
+      "published_at": "2026-11-15T10:41:14+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "A forced Bitcoin Lightning exit can be cheap and still leave you waiting days",
+      "summary": "The preprint's 2026 public force-close cohort paid a median 925 satoshis per channel, while the broadcaster's balance faced a 2.5-day median wait.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/a-forced-bitcoin-lightning-exit-can-be-cheap-and-still-leave-you-waiting-days/",
+      "published_at": "2026-11-15T10:40:32+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "交易员Flood：BTC出现职业生涯中最激进的不计价格抛售，几乎全在Coinbase上",
+      "summary": "PANews 11月15日消息，交易员 Flood 发文表示，BTC 出现其职业生涯中见过的最激进、最不敏感于价格的抛售行为，几乎所有抛售都发生在 Coinbase，而且发生在周末（流动性最差时段）。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1dd0d-5fe3-7665-90ac-b09f5efeeb98",
+      "published_at": "2026-11-15T10:33:27+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Crypto Sheds $571 Billion in Ten Days as Losses Deepen",
+      "summary": "Bitcoin and ether rebounded after another sharp drop, but matched 24-hour windows show the selloff accelerated from the Nov. 12 break below $72,000.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/markets/crypto-sheds-571-billion-in-ten-days-as-losses-deepen",
+      "published_at": "2026-11-15T10:21:35+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Bitcoin’s oil relief has a catch: more oil at sea, less on land",
+      "summary": "The IEA raised its fourth-quarter supply forecast by 3.3 million barrels a day, while depleted land stocks and diesel shortages keep relief conditional.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/bitcoins-oil-relief-has-a-catch-more-oil-at-sea-less-on-land/",
+      "published_at": "2026-11-15T09:40:52+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "FAA Links Ground Stop to Router During Fiber Upgrade",
+      "summary": "Officials said a router flooded the air-traffic network during maintenance, but had not determined whether faulty hardware or an installation error was responsible.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/frontier/infrastructure/faa-links-ground-stop-to-router-during-fiber-upgrade",
+      "published_at": "2026-11-15T09:26:31+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Binance Liquidations Near $800 Million as Bitcoin Sinks",
+      "summary": "CoinGlass recorded $2.05 billion in liquidations across tracked exchanges, overwhelmingly in bets on rising prices.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/markets/binance-liquidations-near-800-million-as-bitcoin-sinks",
+      "published_at": "2026-11-15T09:24:59+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Telegram curbs new in-chat apps amid a no-tap hacking scare",
+      "summary": "A Bot API contributor confirmed the restriction as researchers detailed older-client flaws and Pavel Durov asserted server-side remediation.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/telegram-curbs-new-in-chat-apps-amid-a-no-tap-hacking-scare/",
+      "published_at": "2026-11-15T08:40:48+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Kava Lend Exploit Drains Millions as KAVA Falls 47%",
+      "summary": "Inflated BUSD collateral let attackers borrow 55.2 million KAVA. Bridge withdrawals and transfers at three Korean exchanges were suspended.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/hacks/kava-lend-exploit-drains-millions-as-kava-falls-47",
+      "published_at": "2026-11-15T08:21:52+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Kraken Parent’s Profit Rebound Still Leaves a Wide Gap Before Its IPO",
+      "summary": "Kraken parent Payward said clients kept adding assets for 12 straight months, even as those holdings lost dollar value. Its adjusted earnings rose to $60 million in the third quarter, up from $23 million in the second.",
       "source": "BeInCrypto",
-      "url": "https://beincrypto.com/charles-hoskinson-never-promised-ada-rise/",
-      "published_at": "2026-11-15T01:39:04+08:00"
+      "url": "https://beincrypto.com/kraken-payward-q3-2026-earnings-rebound/",
+      "published_at": "2026-11-15T08:15:29+08:00"
     },
     {
-      "category": "行情",
-      "title": "ETH Tanks Another 5% as Ethereum Foundation Keeps Selling and Schiff Sounds the Alarm",
-      "summary": "Peter Schiff believes $1,000 won't be ETH's lowest target soon as crash accelerates.Alth",
+      "category": "市场",
+      "title": "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%",
+      "summary": "About 49.2 million KAVA was bridged to BNB Chain via LayerZero and sold for roughly $2.1 million in BNB and USDT.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
+      "published_at": "2026-11-15T07:07:35+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Crypto’s $168 million election: 78 winners, 13 newcomers and one costly defeat",
+      "summary": "Crypto super PACs backed 78 candidates who have won seats in Congress. Just 13 of them will enter Congress for the first time.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/cryptos-168-million-election-78-winners-13-newcomers-and-one-costly-defeat/",
+      "published_at": "2026-11-15T05:40:06+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Trump Nominates 4 SEC and CFTC Picks, Including CLARITY Act Negotiators",
+      "summary": "The Senate Banking Committee has scheduled a hearing for SEC nominees Kristin Johnson and Steven Levine on November 19.",
       "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/eth-tanks-another-5-as-ethereum-foundation-keeps-selling-and-schiff-sounds-the-alarm/",
-      "published_at": "2026-11-15T01:05:53+08:00"
+      "url": "https://cryptopotato.com/trump-nominates-4-sec-and-cftc-picks-including-clarity-act-negotiators/",
+      "published_at": "2026-11-15T04:28:55+08:00"
     },
     {
       "category": "政策",
@@ -106,76 +210,12 @@
       "published_at": "2026-11-15T01:01:02+08:00"
     },
     {
-      "category": "行情",
-      "title": "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave",
-      "summary": "\"They are now selling at the very price they wish they had taken advantage of three months ago,\" wrote James Check.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
-      "published_at": "2026-11-15T00:33:29+08:00"
-    },
-    {
       "category": "项目",
       "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
       "summary": "Decentralized Finance total value locked on MegaETH dropped significantly from over $245 million to $8.8 million.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
       "published_at": "2026-11-15T00:33:23+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "印度交易所Unocoin承认3个热钱包被盗，损失约20万美元",
-      "summary": "PANews 11月15日消息，印度加密货币交易所Unocoin在X平台发布安全调查最新进展称，其逾20个运营热钱包中有3个遭入侵，估计加密资产损失约20万美元，Unocoin将全额承担用户损失。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1dae5-1760-72c6-b6a7-df913c90a1ec",
-      "published_at": "2026-11-15T00:30:11+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Ripple Price Analysis: Is the Worst Yet to Come as XRP Dumps to a 2-Year Low?",
-      "summary": "XRP has extended its November sell-off, falling more than 10% this week and dropping below the $1.00 mark.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/ripple-price-analysis-is-the-worst-yet-to-come-as-xrp-dumps-to-a-2-year-low/",
-      "published_at": "2026-11-15T00:28:42+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Upbit因疑似安全事件暂停KAVA充提并发布交易警示",
-      "summary": "PANews 11月15日消息，据Upbit公告，因Kava网络出现疑似安全事件，Upbit已暂停KAVA（Kava网络）的充值和提现服务，确认充提稳定后再另行通知恢复时间。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1dadf-a48a-77d9-b148-a3206af05ec4",
-      "published_at": "2026-11-15T00:24:16+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Bitcoin’s $67,000 crash puts $57 billion holder cluster at risk as ETF investors flee",
-      "summary": "Coinbase’s November 10 distribution placed roughly 855,000 BTC near current prices, leaving sustained buying central to the support case.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/bitcoins-67000-crash-puts-57-billion-holder-cluster-at-risk-as-etf-investors-flee/",
-      "published_at": "2026-11-15T00:20:11+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Polkadot社区投票通过新dotUSD战略，重点转向消费者应用和数字支付",
-      "summary": "PANews 11月15日消息，据官方消息，Polkadot披露社区已于11月11日以97%的支持率通过了一项新的dotUSD战略，将发展重心转向消费者应用、数字支付及可衡量的用户增长。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1dacb-be7e-736e-9382-bef0dbf94905",
-      "published_at": "2026-11-15T00:02:30+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "哈萨克斯坦计划于2027年Q1发行代币化政府债券",
-      "summary": "PANews 11月14日消息，据CoinDesk报道，哈萨克斯坦央行行长Timur Suleimenov表示，哈萨克斯坦计划在2027年第一季度发行代币化政府债券。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1dabc-0ad9-70fb-a492-662f35e9ca35",
-      "published_at": "2026-11-14T23:45:21+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "江卓尔：已在比特币65720美元处开出200%仓位对冲空单，目前整体仓位相当于空仓",
-      "summary": "PANews 11月14日消息，莱比特矿池创始人江卓尔发文公布交易记录称，由于市场表现过于弱势，他先在比特币65,720美元处开出了200%仓位的对冲空单，计划先离场观望，若价格涨回则原价平仓。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1daae-91e3-72b4-8c40-828b9a98e12b",
-      "published_at": "2026-11-14T23:30:38+08:00"
     },
     {
       "category": "行情",
@@ -192,14 +232,6 @@
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
       "published_at": "2026-11-14T23:00:00+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Kava：出于谨慎，通过Axelar桥进行的跨链资产提现已暂停",
-      "summary": "PANews 11月14日消息，Kava发文称，出于高度谨慎，Axelar跨链桥已被暂停。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1da6e-8d2a-771f-8a46-1e3b30866561",
-      "published_at": "2026-11-14T22:20:44+08:00"
     },
     {
       "category": "项目",
@@ -251,35 +283,11 @@
     },
     {
       "category": "政策",
-      "title": "Elizabeth Warren could reopen crypto’s banking fight without changing a single law",
-      "summary": "Elizabeth Warren's next confrontation with crypto could put companies and regulators under serious pressure without changing a single law.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/warren-could-reopen-crypto-banking-fight-without-changing-a-single-law/",
-      "published_at": "2026-11-14T16:10:11+08:00"
-    },
-    {
-      "category": "政策",
       "title": "Cosmos Hub Votes on Fix for Broken Governance Queries",
       "summary": "Proposal 1061 is above quorum with near-unanimous support. Validators would need Gaia v29.1.0 at block 33,935,300 if it passes.",
       "source": "The Defiant",
       "url": "https://thedefiant.io/news/blockchains/cosmos-hub-votes-on-fix-for-broken-governance-queries",
       "published_at": "2026-11-14T16:07:12+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "美股日报｜芯片指数单日再跌3.43%，PPI 6.5%推10年期美债至5.15%（11月14日）",
-      "summary": "一、头条 10 月 PPI 同比 6.5%，近四年最高，利率预期再度上修。 美国 10 月生产者价格指数环比+0.3%、同比+6.5%，Reuters 称\"涨幅温和但通胀面在扩散\"。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5213927",
-      "published_at": "2026-11-14T16:00:03+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Deutsche Bank Crypto Custody Goes Live for Paying Clients",
-      "summary": "The European service supports bitcoin, ether and three stablecoins. Stablecoin conversion and tokenized financial instruments remain later steps.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/deutsche-bank-crypto-custody-goes-live-for-paying-clients",
-      "published_at": "2026-11-14T15:52:49+08:00"
     },
     {
       "category": "项目",
@@ -291,27 +299,19 @@
     },
     {
       "category": "政策",
-      "title": "Blacklisted Chinese University Bought H200s: Reuters",
-      "summary": "Northwestern Polytechnical reportedly bought two Nvidia accelerators through a Chinese supplier, despite restrictions that survived January's easing of H200 export licensing.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/ai/blacklisted-chinese-university-bought-h200s-reuters",
-      "published_at": "2026-11-14T15:02:53+08:00"
+      "title": "万人请愿挽留，黄仁勋能否王者归来？",
+      "summary": "原创 | Odaily 星球日报（@OdailyChina） 作者｜Azuma（@azuma_eth） 黄仁勋离开英伟达之后，谁能接过这家 AI 芯片巨头的掌舵权，已成为了市场最关心的问题。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5213926",
+      "published_at": "2026-11-14T10:11:28+08:00"
     },
     {
       "category": "DeFi",
-      "title": "dYdX Proposes USDC Backing Shift From Noble to Injective",
-      "summary": "The v9.9 plan would reroute deposits and withdrawals while leaving existing USDC balances, collateral and open positions unchanged.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/defi/dydx-proposes-usdc-backing-shift-from-noble-to-injective",
-      "published_at": "2026-11-14T14:52:06+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Maple Reports $1.89 Billion in Syrup Loan Collateral",
-      "summary": "Maple disclosed the check after a CEO update on executive departures and withdrawals. The provider says its service is not an audit or assurance engagement.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/defi/maple-reports-1-89-billion-in-syrup-loan-collateral",
-      "published_at": "2026-11-14T14:50:23+08:00"
+      "title": "Nakamoto Extends $60M Kraken Loan, Adds Bitcoin Derivatives to Its Collateral",
+      "summary": "Nakamoto has bought itself more breathing room on its Kraken loan, as the remaining $165 million is now scheduled across 2027.",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/nakamoto-extends-60m-kraken-loan-adds-bitcoin-derivatives-to-its-collateral/",
+      "published_at": "2026-11-14T05:16:45+08:00"
     },
     {
       "category": "市场",
