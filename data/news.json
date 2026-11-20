@@ -1,61 +1,293 @@
 {
-  "updated_at": "2026-11-20T00:58:45+08:00",
+  "updated_at": "2026-11-20T13:12:54+08:00",
   "items": [
     {
       "category": "行情",
-      "title": "Anthropic上市首日开盘价111.50美元，较发行价涨34%",
-      "summary": "PANews 11月20日消息，据CNBC报道，人工智能公司Anthropic（纳斯达克代码ANT）上市首日开盘价为111.50美元，较发行价83美元上涨约34.3%。",
+      "title": "万亿Anthropic上市，加密交易所打新只吃到“蚊子肉”",
+      "summary": "Anthropic 11月19日登陆纳斯达克，代码ANT，发行价83美元，募资约813亿美元，成全球最大IPO。",
       "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1f4bc-861c-7461-ad1b-6686df344fa1",
-      "published_at": "2026-11-20T00:56:00+08:00"
+      "url": "https://www.panewslab.com/zh/articles/01a1f751-3d02-77fd-bfef-7c898aed5fee",
+      "published_at": "2026-11-20T13:09:00+08:00"
     },
     {
       "category": "行情",
-      "title": "Anthropic Stock Indicated to Open 33% Above IPO Price as AI Stocks Rally",
-      "summary": "The Claude maker's shares could debut at $110, pushing its valuation toward $2 trillion as enthusiasm for its historic IPO lifts the broader technology sector.",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/383631/anthropic-stock-indicated-open-33-above-ipo-price",
-      "published_at": "2026-11-20T00:55:10+08:00"
+      "title": "Coinbase支持CFTC区分预测市场合约与博彩的提案",
+      "summary": "PANews 11月20日消息，据The Block报道，Coinbase已向美国商品期货交易委员会（CFTC）提交意见，支持其将事件合约明确纳入“Swap”定义、并将赌场式博彩产品排除在外的提案。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1f757-40f6-72fb-b9c1-9d59d0e369dc",
+      "published_at": "2026-11-20T13:04:15+08:00"
     },
     {
       "category": "市场",
-      "title": "MoonPay Seeks US Trust Bank for Custody, Stablecoins",
-      "summary": "The proposed Miami Beach bank would issue and redeem stablecoins and manage reserves. Its OCC application remains pending.",
+      "title": "Coinbase’s Anthropic Share Certificate Trades on Base",
+      "summary": "ANTc offers share-backed exposure, not direct stock ownership. Wallet buyers must satisfy vesting conditions to register as certificate owners and exercise its rights.",
       "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/moonpay-seeks-us-trust-bank-for-custody-stablecoins",
-      "published_at": "2026-11-20T00:46:09+08:00"
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/coinbase-s-anthropic-share-certificate-trades-on-base",
+      "published_at": "2026-11-20T13:02:28+08:00"
     },
     {
       "category": "行情",
-      "title": "CLARITY Act Likely Dead Until 2027, Top Crypto Lawmakers Warn",
-      "summary": "Bitcoin Magazine CLARITY Act Likely Dead Until 2027, Top Crypto Lawmakers Warn House Financial Services Chairman French Hill said the CLARITY Act's chances in the lame-duck session are \"not high,\" pushing the crypto",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/french-hill-clarity-act-unlikely-before",
-      "published_at": "2026-11-20T00:45:18+08:00"
+      "title": "VanEck终止与Gemini的合作，不再委托其托管比特币、以太坊和SOL ETF",
+      "summary": "PANews 11月20日消息，据CoinDesk报道，VanEck已终止与Gemini就其美国比特币、以太坊和Solana交易所交易基金（ETF）签订的托管与清算协议。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1f753-a570-7141-9796-f3a29416a848",
+      "published_at": "2026-11-20T13:00:20+08:00"
     },
     {
-      "category": "市场",
-      "title": "Bitwise challenges Grayscale’s $489 million Zcash ETF as CIO predicts Bitcoin-to-ZEC rotation",
-      "summary": "Bitwise’s proposal would let eligible firms take delivery of ZEC, while Grayscale’s quarterly filing says its ETF requires cash redemptions.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/bitwise-challenges-grayscales-489-million-zcash-etf-as-cio-predicts-bitcoin-to-zec-rotation/",
-      "published_at": "2026-11-20T00:40:20+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "United Bars Personal AI Agents From Booking Flights",
-      "summary": "The November 11 restrictions reach travel agencies and aggregators as well as United’s own platforms, even when passengers authorize an agent.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/ai/united-bars-personal-ai-agents-from-booking-flights",
-      "published_at": "2026-11-20T00:38:40+08:00"
+      "category": "行情",
+      "title": "Gold and Silver Shed $1 Trillion in Six Hours. What Turned Gold Around Last Time?",
+      "summary": "Gold and silver shed about $1 trillion in value in six hours. Two metals often bought for safety sank alongside stocks as the Federal Reserve (Fed) minutes pointed to further rate hikes.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/gold-silver-lose-1-trillion-fed-rate-hike/",
+      "published_at": "2026-11-20T13:00:00+08:00"
     },
     {
       "category": "项目",
-      "title": "Chainlink与瑞银合作将结构化票据发行上链",
-      "summary": "PANews 11月20日消息，Chainlink宣布与瑞银合作，将结构化票据的发行与生命周期管理上链。",
+      "title": "Ethereum’s next big upgrade is pushed into 2027 by apps it would break",
+      "summary": "Glamsterdam was originally targeted for December, but developers now say January is the earliest possible date as companies work to fix affected smart contracts.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
+      "published_at": "2026-11-20T12:58:08+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Anthropic七位联创IPO合计套现约19.6亿美元，人均约2.8亿美元",
+      "summary": "PANews 11月20日消息，据TechCrunch报道，人工智能公司Anthropic七位联合创始人在IPO中合计套现约19.6亿美元。",
       "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1f4ab-9a3d-7073-80c5-73a7f9ed8664",
-      "published_at": "2026-11-20T00:37:33+08:00"
+      "url": "https://www.panewslab.com/zh/articles/01a1f74c-3d21-768c-89db-a06abdaa97a5",
+      "published_at": "2026-11-20T12:52:15+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Anthropic 总裁敲钟演讲：AI 不需要你的信任，需要你的声音",
+      "summary": "Anthropic在纳斯达克敲钟前，总裁Daniela Amodei没有呼吁外界信任AI或使用Claude，而是强调这项技术需要人们的参与",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1f74c-34fa-73e7-aa55-dae3e4eeee0f",
+      "published_at": "2026-11-20T12:52:11+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "AI Agent Builders: Visual Versus Code-First Tools",
+      "summary": "Compare n8n, Dify and LangGraph by coding, connections, hosting, human approvals and model billing—not by a single 'no-code' label.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/infrastructure/ai-agent-builders-visual-versus-code-first-tools",
+      "published_at": "2026-11-20T12:51:01+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Pony AI’s robotaxi fares surge nearly 400% but its operating losses barely budge",
+      "summary": "Pony.ai says fares covered the vehicle costs it tracks in Guangzhou and Shenzhen, leaving the profitability of individual rides unclear.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/pony-ais-robotaxi-fares-surge-nearly-400-but-its-operating-losses-barely-budge/",
+      "published_at": "2026-11-20T12:50:06+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Google Expands Gemini’s Mac Automation With App Control",
+      "summary": "The computer-use rollout brings background clicking and typing to US subscribers on Plus, Pro and Ultra plans, with users choosing which apps Gemini can access.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/frontier/ai/google-expands-gemini-s-mac-automation-with-app-control",
+      "published_at": "2026-11-20T12:47:23+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Sky Council Plans Extra Buybacks After SKY Price Slump",
+      "summary": "The Council’s seven-day plan adds 750,000 USDS in daily buybacks and is designed to keep the daily USDS allocation for staking rewards roughly steady.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/sky-council-plans-extra-buybacks-after-sky-price-slump",
+      "published_at": "2026-11-20T12:44:53+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Sky’s USDS Circulating Supply Falls 39% in One Day",
+      "summary": "DefiLlama’s daily readings show roughly 2 billion fewer USDS in circulation. One Ethereum swap burned 400 million USDS and paid the sender USDC.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/sky-s-usds-circulating-supply-falls-39-in-one-day",
+      "published_at": "2026-11-20T12:42:25+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Moonshot Drops $150 Million Blackwell Deal, Report Says",
+      "summary": "The Information says the Indonesian computing rental was due to start as early as 2027. New US licensing controls target offshore access to advanced chips.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/frontier/ai/moonshot-drops-150-million-blackwell-deal-report-says",
+      "published_at": "2026-11-20T12:41:46+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "交易量超5亿美元，Sky深陷“朝鲜黑客洗钱”风波",
+      "summary": "原创｜Odaily星球日报（ @OdailyChina ） 作者｜Wenser（ @wenser 2010 ）﻿ 加密市场再度急跌，老牌 DeFi 平台 Sky（原 MakerDAO）亦受波及。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214022",
+      "published_at": "2026-11-20T12:39:30+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "California Subpoenas Nvidia Over Investor Disclosures",
+      "summary": "Bonta's office is investigating whether advanced chips or confidential information reached China and whether Nvidia misled investors and the public.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/frontier/regulation/california-subpoenas-nvidia-over-investor-disclosures",
+      "published_at": "2026-11-20T12:36:19+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Wiz Suspects Certificate Compromise in Microsoft AI Package Hack",
+      "summary": "Wiz says a client certificate and private key for Microsoft's release service appear compromised. An initial upload attempt was blocked, but a second succeeded.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/frontier/ai/wiz-suspects-certificate-compromise-in-microsoft-ai-package-hack",
+      "published_at": "2026-11-20T12:31:36+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "SpaceX AI-Chip Debt Sale Raises $32 Billion: Report",
+      "summary": "Bloomberg reported yields topping 8% on bonds tied to an Apollo-managed financing for Nvidia chips that SpaceX plans to lease.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/frontier/technology/spacex-ai-chip-debt-sale-raises-32-billion-report",
+      "published_at": "2026-11-20T12:31:12+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+      "summary": "Coinbase Custody will continue serving all three funds after Gemini's contracts end in February.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs",
+      "published_at": "2026-11-20T12:28:52+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
+      "summary": "Coinbase said event contracts already qualify as swaps under the CEA and that explicit inclusion would provide greater regulatory certainty.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152",
+      "published_at": "2026-11-20T12:24:05+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "新火研究院｜告别野蛮生长：比特币加速流出非持牌交易平台，数字资产进入合规配置新周期",
+      "summary": "随着全球反洗钱（AML）及制裁合规审查常态化，数字资产行业正加速告别早期的“监管套利”阶段，安全与合规已成为市场资金的首要考量。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1f707-d643-7067-98e1-75e873165adc",
+      "published_at": "2026-11-20T11:37:00+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Solidity发布0.8.39版本，修复可静默破坏存储的漏洞",
+      "summary": "PANews 11月20日消息，据官方消息，Solidity发布0.8.39版本，修复了一个可能在不报错的情况下破坏存储的中等严重性漏洞。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1f6ea-8bbe-76fb-9c36-3ff470d5778e",
+      "published_at": "2026-11-20T11:05:32+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "史上最大IPO：哪些投资人投中了Anthropic 收益速览",
+      "summary": "投资人投入Anthropic的资本约为 1420 亿美元，他们将分享约 8600 亿美元的收益。",
+      "source": "金色财经",
+      "url": "https://www.jinse.com.cn/blockchain/3741266.html",
+      "published_at": "2026-11-20T10:56:31+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "EigenLayer推出去中心化算力网络Darkbloom与科研平台Yukon",
+      "summary": "PANews 11月20日消息，Eigen Labs首席增长官JT Rose发文宣布，EigenLayer推出两个新产品：去中心化算力网络Darkbloom和多人自动科研平台Yukon。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1f6bc-f384-76f2-a7a7-ae27a0210cfb",
+      "published_at": "2026-11-20T10:28:40+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "SKY回应PSM非法活动：主要发生在第三方无许可平台，规模占比不足0.03%",
+      "summary": "PANews 11月20日消息，Sky就CoinDesk近期关于Sky协议锚定稳定模块（PSM）非法活动的报道作出回应。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a1f6b7-aa2c-7372-8c26-61e920bdbb4a",
+      "published_at": "2026-11-20T10:09:57+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Anthropic IPO代币化打新：拿到了份额，但好像又没拿到",
+      "summary": "原创 | Odaily 星球日报（@OdailyChina） 作者｜jk﻿ 11 月 19 日，Anthropic 按计划以 ANT 为代码登陆纳斯达克，最终定价 83 美元/股，高于此前 70–78 美元的参考区间。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214016",
+      "published_at": "2026-11-20T09:56:22+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "24H热门币种与要闻｜Anthropic首日收涨17%；Babylon提议终止比特币质押（11月20日）",
+      "summary": "CEX 热门币种 CEX 成交额 Top 10 及 24 小时涨跌幅： BTC：-0.72% ETH：-0.46% SOL：+0.07% ZEC：-1.12% XRP：+0.36% NEAR：-1.97% HYPE：+0.98% BNB：+0.35% MMT：+18.73% XAUT：-3.22% 24 小时涨幅榜单（数据来源为 OKX）： IRYS：+31.44% EVAA：+25.76% NAORIS：+25.25% SOXL3S：+20.87% MMT：+18.73% RARE：+17.46% YB：+12.00% HUMA：+11.75% LUNC：+11.12% BMT：+10.03% 24 小时币股涨幅榜单（数据来源为 msx.com ）： SOXSB：+13.53% PDDB：+9.67% INTCB：-0.68% BNCB：-1.15% EWYB：-1.31% BABAB：-1.69% SPYB：-2.44% SKHYB：-2.69% COINB：-2.81% MSFTB：-2.82% 2、链上热门 Meme Top 3（数据来源为 GMGN ）： DCTY（Solana） — 市值约 1820 万美元，日内涨幅超 200 倍（GMGN ）。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214015",
+      "published_at": "2026-11-20T08:41:28+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Homeland Security Launches New Centre to Hit Crypto Scams, Cybercrime and Sextortion Networks",
+      "summary": "TRM Labs has been selected to supply the investigative technology for the new US government initiative targeting online scams and cybercrime.",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/homeland-security-launches-new-centre-to-hit-crypto-scams-cybercrime-and-sextortion-networks/",
+      "published_at": "2026-11-20T07:46:18+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Solana Announces 2027 Roadmap With On-Chain AI and Faster Blocks",
+      "summary": "Solana has laid out an ambitious technical roadmap for 2027. Anza CEO Brennan Watt unveiled the plan at Breakpoint 2026, building on October’s Alpenglow upgrade.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/solana-2027-roadmap-sol-price-impact/",
+      "published_at": "2026-11-20T07:25:08+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
+      "summary": "Binance obtains court orders freezing assets stolen in October’s hack. Hong Kong warns citizens about Hyperliquid, and Thai police arrest four foreigners linked to a crypto scam.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express",
+      "published_at": "2026-11-20T06:25:18+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "SEC Charges Eight Colorado Firms in $37 Million Fake Crypto Platform Scam",
+      "summary": "Bitcoin Magazine SEC Charges Eight Colorado Firms in $37 Million Fake Crypto Platform Scam The SEC charged eight Colorado-based entities, likely run from overseas, with taking more than $37 million from U.S.",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/sec-charges-eight-colorado-firms-scam",
+      "published_at": "2026-11-20T05:45:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Meet SHRINCS: Bitcoin's Emerging Frontrunner for a Post-Quantum Signature",
+      "summary": "A new post-quantum signature proposal aims to secure Bitcoin’s future, but balancing user safety and efficiency comes with hurdles.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/383666/meet-shrincs-bitcoin-emerging-frontrunner-post-quantum-signature",
+      "published_at": "2026-11-20T04:46:02+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Trump’s SEC nominee Johnson backs formal rulemaking for tokenized stock trading",
+      "summary": "Former CFTC Commissioner and Democrat Kristin Johnson and ex-SEC aide Steven Levine appeared before lawmakers Thursday.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/sec-nominees-johnson-levine-tokenized-stocks",
+      "published_at": "2026-11-20T04:06:34+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Sky's USDS stablecoin shrinks 35% as $1.5 billion exits reserves after illicit-finance report",
+      "summary": "USDS held its $1 peg as a large holder linked to Poloniex withdrew much of decentralized protocol Sky's USDC liquidity backing its stablecoins.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/19/sky-s-usds-stablecoin-shrinks-35-as-usd1-5-billion-exits-reserves-after-illicit-finance-report",
+      "published_at": "2026-11-20T03:53:42+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Ethereum’s Glamsterdam upgrade could slip to May 2027 over compatibility concerns",
+      "summary": "Ethereum developers are weighing changes to gas pricing proposals that could disrupt existing smart contracts, after contacting at least 50 affected companies.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/ethereum-glamsterdam-could-slip-to-may-2027",
+      "published_at": "2026-11-20T02:20:49+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process",
+      "summary": "The U.S. Senate Banking Committee held a confirmation hearing for the two nominees — one from each party — as the administration rebuilds the markets regulators.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/19/trump-s-democratic-sec-pick-suggests-tokenization-policy-deserves-full-rule-process",
+      "published_at": "2026-11-20T02:15:56+08:00"
     },
     {
       "category": "项目",
@@ -66,116 +298,12 @@
       "published_at": "2026-11-20T00:24:54+08:00"
     },
     {
-      "category": "市场",
-      "title": "Global Securities Watchdog Warns of Quantum Computing Threat to Blockchains and Finance",
-      "summary": "Bitcoin Magazine Global Securities Watchdog Warns of Quantum Computing Threat to Blockchains and Finance The global securities regulators’ body says quantum computers could break today’s cryptography, and that moving",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/iosco-quantum-computing-warning-bitcoin",
-      "published_at": "2026-11-20T00:24:06+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Ethereum Price Analysis: Is ETH About to Explode or Crash Below $1.7K?",
-      "summary": "Ethereum is attempting to stabilize around $1.8K after a steep November sell-off that erased the asset’s entire August rally.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/ethereum-price-analysis-is-eth-about-to-explode-or-crash-below-1-7k/",
-      "published_at": "2026-11-20T00:23:16+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "AMD Stock Price Crashes 11% After a New Scandal Involving China",
-      "summary": "AMD stock fell 11% after Hunterbrook tied its software to a blacklisted Chinese firm. Here's what's at stake.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/amd-stock-crash-hunterbrook-china-firmware-report/",
-      "published_at": "2026-11-20T00:10:10+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure",
-      "summary": "Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/11/19/crypto-for-advisors-falling-prices-drove-october-s-10-drop-in-institutional-crypto-exposure",
-      "published_at": "2026-11-20T00:09:28+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Anthropic shares expected to open at $110, 32.5% above $83 IPO price",
-      "summary": "The AI giant’s $81.3 billion offering at an expected $110 per share would value the company at north of $2 trillion.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/anthropic-shares-expected-to-open-above-83-ipo-price",
-      "published_at": "2026-11-20T00:07:51+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Shiba Inu (SHIB) Price History Readies Early Christmas Gift for Sellers",
-      "summary": "After losing 43.6% in 2026 and breaking yearly support, Shiba Inu faces a December calendar that has closed in the red four out of five times.",
-      "source": "U.Today",
-      "url": "https://u.today/shiba-inu-shib-price-history-readies-early-christmas-gift-for-sellers",
-      "published_at": "2026-11-20T00:06:45+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Hill, Moreno blame delays for missed Clarity Act window but differ on reach of agency rulemaking",
-      "summary": "Hill and Moreno fault Clarity Act delays but disagree on how much crypto regulators can accomplish.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/regulation/2026-11-19-hill-moreno-blame-delays-missed-clarity-act-window-split-regulators-fill-gap-443615",
-      "published_at": "2026-11-20T00:01:16+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "BingX Adds Anthropic Spot and Perpetual Futures Trading Following Nasdaq Debut",
-      "summary": "PANAMA CITY, November 19, 2026 – BingX, the world’s leading multi-asset trading platform, today announced that Anthropic (Nasdaq: ANT) is available for trading on its platform following the company’s highly anticipated",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/bingx-anthropic-ant-spot-futures-nasdaq-ipo/",
-      "published_at": "2026-11-20T00:00:00+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Gate 直通 IPO 第三期 Anthropic 中签额度公布，最终获配 92,100 股 ANT",
-      "summary": "PANews 11月19日消息，据官方公告，Gate 直通 IPO（IPO Access）第三期 Anthropic（ANT）项目中签额度已正式确认。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1f486-7dbc-7486-b413-45f0b717c2dd",
-      "published_at": "2026-11-19T23:56:59+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Selig Says US Retail Onchain Perps Need Regulated Exchanges",
-      "summary": "Asked about Hyperliquid, the CFTC chair cited Backpack and said to 'stay tuned' on other protocols, according to The Block.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/regulation/selig-says-us-retail-onchain-perps-need-regulated-exchanges",
-      "published_at": "2026-11-19T23:56:11+08:00"
-    },
-    {
       "category": "政策",
       "title": "Anthropic Tops SpaceX's Initial IPO With $81 Billion Deal: Where the Money Went",
       "summary": "The Claude maker beat SpaceX's original share sale, though not its expanded final IPO. Here's who got the money and why the computing bill could be even bigger.",
       "source": "Decrypt",
       "url": "https://decrypt.co/383623/anthropic-tops-spacex-initial-ipo-81-billion-deal-where-the-money-went",
       "published_at": "2026-11-19T23:54:03+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "xStocks：仅能部分满足Anthropic IPO认购申请，未成交申请的预留资金将全额退回",
-      "summary": "PANews 11月19日消息，代币化股票平台 xStocks 发文表示，Anthropic 的 IPO 据报道超额认购超过 9 倍，平台虽然争取到了一定的配额，但由于市场需求极其旺盛，仅能部分满足 xStocks 平台上的 IPO 认购申请。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1f483-c63f-7263-af48-23cf07e5074b",
-      "published_at": "2026-11-19T23:54:01+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "AMD股票盘中跌幅达10.19%，现报476.74美元",
-      "summary": "PANews 11月19日消息，据币安行情，AMD股票盘中跌幅达10.19%，现报476.74美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1f481-3a61-705b-bc40-6841d679d031",
-      "published_at": "2026-11-19T23:51:09+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "$169 Million of Unstaked Solana (SOL) Hits Major US Crypto Exchange",
-      "summary": "Solana whales withdraw Solana tokens from their staking to dump them on the leading U.S. crypto exchange, Coinbase, amid growing market uncertainty.",
-      "source": "U.Today",
-      "url": "https://u.today/169-million-of-unstaked-solana-sol-hits-major-us-crypto-exchange",
-      "published_at": "2026-11-19T23:48:48+08:00"
     },
     {
       "category": "DeFi",
@@ -186,140 +314,12 @@
       "published_at": "2026-11-19T23:48:30+08:00"
     },
     {
-      "category": "行情",
-      "title": "Sky社区提议临时措施稳定SKY代币价格：暂停SKY-USDS质押奖励并加大回购",
-      "summary": "PANews 11月19日消息，Sky 社区成员 misher 在治理论坛提出“稳定 Sky 代币价格的临时措施”。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1f47e-6e70-70ba-a64b-a637ad71355d",
-      "published_at": "2026-11-19T23:48:11+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "摩根大通称部分客户信息在供应商遭受的网络攻击中泄露",
-      "summary": "PANews 11月19日消息，据财联社报道，摩根大通表示，该行部分客户信息可能在其一些供应商遭受的网络攻击中被泄露。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1f46b-0bfa-77a8-ba3a-e163e2a576f8",
-      "published_at": "2026-11-19T23:27:02+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Bundesbank and MAS Test Proof-Based Euro-SGD Settlement",
-      "summary": "Project Simbolon coordinated payments without a direct link between central bank ledgers, but used simulated money rather than a live settlement service.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/bundesbank-and-mas-test-proof-based-euro-sgd-settlement",
-      "published_at": "2026-11-19T23:25:16+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Marin Opens 57 Mochi AI Checkpoints for Researchers",
-      "summary": "The 535-billion-parameter model's training snapshots carry a permissive license, but they are not ready-to-deploy assistants.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/ai/marin-opens-57-mochi-ai-checkpoints-for-researchers",
-      "published_at": "2026-11-19T23:24:42+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Injective：代币化房地产抵押贷款规模超15亿美元，为该领域最大区块链",
-      "summary": "PANews 11月19日消息，Injective 发文表示，公开上市公司 PentivHQ（NYSE: PTIV）单日新增 5.248 亿美元优质抵押贷款记录上链，使 Injective 上的代币化房地产抵押贷款总量超过 15 亿美元，成为目前代币化房地产领域最大的区块链。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1f45a-cf82-765c-889b-c3b11993f4be",
-      "published_at": "2026-11-19T23:09:17+08:00"
-    },
-    {
       "category": "项目",
       "title": "Hashi Mainnet is Live With 20-Plus Partners, Bringing Bitcoin Finance to Sui at Scale",
       "summary": "Grand Cayman, Cayman Islands, 19th November 2026, Chainwire",
       "source": "CryptoPotato",
       "url": "https://cryptopotato.com/hashi-mainnet-is-live-with-20-plus-partners-bringing-bitcoin-finance-to-sui-at-scale/",
       "published_at": "2026-11-19T22:55:01+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Lightchain AI Sets Three-Month Plan for AI Agents and Pay-Per-Call Payments",
-      "summary": "Open models still trail the best closed systems, but they are usable for real work and far closer than they were.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/lightchain-ai-three-month-plan-ai-agent-pay-per-call/",
-      "published_at": "2026-11-19T22:52:02+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Coinbase Launches U.S. Spot Margin Trading With Up to 10x Leverage",
-      "summary": "Bitcoin Magazine Coinbase Launches U.S. Spot Margin Trading With Up to 10x Leverage Coinbase opened crypto spot margin trading in the U.S.",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/coinbase-us-spot-margin-10x",
-      "published_at": "2026-11-19T22:45:00+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Bitrue Among the First CEXs to Support ANTx as Anthropic Debuts on Nasdaq",
-      "summary": "ANTx spot trading joins ANT/USDT perpetual futures and ANT3L/ANT3S leveraged tokens, backed by a 20,000 USDT Trade & Earn campaign Bitrue is among the first centralized exchanges (CEXs) to support ANTx as Anthropic",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/bitrue-support-antx-anthropic-debuts-nasdaq/",
-      "published_at": "2026-11-19T22:30:00+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Gate Security Academy | Gate & GoPlus: How to Read Audit Reports and Identify Smart Contract Vulnerabilities",
-      "summary": "Gate has published the second edition of Gate Security Academy, produced together with Web3 security provider GoPlus Security.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/gate-how-to-read-audit-reports-identify-smart-contract-vulnerabilities/",
-      "published_at": "2026-11-19T22:18:22+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Hashi Goes Live on Sui With Bitcoin-Backed Lending",
-      "summary": "Fluid offers USDC borrowing against hBTC, while Anchorage Digital's Porto provides institutional access. BitGo is expected in 2027.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/defi/hashi-goes-live-on-sui-with-bitcoin-backed-lending",
-      "published_at": "2026-11-19T21:59:47+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "edgeX to End Principal Protection for $13.5M Vault",
-      "summary": "Depositors must accept the new profit-and-loss-sharing terms by 11 p.m. ET on Nov.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/defi/edgex-to-end-principal-protection-for-13-5m-vault",
-      "published_at": "2026-11-19T21:20:48+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "K3 Capital Says sBOLD Vault Flaw Drained 3.43M BOLD",
-      "summary": "The post-mortem traces the loss to unused token-spending permissions in K3's vault. Liquity said its underlying protocol was unaffected.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/security/k3-capital-says-sbold-vault-flaw-drained-3-43m-bold",
-      "published_at": "2026-11-19T20:59:37+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Binance Wins $6.5B Freezing Order Over Hack That Can Be Served via the Blockchain",
-      "summary": "An Abu Dhabi court's worldwide injunction targets the unknown hackers, backed by a \"living list\" of 26,000 wallets holding stolen funds.",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain",
-      "published_at": "2026-11-19T20:59:14+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Hong Kong adds Hyperliquid to list of ‘suspicious’ crypto platforms",
-      "summary": "Hong Kong’s securities regulator said Hyperliquid has no local license and may have promoted its trading services to investors in the city.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/hyperliquid-hong-kong-regulators-alert-list",
-      "published_at": "2026-11-19T20:44:06+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Anthropic IPO资金博弈推演：6%流通盘与30天流动性真空期",
-      "summary": "原文作者：库里，深潮 TechFlow 导读： 美东时间 11 月 19 日，AI 巨头 Anthropic（股票代码：ANT）正式登陆纳斯达克，最终发行价定在 83 美元。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5214012",
-      "published_at": "2026-11-19T20:00:00+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "价值回馈：仍在叙事与基本面之间",
-      "summary": "Four Pillars 统计 83 个主流代币：66 个已有价值回馈机制，过去 12 个月仅 16 个净回馈收益率为正，价值回馈仍介于叙事与基本面之间。",
-      "source": "金色财经",
-      "url": "https://www.jinse.com.cn/blockchain/3741227.html",
-      "published_at": "2026-11-19T17:54:31+08:00"
     }
   ]
 }
