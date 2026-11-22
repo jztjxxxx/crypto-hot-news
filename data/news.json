@@ -1,6 +1,166 @@
 {
-  "updated_at": "2026-11-22T05:23:18+08:00",
+  "updated_at": "2026-11-22T12:30:21+08:00",
   "items": [
+    {
+      "category": "市场",
+      "title": "MUFG Details Canton Test for Intraday JGB Repo Funding",
+      "summary": "The bank-led experiment would preserve bonds’ existing legal status while exploring digital deposits, stablecoins and longer settlement windows.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/mufg-details-canton-test-for-intraday-jgb-repo-funding",
+      "published_at": "2026-11-22T12:25:54+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Cysic Bridge Exploit Minted 10 Million Tokens on BNB",
+      "summary": "Cysic said transfers resumed by Oct. 28 after the attack.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/hacks/cysic-bridge-exploit-minted-10-million-tokens-on-bnb",
+      "published_at": "2026-11-22T12:10:34+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "菲律宾加密交易所Coins.ph停止支持自托管钱包间的充提",
+      "summary": "PANews 11月22日消息，菲律宾加密交易所 Coins.ph 发文表示，依据菲律宾 Travel Rule（旅行规则）要求，自 11 月 19 日起不再支持与自托管钱包之间的转账，用户的外部加密转账仅限在受监管交易所账户之间进行，且无论金额大小，每笔转账均需提供完整的交易对手方信息。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a20169-4c30-7581-b10d-ceccd6643f42",
+      "published_at": "2026-11-22T12:00:10+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Gold Price Is Moving With the Stock Market, and That’s Bad",
+      "summary": "Many investors buy gold as insurance. When stocks crash, the metal is meant to hold its ground.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/gold-moving-with-stocks-hedge-role/",
+      "published_at": "2026-11-22T12:00:00+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "下周宏观展望：美国10月核心PCE登场，感恩节假期迎来休市",
+      "summary": "PANews 11月22日消息，据金十报道，本周市场在AI交易退潮与通胀顽固的双重压力下运行。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a20158-c256-727a-95a3-d8ced1538d88",
+      "published_at": "2026-11-22T11:42:08+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Chainflip's Second Exploit in 10 Weeks Hits Its Token Twice as Hard",
+      "summary": "Chainflip lost Bitcoin (BTC), Ethereum (ETH), and stablecoins from its vaults on November 21, its second exploit in about ten weeks. FLIP holders absorbed the damage.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/chainflip-second-exploit-token-slides/",
+      "published_at": "2026-11-22T11:31:07+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "加密钱包Fluidkey遭攻击损失约160万美元，52个账户受影响",
+      "summary": "PANews 11月22日消息，加密钱包 Fluidkey 发布报告称，11 月 19 日攻击者从未授权的 52 个账户转出约 160 万美元资金。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a2014a-bfc2-7053-ac81-1c7e2a7ad957",
+      "published_at": "2026-11-22T11:26:49+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "下周必关注｜OKXICE计划11月23日上线；Flop Labs测试网及空投即将启动（11.23-11.29）",
+      "summary": "下周重点预告 11 月 23 日 OKX 与 ICE 合资代币化股票平台计划 11 月 23 日上线，首批拟覆盖 70 余种资产 ；",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214042",
+      "published_at": "2026-11-22T11:20:13+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "glassnode：BTC跌破短期持有者成本密集区，6.2万至6.5万美元或转化为阻力位",
+      "summary": "PANews 11月22日消息，据 glassnode 发文指出，BTC 短期持有者的成本密集区未能提供支撑。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a20133-c9c7-742d-8deb-0909ff8aa16b",
+      "published_at": "2026-11-22T11:01:42+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Fluidkey Says Unpatched Tool Enabled $1.6 Million Hack",
+      "summary": "Its post-mortem says stolen session tokens let an attacker stage transfers that users' apps signed. Personal data and viewing keys were also exposed.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/hacks/fluidkey-says-unpatched-tool-enabled-1-6-million-hack",
+      "published_at": "2026-11-22T10:49:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Cyber正调查代币异常铸造事件，Upbit和Bithumb已暂停CYBER充提服务",
+      "summary": "PANews 11月22日消息，专注于社交功能的 L2 网络 Cyber 发文表示，正在调查 CYBER 代币在 Solana 上出现异常铸造，又有 CYBER 从跨链桥的以太坊锁定池中被转出的事件，并正核实受影响的资产及跨链路径。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a20124-7f44-721b-9fca-d6ba733287ae",
+      "published_at": "2026-11-22T10:45:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "泰国警方捣毁一个利用USDT转移诈骗资金的团伙，涉案钱包交易流水超275万USDT",
+      "summary": "PANews 11月22日消息，据 Thairath 报道，泰国网络警察 在清迈查处一个涉嫌利用 USDT 转移网络诈骗资金的团伙。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a20111-3075-7023-a05e-4de925b79624",
+      "published_at": "2026-11-22T10:23:57+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Lean与Mathlib联合声明：Anthropic数学家Levent Alpöge对黎曼猜想的证明正确",
+      "summary": "PANews 11月22日消息，Lean与Mathlib发布联合声明，宣布人工智能公司Anthropic数学研究员Levent Alpöge的黎曼猜想形式化证明以Lean数学库形式实现，代码规模达1700万行。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a2010d-7fa0-7032-bd06-92025f3c8730",
+      "published_at": "2026-11-22T10:19:54+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "日本东京国税局上一财年对91名加密资产用户开展税务调查，查出约2450万美元申报遗漏",
+      "summary": "PANews 11月22日消息，据日本 NHK 报道，东京国税局上一财年对 91 名加密资产用户开展税务调查，共指出约 39 亿日元（约 2450 万美元）的申报遗漏，追征税额约 12 亿日元（约 750 万美元）。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a200fb-e22c-7557-a767-4b53e0ff423e",
+      "published_at": "2026-11-22T10:00:41+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Wall Street's Biggest Bull Says Investors Are Overreacting",
+      "summary": "The S&P 500 has entered correction territory, and one of Wall Street’s biggest bulls thinks investors are panicking too soon. Ed Yardeni believes the selloff has gone too far.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/sp-500-correction-ed-yardeni-fed-rate-hikes/",
+      "published_at": "2026-11-22T08:57:06+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Quantum-Proofing Crypto Could Come at a Staggering Cost",
+      "summary": "IOSCO revealed Solana's quantum-resistant testnet suffered a roughly 90% throughput decline.",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/quantum-proofing-crypto-could-come-at-a-staggering-cost/",
+      "published_at": "2026-11-22T06:57:55+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Just 18 Billion SHIB: Shiba Inu Netflow Signals Market Ease",
+      "summary": "Shiba Inu’s netflow has stayed bearish but provided a relief signal as the number of tokens moved to exchanges for sale has dropped substantially.",
+      "source": "U.Today",
+      "url": "https://u.today/just-18-billion-shib-shiba-inu-netflow-signals-market-ease",
+      "published_at": "2026-11-22T05:47:00+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Copper Just Had Its Worst Week of 2026",
+      "summary": "Copper rallied to a record in September on bets that AI data centers would need ever more wiring. This week, that trade broke, and hedge funds cut most of their bets.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/copper-price-worst-week-hedge-funds/",
+      "published_at": "2026-11-22T05:40:50+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Hackers swapped a hosted DeepSeek model for 53 hours and stripped away its safety protections",
+      "summary": "Prime Intellect says the substitute refused none of its HarmBench prompts, down from 198 of 240 with the original model. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/hackers-swapped-a-hosted-deepseek-model-for-53-hours-and-stripped-away-its-safety-protections/",
+      "published_at": "2026-11-22T05:30:30+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "3 Altcoins Defy the Market Crash as Bitcoin Hits a Two-Year Low",
+      "summary": "Bitcoin fell to two-year lows near $55,000 this week amid $2.4 billion in liquidations and extreme fear. Most altcoins quickly followed it lower.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/top-3-altcoins-defy-crypto-market-crash/",
+      "published_at": "2026-11-22T05:24:25+08:00"
+    },
     {
       "category": "市场",
       "title": "Kalshi faces Monday hearing on New York order it says would shut down its exchange nationwide",
@@ -8,46 +168,6 @@
       "source": "The Block",
       "url": "https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813",
       "published_at": "2026-11-22T05:17:36+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Loudoun Pauses Data Center Votes, Not New Filings",
-      "summary": "Many of the Virginia county’s 33 active legislative applications for data centers and substations could be delayed; administrative reviews are unaffected.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/infrastructure/loudoun-pauses-data-center-votes-not-new-filings",
-      "published_at": "2026-11-22T04:54:00+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Dogecoin (DOGE) Flashes a Major Bullish Signal: Big Rebound Ahead?",
-      "summary": "Is there any hope left for DOGE after falling 65% in the past year?",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/dogecoin-doge-flashes-a-major-bullish-signal-big-rebound-ahead/",
-      "published_at": "2026-11-22T04:41:16+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Tether Treasury向Bitfinex转入1.25亿USDT",
-      "summary": "PANews 11月22日消息，Tether Treasury向中心化交易所Bitfinex转入1.25亿枚USDT，约合1.25亿美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1ffb7-f3c0-779d-bc0b-670d56a3fcb4",
-      "published_at": "2026-11-22T04:06:41+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "44名总检察长反对CFTC预测市场规则制定",
-      "summary": "PANews 11月21日消息，据 The Block 报道，44名总检察长反对CFTC针对预测市场的规则制定。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1ffb0-f627-7089-8b45-248b9356f6b0",
-      "published_at": "2026-11-22T03:58:55+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Tesla Begins FSD v15 Rollout to First-Wave Customers",
-      "summary": "Musk targets December for wider availability. The update changes driving AI and visualizations, but customer FSD still requires active supervision.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/ai/tesla-begins-fsd-v15-rollout-to-first-wave-customers",
-      "published_at": "2026-11-22T03:43:54+08:00"
     },
     {
       "category": "政策",
@@ -66,14 +186,6 @@
       "published_at": "2026-11-22T03:32:58+08:00"
     },
     {
-      "category": "市场",
-      "title": "XRP Major 2026 Death Cross Completes After 1-Year Wait, What Comes Next?",
-      "summary": "XRP's latest death cross signal raises fresh questions about its next move.",
-      "source": "U.Today",
-      "url": "https://u.today/xrp-major-2026-death-cross-completes-after-1-year-wait-what-comes-next",
-      "published_at": "2026-11-22T03:20:00+08:00"
-    },
-    {
       "category": "DeFi",
       "title": "Aave Raises Ethereum USDC Borrow Cap to $4 Billion",
       "summary": "If supply stayed at Nov. 21 levels, filling the new cap would leave about 170 million USDC unborrowed, versus roughly 1.06 billion in the snapshot.",
@@ -82,36 +194,12 @@
       "published_at": "2026-11-22T03:02:34+08:00"
     },
     {
-      "category": "市场",
-      "title": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
-      "summary": "South Korean exchanges Upbit and Bithumb both suspended CYBER deposits and withdrawals, citing a suspected security incident.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
-      "published_at": "2026-11-22T02:51:14+08:00"
-    },
-    {
       "category": "DeFi",
       "title": "Aave’s $4 billion USDC borrow cap could leave just $190 million available for withdrawals",
       "summary": "If loans fill the new cap at late Nov. 20 supply levels, about 190 million USDC would remain for withdrawals.",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/aaves-4-billion-usdc-borrow-cap-could-leave-just-190-million-available-for-withdrawals/",
       "published_at": "2026-11-22T02:40:32+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Netflix’s FTX Drama ‘The Altruists’ Makes CZ the Villain, but Is That What Really Happened?",
-      "summary": "From missing billions to questionable scenes involving CZ, The Altruists takes creative liberties with a scandal that may not need embellishment.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/netflixs-ftx-drama-the-altruists-makes-cz-the-villain-but-is-that-what-really-happened/",
-      "published_at": "2026-11-22T02:26:21+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Galaxy Digital股价周五跌8%，周跌幅超20%",
-      "summary": "PANews 11月21日消息，数字资产公司Galaxy Digital（GLXY）周五股价下跌8%。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1ff3c-1b40-71e4-8c8c-4d78742d80a6",
-      "published_at": "2026-11-22T01:51:26+08:00"
     },
     {
       "category": "行情",
@@ -162,76 +250,12 @@
       "published_at": "2026-11-22T00:35:27+08:00"
     },
     {
-      "category": "市场",
-      "title": "US Dollar Beats Bitcoin, Gold and Stocks as Fed Rate Hike Fears Grow",
-      "summary": "Gold, stocks, and Bitcoin crashed hard over the past month. But one of the few places investors could avoid the sell-off was the US dollar.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/us-dollar-beats-bitcoin-gold-stocks-what-next/",
-      "published_at": "2026-11-22T00:33:50+08:00"
-    },
-    {
       "category": "行情",
       "title": "Ethereum Price Analysis: Did ETH Hit Its Macro Bottom After a 30% Monthly Drop?",
       "summary": "Ethereum extended its sell-off this week, dropping below $1.6K before recovering toward $1.65K.",
       "source": "CryptoPotato",
       "url": "https://cryptopotato.com/ethereum-price-analysis-did-eth-hit-its-macro-bottom-after-a-30-monthly-drop/",
       "published_at": "2026-11-22T00:05:56+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "分析师：BTC未实现亏损规模升至新高，约9500亿美元投资资本处于浮亏状态",
-      "summary": "PANews 11月22日消息，加密分析师Darkfost发文表示，目前投资于比特币且处于未实现亏损状态的资本规模已升至历史新高。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1fedb-129e-732a-bf5f-f8b07906653c",
-      "published_at": "2026-11-22T00:05:35+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "摩根士丹利“逢低买入”增持近800枚比特币，总持仓量升至12448枚",
-      "summary": "PANews 11月22日消息，据Arkham最新监测数据显示，摩根士丹利在市场下跌期间再次 “逢低买入”，通过旗下现货比特币交易所交易基金MSBT斥资4749万美元增持总计约799.212枚BTC，截至目前其比特币总持仓量已升至12448枚，价值约合7.09亿美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1fed9-3b2c-7275-bafb-e57b1d9ec9da",
-      "published_at": "2026-11-22T00:03:35+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "马斯克：即使黎曼猜想尚未完全解决，也很快就会解决",
-      "summary": "PANews 11月22日消息，马斯克在X平台发文表示，即使黎曼猜想尚未完全解决，也很快就会解决。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1fed8-0e17-703d-aa99-042d4eccf06c",
-      "published_at": "2026-11-22T00:02:17+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Chainflip：已发现潜在安全漏洞，协议进入全面安全模式并暂停所有操作",
-      "summary": "PANews 11月22日消息，跨链交易协议Chainflip发文表示，团队已发现可能影响其金库（Vaults）的潜在漏洞。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1fed7-9ee1-7480-b8d3-c5b72dff8a12",
-      "published_at": "2026-11-22T00:01:52+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "白宫拟缩减特殊政府雇员身份使用，涉马斯克和前加密事务负责人David Sacks",
-      "summary": "PANews 11月22日消息，据《华尔街日报》报道，美国白宫正计划缩减“特殊政府雇员”（Special Government Employees，简称SGE）的使用，这一身份允许来自私营部门的人员在为政府工作的同时，保留其在私营领域的薪酬或投资收益，一些备受瞩目的“特殊政府雇员”包括：曾任政府效率部负责人的埃隆·马斯克，曾在国土安全部担任高级顾问的Corey Lewandowski；",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1fed7-3159-76b8-a415-51981822902d",
-      "published_at": "2026-11-22T00:01:21+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Peter Schiff：主流加密代币走势高度联动，比特币稀缺性因此被削弱",
-      "summary": "PANews 11月22日消息，经济学家Peter Schiff发文表示，比特币和以太坊已完全收复昨晚的跌幅，投资者无需直接持有比特币也能获得其价格敞口，因为所有主流代币的走势都高度联动。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a1fed6-b77c-71c9-b72e-88d81517b8d8",
-      "published_at": "2026-11-22T00:00:50+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Anthropic's IPO Premium Shrinks as Banks Draw Blame",
-      "summary": "The WSJ reports criticism of share allocations and the opening price, while Anthropic says its expanded public offering raised $93.5 billion gross.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/markets/anthropic-s-ipo-premium-shrinks-as-banks-draw-blame",
-      "published_at": "2026-11-21T23:55:22+08:00"
     },
     {
       "category": "政策",
@@ -266,12 +290,12 @@
       "published_at": "2026-11-21T20:00:31+08:00"
     },
     {
-      "category": "政策",
-      "title": "NVDA Dives 23% in a Week as Nvidia Faces 8 Legal and Regulatory Threats",
-      "summary": "The latest blow came on Friday from the SEC.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/nvda-dives-23-in-a-week-as-nvidia-faces-8-legal-and-regulatory-threats/",
-      "published_at": "2026-11-21T18:34:13+08:00"
+      "category": "行情",
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "published_at": "2026-11-21T19:18:52+08:00"
     },
     {
       "category": "项目",
@@ -280,30 +304,6 @@
       "source": "The Defiant",
       "url": "https://thedefiant.io/converge/regulation/ecb-seeks-partners-for-appia-tokenized-finance-tests",
       "published_at": "2026-11-21T18:10:04+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
-      "summary": "Industry groups have until Dec. 11 to apply for the ECB’s first experimental exercises under its Appia initiative, with later submissions reviewed on a rolling basis.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia",
-      "published_at": "2026-11-21T17:48:56+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Aave Voters Back Plan to Narrow V3 Core Collateral",
-      "summary": "Existing loans would stay open as LlamaRisk’s plan steers borrowers toward retained collateral or Aave V4.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/defi/aave-voters-back-plan-to-narrow-v3-core-collateral",
-      "published_at": "2026-11-21T17:17:08+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "当账户「可编程」：从 EIP-7702、ERC-4337 到 Native AA 的克制与取舍",
-      "summary": "如果说过去十年，加密钱包最核心的职责是管理私钥、签署交易和展示资产，那么接下来，钱包可能需要承担更多事情。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5214039",
-      "published_at": "2026-11-21T16:30:00+08:00"
     },
     {
       "category": "市场",
