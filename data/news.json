@@ -1,61 +1,213 @@
 {
-  "updated_at": "2026-11-23T05:26:30+08:00",
+  "updated_at": "2026-11-23T13:06:26+08:00",
   "items": [
     {
-      "category": "行情",
-      "title": "XRP Ledger trial settled 213,000 paid AI requests in 6,324 transactions",
-      "summary": "t54 Labs reported 0.36 drops per paid request in its October beta, and two November checks show a merchant receiving RLUSD.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/xrp-ledger-trial-settled-213000-paid-ai-requests-in-6324-transactions/",
-      "published_at": "2026-11-23T05:05:16+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Trump to host second memecoin dinner tonight with TRUMP down 99% from peak",
-      "summary": "Boxer Floyd Mayweather, \"Shark Tank\" investor Kevin O'Leary and NBA champion Tristan Thompson are scheduled to appear at the dinner.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/ecosystems/2026-11-22-trump-to-host-second-memecoin-dinner-tonight-with-trump-down-99-from-peak-444828",
-      "published_at": "2026-11-23T04:58:33+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "China, Korea and Taiwan Rush Stock Rescues Before Monday: Can They Help the S&P 500?",
-      "summary": "China, Korea and Taiwan rush out stock rescues as the S&P 500 enters Monday on a seven-day losing streak. The post China, Korea and Taiwan Rush Stock Rescues Before Monday: Can They Help the S&P 500?",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/china-korea-taiwan-stock-rescues-monday/",
-      "published_at": "2026-11-23T04:33:23+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Fusionist Urges ACE Trading Pause After Exploit Alert",
-      "summary": "Blockaid estimated about $1.04 million in USDT had been extracted as Fusionist asked users to pause ACE transfers, trades and bridging on BSC.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/hacks/fusionist-urges-ace-trading-pause-after-exploit-alert",
-      "published_at": "2026-11-23T04:13:12+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "AI just exposed a major weakness in anonymous peer reviews",
-      "summary": "In a Nov. 19 preprint, researchers report that Claude correctly named the writer on 56% of 398 reports from six volunteers.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/ai-just-exposed-a-major-weakness-in-anonymous-peer-reviews/",
-      "published_at": "2026-11-23T04:05:03+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "OKXICE's Latest Launch Notice Lists Six Stock Tokens",
-      "summary": "The latest public notice lists six stock tokens for launch, compared with an earlier announcement anticipating more than 70 assets, including 59 Direxion ETFs.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/okxice-s-latest-launch-notice-lists-six-stock-tokens",
-      "published_at": "2026-11-23T04:01:26+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Fusionist遭攻击，攻击者铸造超6万亿枚ACE",
-      "summary": "PANews 11月23日消息，区块链游戏项目Fusionist遭到攻击。攻击者利用其在BNB Chain上的特权跨链桥铸币者权限，铸造超6万亿枚无抵押ACE代币。",
+      "category": "政策",
+      "title": "加州总检察长因模型安全问题对OpenAI提起诉讼",
+      "summary": "PANews 11月23日消息，据金十报道，美国加利福尼亚州总检察长罗布·邦塔当地时间周日表示，他已于本周早些时候对OpenAI提起诉讼，指控该公司“未能确保其模型安全，使公共安全面临风险”。",
       "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a204d5-66bf-75a7-9719-0d8e39ab8fa4",
-      "published_at": "2026-11-23T03:56:59+08:00"
+      "url": "https://www.panewslab.com/zh/articles/01a206cb-b7b4-7709-aae4-cf01994b0761",
+      "published_at": "2026-11-23T13:05:47+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Mt.Gox前CEO：Pump.fun钱包迁移流程中声称的“端到端加密”具有误导性",
+      "summary": "PANews 11月23日消息，前 Mt.Gox 首席执行官 Mark Karpelès 通过分析 Pump.fun 网站实际 JavaScript 代码指出，该平台钱包迁移流程中声称的“端到端加密”具有误导性。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a206ca-b3a7-76a5-b105-96c5b48186c4",
+      "published_at": "2026-11-23T13:04:41+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Market rout kills 50 basis points December Fed rate hike bets",
+      "summary": "Traders have removed the possibility of a 50-basis-point December Fed rate hike after last week’s market rout.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
+      "published_at": "2026-11-23T12:45:47+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Bitquery Finds 400 BTC Gap in Maple's Listed Wallets",
+      "summary": "Bitquery said its Nov. 18 check found 97.6% of the Bitcoin Maple reported for syrupUSDC, while estimating that counted collateral still exceeded loans.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/bitquery-finds-400-btc-gap-in-maple-s-listed-wallets",
+      "published_at": "2026-11-23T12:19:13+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Bitquery counted 400 fewer BTC in Maple’s disclosed wallets than Maple reported",
+      "summary": "Bitquery’s Nov. 18 check accounted for 97.6% of the reported Bitcoin and estimated that counted collateral covered about 152% of loans.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/bitquery-counted-400-fewer-btc-in-maples-disclosed-wallets-than-maple-reported/",
+      "published_at": "2026-11-23T12:05:33+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "香港CARF启动：加密人群税务收紧 港卡出金和炒币会有风险吗？",
+      "summary": "解读香港加密资产报告框架（CARF）与传统CRS、交易所KYC的区别，以及新规将如何影响香港和海外交易所、加密投资者及Web3从业者。",
+      "source": "金色财经",
+      "url": "https://www.jinse.com.cn//blockchain/3741362.html",
+      "published_at": "2026-11-23T12:03:25+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "某地址做空200枚BTC遭清算，约亏损26.5万美元",
+      "summary": "PANews 11月23日消息，据 Lookonchain 监测，某地址在市场反弹时做空 200 枚 BTC（约 1240 万美元）的仓位遭到全部清算，约亏损 26.5 万美元。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a2068f-df85-75ca-8ae8-b08586c29dda",
+      "published_at": "2026-11-23T12:00:25+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "BTIG's Krinsky Says S&P 500 Bottom Unlikely While Apple Holds Near Highs",
+      "summary": "BTIG's Jonathan Krinsky says an S&P 500 bottom is unlikely while Apple sits near highs, citing a decade of data.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/sp-500-bottom-unlikely-apple-krinsky/",
+      "published_at": "2026-11-23T12:00:00+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "标普跌穿关键位、VIX飙升但美债毫无波澜：市场在怕什么？",
+      "summary": "原文作者：Capital Flows，宏观对冲研究员 原文编译：深潮 TechFlow 导读： 备受瞩目的 AI 独角兽 Anthropic 正式登陆美股，然而首日破发与盘后进一步重挫，却意外成为了点燃全球风险资产抛售的导火索。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214051",
+      "published_at": "2026-11-23T11:56:57+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "某巨鲸向Hyperliquid存入320万USDC，并以20倍杠杆做多SILVER",
+      "summary": "PANews 11月23日消息，据 Lookonchain 监测，某巨鲸向 Hyperliquid 存入 320 万 USDC，并以 20 倍杠杆做多 138,893 枚 $SILVER（价值 586 万美元）。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a20686-1b14-76b9-9435-08f3ccd3f29d",
+      "published_at": "2026-11-23T11:49:45+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Citrea：Pomelo主网升级将于12小时后启动，届时基础设施或会出现短暂停机",
+      "summary": "PANews 11月23日消息，比特币二层网络 Citrea 发文表示，Pomelo 主网升级将于 12 小时后启动。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a2067c-9442-7710-bb2d-38f6ac0e6ff2",
+      "published_at": "2026-11-23T11:39:20+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
+      "summary": "In a Truth Social post on Monday, Trump said rehiring Jensen Huang would benefit both Nvidia and the US.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/trump-renews-call-for-nvidia-to-rehire-jensen-huang-as-ceo",
+      "published_at": "2026-11-23T11:37:20+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Rare Blastoise Pokémon Card Sells for $630,000 and Shatters Record While Markets Bleed",
+      "summary": "Money may be leaving crypto and the markets in general, but it keeps flowing into trading cards. One of two known copies of a 1998 marketing Blastoise more than doubled the previous high for the character.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/blastoise-pokemon-card-630000-record-sale/",
+      "published_at": "2026-11-23T11:30:00+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "特朗普：希望英伟达董事会重新聘用黄仁勋",
+      "summary": "PANews 11月23日消息，据财联社报道，美国总统特朗普当地时间11月22日在社交平台Truth Social上发文称，希望英伟达董事会重新聘用黄仁勋，这对英伟达、对美国而言都将是最优选择。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a2066b-f5e1-76a6-8edf-8b395a3eb07a",
+      "published_at": "2026-11-23T11:21:10+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "以太坊现货 ETF 上周净流出 3.14 亿美元，连续八周净流出",
+      "summary": "PANews 11月23日消息，根据 SoSoValue 数据，上周交易日（美东时间 11月16日至11月20日）以太坊现货 ETF 净流出 3.14 亿美元。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a20668-474e-774c-b3e2-74c0d1fb5cde",
+      "published_at": "2026-11-23T11:17:09+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "数据：Coinbase上线三个月占据代币化股票周现货交易量34%",
+      "summary": "PANews 11月23日消息，据 unfolded 援引 ARK Invest 数据，截至 11 月 18 日，Coinbase 在代币化股票业务上线三个月后，已斩获 34% 的周度现货交易量，位居榜首，超越 Robinhood、xStocks 和 Backpack。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a20662-ebf4-7422-9a76-b114d29fa3c8",
+      "published_at": "2026-11-23T11:11:18+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Solana’s new memory checks could make some older app transactions fail",
+      "summary": "A replay exposed an Anchor account handoff that can fail under new memory checks, while a separate switch removes validator data copies.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/solanas-new-memory-checks-could-make-some-older-app-transactions-fail/",
+      "published_at": "2026-11-23T11:05:58+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "即时加密交易所SwapNow.la支持低手续费快速跨链兑换",
+      "summary": "随着市场对更快速、更高效数字资产交易的需求日益增长，即时加密货币兑换模式正迅速普及。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214049",
+      "published_at": "2026-11-23T11:00:40+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "民主党上台倒计时，哪些板块最先受益？",
+      "summary": "原创｜Odaily星球日报（ @OdailyChina ） 作者｜Wenser（ @wenser 2010 ）﻿ ﻿距离民主党新一届国会上台时间还有约 40 天左右，尽管不少个股仍在下跌，但市场也在震荡修复中筛选出新一轮的上涨标的。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214008",
+      "published_at": "2026-11-23T10:57:42+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Billionaire Bill Ackman warns Fed will make a rate ‘mistake’ in December",
+      "summary": "Markets and economists widely expect the US Federal Reserve to raise interest rates by 25 basis points in its December meeting.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/billionaire-bill-ackman-warns-fed-rate-hikes-could-trigger-recession",
+      "published_at": "2026-11-23T10:47:39+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "「快钱」投降、「慢钱」硬扛：美股距离真正大底还差62个基点",
+      "summary": "原文作者：卜淑情 原文来源： 华尔街见闻 科技股连续七周下跌、纳斯达克跌入熊市之后，华尔街的关注焦点已从“AI 该配多少”转向“谁还没卖”。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214048",
+      "published_at": "2026-11-23T10:45:12+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Repaying a Bitcoin-backed loan on Sui can leave you waiting to withdraw native BTC",
+      "summary": "Hashi’s separate withdrawal process can delay a Bitcoin payout even after a Fluid borrower has recovered their hBTC collateral.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/repaying-a-bitcoin-backed-loan-on-sui-can-leave-you-waiting-to-withdraw-native-btc/",
+      "published_at": "2026-11-23T10:05:39+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "24H热门币种与要闻｜币安BTC未平仓合约收缩近40%，美元计价去杠杆规模创历史纪录；美股AI板块恐慌性抛售（11月23日）",
+      "summary": "CEX 热门币种 CEX 成交额 Top 10 及 24 小时涨跌幅： BTC：+1.57% ETH：+2.30% SOL：+0.33% XRP：-0.75% ZEC：+1.91% NEAR：+2.84% BNB：+1.87% U：+0.03% HYPE：+2.38% DOGE：+0.01% 24 小时涨幅榜单（数据来源为 OKX）： NIGHT：+10.99% PUMP：+10.18% WLD：+3.06% NEAR：+2.79% GRAM：+2.73% MMT：+2.60% HYPE：+2.36% ETH：+2.26% LIT：+2.21% BNB：+1.89% 24 小时币股涨幅榜单（数据来源为 msx.com ）： ZS：+16.38% APLX：+11.02% AEHG：+10.78% RDWU：+8.33% CRDU：+8.06% SOXL：+8.06% IREX：+7.42% AAOX：+7.03% COHX：+7.01% NVDL：+6.20% 2、链上热门 Meme Top 3（数据来源为 GMGN ）： 蚂蚁（BSC） — 市值 94 万美元，24 小时涨幅 +18.89%。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214046",
+      "published_at": "2026-11-23T08:33:21+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "A $2 million exploit leads to a $3.7 million free-for-all as traders empty Fusionist’s ACE bridge",
+      "summary": "One trader managed to turn about $50 into nearly $17,700 in the wake of the exploit, according to The Block's analysis.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-11-22-a-2-million-exploit-leads-to-a-3-7-million-free-for-all-as-traders-empty-fusionists-ace-bridge-444838",
+      "published_at": "2026-11-23T07:17:08+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Bessent Softens on Jensen Huang. Can Nvidia Stock Finally Catch a Break?",
+      "summary": "Bessent no longer rules out Jensen Huang's return. Can Nvidia stock rebound as the board and a Nov.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/bessent-jensen-huang-nvidia-stock-outlook/",
+      "published_at": "2026-11-23T06:45:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Senators want state-licensed firms to keep issuing stablecoins after Jan. 18",
+      "summary": "Treasury’s proposal recognizes waivers for eligible federal applicants, leaving New York asking for clarity on its own issuers.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/senators-want-state-licensed-firms-to-keep-issuing-stablecoins-after-jan-18/",
+      "published_at": "2026-11-23T06:05:49+08:00"
     },
     {
       "category": "政策",
@@ -66,180 +218,12 @@
       "published_at": "2026-11-23T03:48:41+08:00"
     },
     {
-      "category": "行情",
-      "title": "劫持矿机并导向OCEAN矿池的黑客开始转移资金",
-      "summary": "PANews 11月23日消息，据X平台一则帖文称，此前劫持ASIC矿机的黑客已开始洗钱。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a204c1-ccc0-7757-a252-dc24a62831e8",
-      "published_at": "2026-11-23T03:35:28+08:00"
-    },
-    {
       "category": "DeFi",
       "title": "More on the pending oversight hearings: State of Crypto",
       "summary": "New letters show the widening range of Congressional committees that will be probing the presidential administration — and the crypto collateral that may be swept up.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/",
       "published_at": "2026-11-23T03:30:00+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Investor Bill Miller Says Bitcoin Is Easier to Value than AI",
-      "summary": "Prominent Bitcoin advocate and investor Bill Miller IV has argued that Bitcoin (BTC) is easier to value than artificial intelligence (AI) companies, despite the cryptocurrency's inability to generate cash flow.",
-      "source": "U.Today",
-      "url": "https://u.today/investor-bill-miller-says-bitcoin-is-easier-to-value-than-ai",
-      "published_at": "2026-11-23T03:21:25+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Blur Disables Upgrades, Removing an ETH Rescue Route",
-      "summary": "Developer Quit identified 545.6 ETH in 315 contracts lacking a direct withdrawal path. Ordinary wallet withdrawals remain available.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/security/blur-disables-upgrades-removing-an-eth-rescue-route",
-      "published_at": "2026-11-23T03:15:44+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Chainflip损失增至约1200万美元，提供10%赏金",
-      "summary": "PANews 11月23日消息，跨链兑换协议Chainflip总损失增至约1200万美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a204ac-81a9-745c-8e71-531b9e9a87f8",
-      "published_at": "2026-11-23T03:12:16+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Wagyu’s $13.5 million token crash exposes another coin with 99.9% held by one wallet",
-      "summary": "The account that sent XMR1 to the seller held 99.97% of ZEC1’s supply in Bitquery’s November 20 snapshot. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/wagyus-13-5-million-token-crash-exposes-another-coin-with-99-9-held-by-one-wallet/",
-      "published_at": "2026-11-23T03:05:03+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Polymarket US Adds 70% Taker-Fee Rebate for Straight API Trades",
-      "summary": "The temporary rebate covers API straight trades through Dec. 31.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/cefi/polymarket-us-adds-70-taker-fee-rebate-for-straight-api-trades",
-      "published_at": "2026-11-23T03:03:49+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
-      "summary": "Chainflip offered the attacker a 10% bounty to return the remainder of the $12 million in stolen BTC, ETH, and stablecoins by Monday.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
-      "published_at": "2026-11-23T02:58:57+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Trump's Meme Coin Dinner Seat Falls From $55,000 to $518",
-      "summary": "A Trump meme coin dinner seat now costs $518, down from $55,000. See why demand faded and what holders did last time.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/trump-meme-coin-dinner-seat-518/",
-      "published_at": "2026-11-23T02:50:38+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "RAILGUN Community Account Touts Post-Quantum Prototype",
-      "summary": "ZKNOX's wallet proof of concept demonstrates new note encryption on Sepolia, but does not make RAILGUN's spending system quantum-resistant.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/security/railgun-community-account-touts-post-quantum-prototype",
-      "published_at": "2026-11-23T02:50:09+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Bitcoin and Ethereum ETF Outflows Stay in the Billions for Another Week",
-      "summary": "The BTC ETFs have lost over $1 billion in all full weeks in November.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/bitcoin-and-ethereum-etf-outflows-stay-in-the-billions-for-another-week/",
-      "published_at": "2026-11-23T02:15:03+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "UK to ban crypto exchanges from making markets on their own platforms as Bitcoin rules change",
-      "summary": "Firms making markets in spot Bitcoin on qualifying platforms are exempt from principal-dealing permission for that activity. Separate venue rules apply.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/uk-to-ban-crypto-exchanges-from-making-markets-on-their-own-platforms-as-bitcoin-rules-change/",
-      "published_at": "2026-11-23T02:05:49+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Trump’s Meme Coin Dinner Is Back Tonight: But This Time Almost Nobody Wants a Seat",
-      "summary": "The meme coin's price continues to hover at prices 99% below its peak.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/trumps-meme-coin-dinner-is-back-tonight-but-this-time-almost-nobody-wants-a-seat/",
-      "published_at": "2026-11-23T01:21:27+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "XRP’s institutional adoption story has a catch that investors may be overlooking",
-      "summary": "CertiK checked selected network controls, and two live fund designs show where sterling, RLUSD and XRP come into play. Read the full story on CryptoSlate Understand the crypto stories that matter and what to watch next.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/xrps-institutional-adoption-story-has-a-catch-that-investors-may-be-overlooking/",
-      "published_at": "2026-11-23T01:05:07+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Bitcoin Price Recovered Above $60,000 – Will This Hold?",
-      "summary": "After falling to a two-month low, Bitcoin’s price has rebounded above $61,000 on Sunday. Most options traders are betting for BTC to experience another deeper crash.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/bitcoin-price-bounce-fear-signals/",
-      "published_at": "2026-11-23T00:54:19+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Curve创始人Michael Egorov：链上外汇可由用户需求自下而上发展",
-      "summary": "PANews 11月23日消息，据Cointelegraph报道，Curve Finance与Yield Basis创始人Michael Egorov发表观点文章称，链上外汇（FX）不必等机构流动性入场，可以从用户的实际需求开始自下而上发展。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a20408-e86d-76ac-9a3c-4bd30d75ca5a",
-      "published_at": "2026-11-23T00:13:47+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Chainflip users face frozen withdrawals after $4.86 million vanishes from Ethereum vault",
-      "summary": "The emergency pause also stopped deposits, withdrawals and quotes, and the swap and liquidity-provider apps still showed maintenance Saturday evening UTC.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/chainflip-users-face-frozen-withdrawals-after-4-86-million-vanishes-from-ethereum-vault/",
-      "published_at": "2026-11-23T00:05:55+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "过去24小时全网合约爆仓2.33亿美元，主爆空单",
-      "summary": "PANews 11月22日消息，CoinGlass数据显示，过去24小时加密货币市场全网合约爆仓2.33亿美元，其中多单爆仓7125.49万美元，空单爆仓1.61亿美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a203e0-e60d-7722-aa18-0c7ddcbd6059",
-      "published_at": "2026-11-22T23:30:00+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Cysic CEO：超600万枚BTC的公钥已在链上暴露，占流通量31.2%",
-      "summary": "PANews 11月22日消息，据CoinDesk报道，Cysic CEO Leo Fan表示，比特币应对量子威胁的关键在于资金迁移，升级密码学并不足够。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a203c5-963c-7419-ab9e-43a51e2319d4",
-      "published_at": "2026-11-22T23:00:14+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Bitcoin's (BTC) Worst Is Behind After $55,000 Low, 4-Year Cycle Theory Suggests",
-      "summary": "From Mt. Gox to FTX, every Bitcoin cycle bottomed out in the same year after a halving, and November's slide to $55,081 fits the pattern .",
-      "source": "U.Today",
-      "url": "https://u.today/bitcoins-btc-worst-is-behind-after-55000-low-4-year-cycle-theory-suggests",
-      "published_at": "2026-11-22T22:53:20+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "沪深北交易所融资保证金比例下限降至80%，创业板拟引入做市商制度",
-      "summary": "PANews 11月22日消息，据新华社报道，经中国证监会批准，沪深北交易所将融资保证金比例下限从100%降至80%，11月30日起实施。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a203aa-e064-7264-8a94-a71b098d7157",
-      "published_at": "2026-11-22T22:50:45+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Base负责人：仍在探索代币，但不会仓促推进",
-      "summary": "PANews 11月22日消息，Base负责人Jesse Pollak转引记者Laura Shin发布的采访内容表示，Base仍在探索推出代币，但不会仓促推进，以免分散对当前增长的注意力。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a203b7-3e20-766d-b8e1-872c33ce26c6",
-      "published_at": "2026-11-22T22:44:34+08:00"
     },
     {
       "category": "项目",
@@ -306,20 +290,36 @@
       "published_at": "2026-11-22T01:01:02+08:00"
     },
     {
+      "category": "DeFi",
+      "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
+      "summary": "The withdrawal carried a valid signature, which Onchain Lens said points to a possible compromise of the key validators use to approve vault payouts.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
+      "published_at": "2026-11-22T00:41:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Canton Approves Plan to Extend CC Burns Across MainNet",
+      "summary": "Legacy license fees would give way to token burns on dedicated synchronizers, with the first phase tentatively planned for Q1 2027.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/converge/blockchains/canton-approves-plan-to-extend-cc-burns-across-mainnet",
+      "published_at": "2026-11-21T22:42:47+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "How Crypto-Backed Loans Work: Collateral to Repayment",
+      "summary": "Aave’s public rules show how pledged crypto backs a separate debt, why that debt grows and what repayment frees up.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/how-crypto-backed-loans-work-collateral-to-repayment",
+      "published_at": "2026-11-21T22:14:20+08:00"
+    },
+    {
       "category": "市场",
       "title": "Tracy Schuchart: Bitcoin Trading “Like a Risk Asset” as Fed Hikes Loom",
       "summary": "▶ Bitcoin Magazine Tracy Schuchart: Bitcoin Trading “Like a Risk Asset” as Fed Hikes Loom Tracy Shuchart says Bitcoin's biggest long-term argument is its monetary scarcity, but investors need to separate the long-term",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/videos/tracy-schuchart-bitcoin-trading-like-a-risk-asset-as-fed-hikes-loom",
       "published_at": "2026-11-21T06:10:11+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "中期选举之后：民主党掌控国会对数字资产政策意味着什么",
-      "summary": "当前由 SEC 执法、CFTC 管辖和州级资金传输法拼凑而成的格局，会比行业期望的更久地延续下去。",
-      "source": "金色财经",
-      "url": "https://www.jinse.com.cn/blockchain/3741293.html",
-      "published_at": "2026-11-20T18:08:50+08:00"
     }
   ]
 }
