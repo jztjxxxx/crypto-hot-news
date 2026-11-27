@@ -1,125 +1,317 @@
 {
-  "updated_at": "2026-11-27T02:01:43+08:00",
+  "updated_at": "2026-11-27T14:08:31+08:00",
   "items": [
     {
-      "category": "市场",
-      "title": "OpenAI’s Codex helps amateur astronomer uncover two possible planets NASA’s data had missed",
-      "summary": "OpenAI says a SETI Institute astronomer independently recovered two recurring Kepler signals, giving astronomers targets for follow-up.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/openais-codex-helps-amateur-astronomer-uncover-two-possible-planets-nasas-data-had-missed/",
-      "published_at": "2026-11-27T01:40:45+08:00"
+      "category": "行情",
+      "title": "韩国加密交易所DigitalX披露近1个半月售出112枚BTC和800枚ETH",
+      "summary": "PANews 11月27日消息，据Bithumb公告，根据韩国数字资产交易所联合协商体（DAXA）的指南，加密交易所DigitalX公示了其虚拟资产卖出结果。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a21b9e-42b3-7345-bb07-267eadc7043b",
+      "published_at": "2026-11-27T14:08:06+08:00"
     },
     {
       "category": "市场",
-      "title": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
-      "summary": "Economist Robin Brooks warned of dire consequences for stocks if the Federal Reserve fails to deliver dovish cues before the FOMC blackout period.",
+      "title": "Meme日报，一图了解过去24小时热门Meme（2026.11.27）",
+      "summary": "过去24小时Solana Top10成交额1427.4万美元，Snowball以229.9万美元居首；",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a21b9d-d676-756d-b994-c367f629c741",
+      "published_at": "2026-11-27T14:07:38+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Gate 事件市场第 15 期积分总奖池突破 2.7万美元，NBA、CS2 与五大联赛火热进行中",
+      "summary": "PANews 11月27日消息，据官方消息，Gate 事件市场第 15 期积分活动正在火热进行中。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a21b9d-97c5-728c-8426-a831264fdc3e",
+      "published_at": "2026-11-27T14:07:22+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Here’s what happened in crypto today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown",
-      "published_at": "2026-11-27T01:39:53+08:00"
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "published_at": "2026-11-27T14:00:00+08:00"
     },
     {
-      "category": "市场",
-      "title": "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
-      "summary": "A Bitcoin Core contributor found that the wallet's habit of resending stuck payments lets anyone link an address to the computer watching it, for under 35 cents.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds",
-      "published_at": "2026-11-27T01:30:00+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Switzerland’s First Spot Bitcoin ETF Debuts on SIX Swiss Exchange With 0.19% Fee",
-      "summary": "BBIT's fund contract still lets it borrow up to 25% of net asset value to meet redemptions, a clause BIT's investment chief says the fund will never use.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/switzerlands-first-spot-bitcoin-etf-debuts-on-six-swiss-exchange-with-0-19-fee/",
-      "published_at": "2026-11-27T01:25:11+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Cryptio Urges Clients to Revoke API Keys After Attack",
-      "summary": "The crypto accounting firm said exchange and custody credentials may have been exposed. Its notice did not confirm that any keys were taken or report any losses.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/security/cryptio-urges-clients-to-revoke-api-keys-after-attack",
-      "published_at": "2026-11-27T01:14:48+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "UK Watchdog Says Meta Declined Tests of Its AI Agent",
-      "summary": "Meta says Muse asks users to approve every purchase. Britain’s financial watchdog wanted to see how AI agents would handle payments in practice.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/ai/uk-watchdog-says-meta-declined-tests-of-its-ai-agent",
-      "published_at": "2026-11-27T01:14:37+08:00"
+      "category": "行情",
+      "title": "创业板指、科创50、北证50均涨逾11%，此前国常会指出加力发挥“国家队”稳市作用",
+      "summary": "PANews 11月27日消息，行情显示，A股指数持续走强，创业板指拉升涨逾11.01%，沪指涨3.61%，深成指涨6.86%，科创50指数拉升涨超14%，北证50指数拉升涨超12%。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a21b94-91b7-77c6-8b04-8ce3dfb1d6c7",
+      "published_at": "2026-11-27T13:57:31+08:00"
     },
     {
       "category": "项目",
-      "title": "Aave Pro在以太坊和Avalanche市场推出杠杆功能",
-      "summary": "Aave在X平台发文称，Aave Pro已为Aave V4的以太坊和Avalanche（AVAX）市场推出杠杆功能。",
+      "title": "Arthur Hayes：FLOP Network将推出FLOP Chat网页应用，旨在促进闲置算力利用率提升",
+      "summary": "PANews 11月27日消息，Arthur Hayes发文称，FLOP Network目前有相当于230块H100的算力可用于处理推理，但利用率极低。",
       "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a218d0-343c-7516-bb26-d3266caa4f5d",
-      "published_at": "2026-11-27T01:03:38+08:00"
+      "url": "https://www.panewslab.com/zh/articles/01a21b88-a40f-7478-babd-4c6237665a38",
+      "published_at": "2026-11-27T13:44:29+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "一边狂砸1000亿，一边倒下近30家！最火机器人赛道怎么成了“创业坟场”？",
+      "summary": "今年创投圈最魔幻的一幕： 一边是前三个季度狂砸超 1000 亿热钱，估值一个比一个夸张；",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a21b87-7c8c-702c-a912-04f603d57fc8",
+      "published_at": "2026-11-27T13:43:13+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Binance Announces Dividends for Nvidia and Other Stocks",
+      "summary": "Binance will reinvest dividends from Nvidia, PayPal, Qualcomm, Western Digital and Wendy’s in additional stock tokens for eligible holders. Balance snapshots from Dec.",
+      "source": "U.Today",
+      "url": "https://u.today/binance-announces-dividends-for-nvidia-and-other-stocks",
+      "published_at": "2026-11-27T13:38:09+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Gold Jumps to $3,600 and Silver to $43 as Tech Selloff Eases",
+      "summary": "Gold and silver prices rebounded above $3,600 and $43, but a likely December Fed hike keeps pressure on precious metals. The post Gold Jumps to $3,600 and Silver to $43 as Tech Selloff Eases appeared first on BeInCrypto",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/gold-silver-prices-rebound-fed-hike/",
+      "published_at": "2026-11-27T13:30:00+08:00"
     },
     {
       "category": "行情",
-      "title": "Ripple Price Analysis: Can XRP Break Above $1.00 as a Bullish Reversal Pattern Forms?",
-      "summary": "XRP is attempting to stabilize around $0.95 after a prolonged decline pushed the asset to its lowest levels in over a year.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/ripple-price-analysis-can-xrp-break-above-1-00-as-a-bullish-reversal-pattern-forms/",
-      "published_at": "2026-11-27T00:58:33+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Puts Lead Reported Volume in Deribit’s BTC-Settled Series",
-      "summary": "Calls still outnumber puts in Friday’s $6.8 billion BTC-settled expiry. In separate week-ahead snapshots, November’s open positions were closer to balanced than October’s.",
+      "title": "Collector Crypt Pack Volume Drops 46% After October Peak",
+      "summary": "Average daily pack volume in the 30 days through Nov. 26 was 31% below the pace before the eight-day October surge.",
       "source": "The Defiant",
-      "url": "https://thedefiant.io/news/markets/puts-lead-reported-volume-in-deribit-s-btc-settled-series",
-      "published_at": "2026-11-27T00:55:55+08:00"
+      "url": "https://thedefiant.io/news/nfts-and-web3/collector-crypt-pack-volume-drops-46-after-october-peak",
+      "published_at": "2026-11-27T13:29:41+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "2026 加密隐私生态图谱全览",
+      "summary": "隐私已经成为加密领域最重要的护城河之一。",
+      "source": "金色财经",
+      "url": "https://www.jinse.com.cn/blockchain/3741576.html",
+      "published_at": "2026-11-27T13:26:47+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Japan’s crypto security group taps SEAL to speed up hack response",
+      "summary": "The partnership comes weeks after a third-party data breach exposed hundreds of thousands of customer email addresses belonging to two Japanese crypto exchanges.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response",
+      "published_at": "2026-11-27T13:22:36+08:00"
     },
     {
       "category": "DeFi",
-      "title": "OKXICE Stock Tokens Turn Over $8.9 Million in Three Days",
-      "summary": "Dune said two addresses it linked to pool liquidity accounted for 99.85% of the volume it tracked.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/converge/tradfi-and-fintech/okxice-stock-tokens-turn-over-8-9-million-in-three-days",
-      "published_at": "2026-11-27T00:53:29+08:00"
+      "title": "Ripple将借贷引入XRP Ledger的提案距生效仅差1票，相关金库或于12月9日启用",
+      "summary": "PANews 11月27日消息，据CoinDesk报道，Ripple将银行式借贷引入XRP Ledger的计划距离下一步仅差一名验证者的投票。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a21b73-aa9a-71b6-9af4-7d2cb8066d8e",
+      "published_at": "2026-11-27T13:21:34+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Cyber跨链桥恢复运行，升级为四验证者签名与3/5多签控制",
+      "summary": "PANews 11月27日消息，Cyber发文就11月21日跨链桥安全事件发布更新称，Cyber跨链桥已恢复上线。",
+      "source": "PANews",
+      "url": "https://www.panewslab.com/zh/articles/01a21b6a-0818-7548-9b38-3fcdd66c75a1",
+      "published_at": "2026-11-27T13:11:03+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Ripple's lending plan moves closer to tapping XRP Ledger's $800 million in stablecoins",
+      "summary": "The vaults that would hold lenders' money are on track to switch on Dec. 9.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/27/ripple-s-lending-plan-moves-closer-to-tapping-xrp-ledger-s-usd950-million-in-stablecoins",
+      "published_at": "2026-11-27T13:06:32+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Ripple Valuation Gap Hits 70% Across Two Funds, SEC Filing Shows",
+      "summary": "C1 paid approximately $154 per Ripple share in March, while the Private Shares Fund acquired its stake in 2018 for rouhly $87 per share.",
+      "source": "CryptoPotato",
+      "url": "https://cryptopotato.com/ripple-valuation-gap-hits-70-across-two-funds-sec-filing-shows/",
+      "published_at": "2026-11-27T13:06:15+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Michael Burry Flags Report Warning AI Debt Is Mispriced Like 2007 Subprime",
+      "summary": "Burry recommends a report arguing credit default swaps show AI debt trading about five notches below its ratings.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/michael-burry-ai-debt-mispriced-report/",
+      "published_at": "2026-11-27T13:00:00+08:00"
     },
     {
       "category": "行情",
-      "title": "Bitcoin’s dormant supply rises, a behavior seen during previous bear-market bottoming phases",
-      "summary": "More bitcoin is sitting untouched onchain as the price holds around $60,000, some 50% below its peak,",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases",
-      "published_at": "2026-11-27T00:50:23+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Spain Lets Its Financial Intelligence Unit Freeze Crypto Accounts Without a Court Order",
-      "summary": "Sepblac can now suspend crypto, bank and payment accounts for up to five working days, with courts deciding on any extension.",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/384063/spain-lets-its-financial-intelligence-unit-freeze-crypto-accounts-without-a-court-order",
-      "published_at": "2026-11-27T00:43:02+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "BIS chief Pablo Hernández de Cos set to become next ECB president: FT",
-      "summary": "The Spanish economist has questioned the viability of stablecoins for widespread payments while backing the development of a digital euro.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bis-chief-pablo-hernndez-de-cos-next-ecb-president",
-      "published_at": "2026-11-27T00:40:44+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Standard Chartered Crypto Breach Raises Institutional Security Fears",
-      "summary": "Zodia Custody's data leak exposed client emails as Standard Chartered's takeover awaits approval. Here's who pays.",
+      "title": "Bitcoin's Record Highs Share One Condition, and It Is Missing Right Now",
+      "summary": "Bitcoin (BTC) has closed at a record high dozens of times since 2022, and none came while Tether’s USDT supply was shrinking. That supply is now contracting at its fastest pace in more than four years.",
       "source": "BeInCrypto",
-      "url": "https://beincrypto.com/zodia-crypto-hack-custody-failure-regulators/",
-      "published_at": "2026-11-27T00:38:40+08:00"
+      "url": "https://beincrypto.com/bitcoin-record-highs-tether-supply-contraction/",
+      "published_at": "2026-11-27T12:56:02+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays",
+      "summary": "Glamsterdam’s Hoodi upgrade was delayed in October after concerns that changes to gas pricing could break some existing smart contracts.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays",
+      "published_at": "2026-11-27T12:47:36+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
+      "summary": "Developers have agreed to keep the planned storage charges despite concerns about some existing smart contracts, ending seven weeks of delays to the next major test.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/27/ethereum-s-much-awaited-glamsterdam-upgrade-cleared-for-december-test-here-s-what-to-know",
+      "published_at": "2026-11-27T12:29:47+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "USDT leads borrowing on four of six DeFi protocols examined by Europe’s banking watchdog",
+      "summary": "The EU banking watchdog renewed its call to assess safeguards for crypto firms that route customers into decentralized lending.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/usdt-leads-borrowing-on-four-of-six-defi-protocols-examined-by-europes-banking-watchdog/",
+      "published_at": "2026-11-27T12:20:14+08:00"
     },
     {
       "category": "政策",
-      "title": "Injective向SEC提交22页政策信函",
-      "summary": "据X平台账号2207129125发布的信息，Injective已提交一份22页的政策信函，敦促美国证券交易委员会（SEC）扩大其针对代币化股票和RWA的豁免框架。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a218b7-4212-773f-9c0f-d5d7a48679de",
-      "published_at": "2026-11-27T00:36:24+08:00"
+      "title": "China, Japan, South Korea and ASEAN to form working group on digital payments, crypto regulation",
+      "summary": "The decision comes after the group met in May in Uzbekistan and identified cross-border digital payments as a new area of cooperation.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-11-26-china-japan-south-korea-asean-digital-payments-447029",
+      "published_at": "2026-11-27T12:18:40+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Tokyo Core Inflation Hits 16-Month High, but Underlying Prices Ease",
+      "summary": "Tokyo core inflation hit 2.9% in November, but the underlying gauge eased. See what it means for the BOJ's December hike.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/tokyo-core-inflation-energy-boj-hike/",
+      "published_at": "2026-11-27T12:16:47+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "MSX美股每日观察：黑五购物季开启，美国线上消费增长9.1%，零售企业迎来需求验证窗口",
+      "summary": "【MSX 研究院·美股RWA 每日观察】 是由领先的RWA交易平台MSX 麦通出品的标志性日报。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214147",
+      "published_at": "2026-11-27T11:52:44+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "马斯克，要把美国的下一代绑上同一条船",
+      "summary": "原创 | Odaily 星球日报（ @OdailyChina ） 作者｜Azuma（ @azuma_eth ） 圣诞节将至，马斯克又要给美国孩子送礼物了。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214143",
+      "published_at": "2026-11-27T11:14:48+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "2026年全球风投复盘：AI吸走九成融资增量，老牌基金仍难退出",
+      "summary": "原文作者：insights4vc 原文编译：深潮 TechFlow 导读： 2026 年全球风险投资呈现出剧烈的结构性割裂。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214144",
+      "published_at": "2026-11-27T11:04:52+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Near Protocol (NEAR) Price Analysis for November 27: First Resistance Amid Token Issuance Drop",
+      "summary": "NEAR rebounds above $3 as governance approves a gradual reduction in maximum token issuance from 2.5% to 1.6% over 24 months.",
+      "source": "U.Today",
+      "url": "https://u.today/price-analysis/near-protocol-near-price-analysis-for-november-27-first-resistance-amid-token-issuance-drop",
+      "published_at": "2026-11-27T11:00:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "PQAI #1：Keccak-256，后量子、后AI时代以太坊的哈希基石",
+      "summary": "原文来自以太坊基金会博客，作者： Kev Wedderburn 编译｜速递侠@Odaily星球日报 ﻿﻿﻿﻿ 这个决定是多年工作的产物，EF 内外众多研究者和工程师贡献了想法、证明上的突破与反馈，才有了今天这一步——包括 Binius 的作者们、WHIR 的作者们、Angus Gruen，以及为 GKR 工作做出贡献的 Lev Soukhanov，为 Flock 做出贡献的 Benedikt Bünz、Ron Rothblum 和 William Wang，为 sumcheck 创新做出贡献的 Justin Thaler 和 Quang Dao，还有塑造了 leanVM 当前版本的各个 zkEVM 团队，以及密码学社区里的许多其他人。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214142",
+      "published_at": "2026-11-27T10:38:15+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "JPMorgan flags bitcoin ‘capitulation,’ Democrats push back on SEC’s crypto plans, and more",
+      "summary": "In today's newsletter, JPMorgan flags bitcoin 'capitulation' as Strategy's NAV multiple sinks; Democrats step up opposition to SEC's crypto plans; and more.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/newsletters/the-daily/2026-11-26-jpmorgan-bitcoin-capitulation-democrats-sec-crypto-plans-more-news-447025",
+      "published_at": "2026-11-27T10:20:00+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "Bought Nvidia stock during the 2017 crypto boom? You could qualify for a $290 million settlement",
+      "summary": "Investors who acquired Nvidia common stock from Aug. 10, 2017, through Nov.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/who-could-share-nvidia-proposed-290-million-crypto-mining-settlement/",
+      "published_at": "2026-11-27T10:10:55+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "后特朗普时代：监管套利已结束 去中心化叙事将再次复兴",
+      "summary": "过去两年与白宫的距离是估值加成，现在它成了需要折价的风险项，加密行业要为后特朗普时代最好准备了。",
+      "source": "金色财经",
+      "url": "https://www.jinse.com.cn//blockchain/3741565.html",
+      "published_at": "2026-11-27T09:46:19+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "Pump.fun向首区块狙击手开刀，Meme币开盘会更公平吗？",
+      "summary": "原创 | Odaily 星球日报（ @OdailyChina ） 作者 | Asher（ @Asher_ 0210 ） 昨日，Pump.fun 宣布，将于 12 月 4 日 对新发行代币的首区块交易收取额外手续费 ，Dev 钱包除外。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214140",
+      "published_at": "2026-11-27T09:37:30+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Morpho’s largest euro stablecoin vault is €13.8 million short of covering its biggest depositor’s exit",
+      "summary": "The Nov. 26 app snapshot showed a gap of about 13.77 million EURCV in a hypothetical full withdrawal.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/morphos-largest-euro-stablecoin-vault-is-e13-8-million-short-of-covering-its-biggest-depositors-exit/",
+      "published_at": "2026-11-27T08:50:42+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "面向高净值的十大非托管加密钱包：2026年秋季版",
+      "summary": "﻿加密钱包的对比从来不缺。但绝大多数是写给普通用户的。一个持有六位、七位乃至八位数资产的富裕人士或家族办公室，偏好完全不同。",
+      "source": "Odaily",
+      "url": "https://www.odaily.news/zh-CN/post/5214121",
+      "published_at": "2026-11-27T08:36:42+08:00"
+    },
+    {
+      "category": "行情",
+      "title": "XRP Price Analysis for November 27: AI-Payments Record Broken, Growth Fueled",
+      "summary": "XRP trades near $0.95 as the broader crypto market attempts to recover, with Bitcoin holding above $60,000.",
+      "source": "U.Today",
+      "url": "https://u.today/price-analysis/xrp-price-analysis-for-november-27-ai-payments-record-broken-growth-fueled",
+      "published_at": "2026-11-27T08:01:00+08:00"
+    },
+    {
+      "category": "市场",
+      "title": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
+      "summary": "Some unofficial ports now hit around 20 frames per second, as developers move their work into private communities to dodge takedowns.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
+      "published_at": "2026-11-27T06:01:02+08:00"
+    },
+    {
+      "category": "项目",
+      "title": "BNB Chain details new layer-1 for trading, private finance and AI",
+      "summary": "The proposed network will operate alongside BNB Smart Chain and retain BNB as its native token, with a public testnet targeted for the first quarter of 2027.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bnb-chain-details-new-layer-1-trading-private-finance-ai",
+      "published_at": "2026-11-27T05:42:43+08:00"
+    },
+    {
+      "category": "政策",
+      "title": "UK is ‘getting it wrong’ on DeFi regulation, says Coinbase",
+      "summary": "Coinbase and Stand With Crypto argue that the FCA’s proposed DeFi rules could leave UK users without regulated access to decentralized finance.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/uk-wrong-defi-regulation-coinbase",
+      "published_at": "2026-11-27T05:13:53+08:00"
+    },
+    {
+      "category": "DeFi",
+      "title": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
+      "summary": "Japan’s financial regulator is exploring measures to curb illicit finance risks, including potential restrictions on access to DeFi services.",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets",
+      "published_at": "2026-11-27T04:05:18+08:00"
     },
     {
       "category": "市场",
@@ -128,198 +320,6 @@
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/videos/the-agentic-economy-is-way-bigger-than-you-think-xen-baynham-herd",
       "published_at": "2026-11-27T00:30:12+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Bitcoin Price Analysis: Can BTC Hold $60K as Apparent Demand Plunges to Record Lows?",
-      "summary": "Bitcoin is trying to stabilize around $60K after a sharp November sell-off that briefly pushed the price toward $55K, its lowest level in years.",
-      "source": "CryptoPotato",
-      "url": "https://cryptopotato.com/bitcoin-price-analysis-can-btc-hold-60k-as-apparent-demand-plunges-to-record-lows/",
-      "published_at": "2026-11-27T00:28:53+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "At FM Summit London, Brokers and Panellists Weigh UK Rules and On-Chain Competition",
-      "summary": "BeInCrypto attended the 15th edition of Finance Magnates Summit London on November 24 at Old Billingsgate.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/at-fm-summit-london-brokers-and-panellists-weigh-uk-rules-and-on-chain-competition/",
-      "published_at": "2026-11-27T00:19:42+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "JPMorgan says bitcoin ‘capitulation’ signaled by Strategy’s record-low NAV multiple",
-      "summary": "JPMorgan analysts said Strategy's valuation relative to its bitcoin holdings has hit a record low, signaling bitcoin \"capitulation.\"",
-      "source": "The Block",
-      "url": "https://www.theblock.co/news/markets/2026-11-26-jpmorgan-bitcoin-capitulation-strategy-low-nav-multiple-447007",
-      "published_at": "2026-11-27T00:18:24+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Stellar单日新增8040万美元代币化基金，超XRP两倍",
-      "summary": "据X平台账号@StellarOrg发布的数据，Stellar单日新增代币化基金价值8040万美元，超过XRP的3630万美元两倍以上。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a218a5-be76-7259-8c32-0566f4615132",
-      "published_at": "2026-11-27T00:17:17+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "巴西警方逮捕三家支付机构相关负责人，涉非法博彩与诈骗洗钱",
-      "summary": "PANews 11月26日消息，据巴西当地媒体报道，巴西圣保罗州检察院与警方开展联合行动，调查 SAQ Instituição de Pagamento、MW Instituição de Pagamento（MW Pay）及 A55 Sociedade de Crédito Direto（A55 SCD）三家支付机构，涉嫌为非法博彩网站及诈骗、抢劫、敲诈等犯罪资金提供接收、流转和隐藏服务。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a21897-12a9-7122-b78f-5d9e791c9704",
-      "published_at": "2026-11-27T00:01:23+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Stellar (XLM) Beats XRP in Daily Tokenized Fund Growth",
-      "summary": "XRP’s rival Stellar has recorded the highest increase in tokenized fund growth over the last 24 hours, beating XRP and Robinhood Chain.",
-      "source": "U.Today",
-      "url": "https://u.today/stellar-xlm-beats-xrp-in-daily-tokenized-fund-growth",
-      "published_at": "2026-11-26T23:49:52+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Monero (XMR) Drops 12% on KuCoin Delisting Announcement: Is Zcash Next?",
-      "summary": "Monero (XMR) drops 12% after KuCoin sets a Nov. 30 delisting while keeping Zcash.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/kucoin-delist-monero-xmr-price-falls/",
-      "published_at": "2026-11-26T23:39:51+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Ether Drops 28% in Four Weeks, Lagging Bitcoin",
-      "summary": "US spot ether ETFs recorded $523.3 million in net withdrawals over eight trading sessions through Nov. 25, according to Farside Investors’ data.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/markets/ether-drops-28-in-four-weeks-lagging-bitcoin",
-      "published_at": "2026-11-26T23:39:36+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "过去24小时全网合约爆仓3.68亿美元，主爆空单",
-      "summary": "PANews 11月26日消息，CoinGlass数据显示，过去24小时加密货币市场全网合约爆仓3.68亿美元，其中多单爆仓8960.74万美元，空单爆仓2.78亿美元。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a2187a-5616-7749-9630-ca6e73d115c3",
-      "published_at": "2026-11-26T23:30:00+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "Huawei to Detail New AI Memory Design in February",
-      "summary": "The conference program describes a custom chip but gives no production timetable. US export controls limit China’s access to imported high-bandwidth memory.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/frontier/ai/huawei-to-detail-new-ai-memory-design-in-february",
-      "published_at": "2026-11-26T23:14:13+08:00"
-    },
-    {
-      "category": "行情",
-      "title": "BTC跌破60000美元，日内涨幅 2.83%",
-      "summary": "PANews 11月26日消息，欧易OKX行情显示，BTC刚刚跌破60000美元，现报59988.00美元/枚，日内涨幅 2.83%。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a21866-bbdb-737c-96aa-ec5efb5c5979",
-      "published_at": "2026-11-26T23:08:35+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Anthropic Won't Join the S&P 500 Anytime Soon. Here's Why",
-      "summary": "Anthropic can't join the S&P 500 before late 2027. See why S&P's rules block it and which index funds buy it first.",
-      "source": "BeInCrypto",
-      "url": "https://beincrypto.com/anthropic-sp-500-inclusion-late-2027/",
-      "published_at": "2026-11-26T23:01:57+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "西班牙赋予反洗钱机构无需法官批准即可冻结加密账户的权力",
-      "summary": "PANews 11月26日消息，据 CoinDesk 报道，西班牙已通过法令，赋予其反洗钱机构 Sepblac 自主冻结加密货币账户的权力，无需事先获得法官批准。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a21840-812c-72cb-8d8e-73aeaa034336",
-      "published_at": "2026-11-26T22:26:50+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "KuCoin to Delist Monero, Ending Spot Trading Nov. 30",
-      "summary": "XMR deposits are already closed. Withdrawals are scheduled to end Dec.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/cefi/kucoin-to-delist-monero-ending-spot-trading-nov-30",
-      "published_at": "2026-11-26T22:21:17+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "印度执法局查封一酒店，其涉嫌非法加密转账及黄金走私等洗钱活动",
-      "summary": "PANews 11月26日消息，据《印度时报》报道，印度执法局（ED）依据《防止洗钱法》，暂时查封位于本地治里卡莱卡尔、估值约 36.4 亿卢比（约 3930 万美元）的 Le Royale Palace 酒店，原因是该酒店涉嫌在 2019 年至 2023 年间在法国进行黄金走私、哈瓦拉交易和非法加密货币转移等洗钱活动。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a21832-45c6-7724-be12-f3cd95500897",
-      "published_at": "2026-11-26T22:11:17+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Shiba Inu (SHIB) Meets Thanksgiving With a 'Bull' Chart Signal: Can It Hold?",
-      "summary": "As Shiba Inu (SHIB) trades near multi-year lows this Thanksgiving, a new 4-hour RSI 'Bull' signal tests thin holiday liquidity.",
-      "source": "U.Today",
-      "url": "https://u.today/shiba-inu-shib-meets-thanksgiving-with-a-bull-chart-signal-can-it-hold",
-      "published_at": "2026-11-26T22:07:03+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "Extended Sets XTEN Airdrop for Nov. 29 Ahead of Trading",
-      "summary": "Eligible points holders must sign before 3:30 a.m. ET on Nov.",
-      "source": "The Defiant",
-      "url": "https://thedefiant.io/news/tokens/extended-sets-xten-airdrop-for-nov-29-ahead-of-trading",
-      "published_at": "2026-11-26T22:06:43+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Spain gives anti-laundering unit power to freeze crypto accounts without a judge",
-      "summary": "Under existing rules, Sepblac could only suspend accounts when requested by a foreign financial intelligence unit.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge",
-      "published_at": "2026-11-26T22:05:58+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "Nasdaq exec pushes for common EU rules on tokenized securities",
-      "summary": "Nasdaq’s Roland Chai backed exploring common EU rules for tokenized securities and said its Swedish subsidiary had applied for a DLT license.",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/nasdaq-exec-eu-wide-legal-framework-tokenized-securities",
-      "published_at": "2026-11-26T21:47:56+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Fusionist：将暂停Endurance主网以进行安全升级，预计持续数天",
-      "summary": "PANews 11月26日消息，区块链游戏项目 Fusionist 发文表示，将暂停 Endurance 主网，以进行安全升级。",
-      "source": "PANews",
-      "url": "https://www.panewslab.com/zh/articles/01a217ff-470d-750b-bec0-8022e001ec1c",
-      "published_at": "2026-11-26T21:15:35+08:00"
-    },
-    {
-      "category": "政策",
-      "title": "《加密货币可疑活动报告：弥合监管预期与业务现实差距》报告解读",
-      "summary": "Beosin解读巴塞尔治理研究所与沃夫斯堡集团联合报告，梳理高质量STR/SAR标准、实操争议与全生态协作路径。",
-      "source": "金色财经",
-      "url": "https://www.jinse.com.cn/blockchain/3741547.html",
-      "published_at": "2026-11-26T20:51:15+08:00"
-    },
-    {
-      "category": "项目",
-      "title": "Shiba Inu Burn Transactions Near 22,000 in Key Milestone",
-      "summary": "SHIB burns close In on 22,000 transactions, marking key network milestone.",
-      "source": "U.Today",
-      "url": "https://u.today/shiba-inu-burn-transactions-near-22000-in-key-milestone",
-      "published_at": "2026-11-26T20:30:00+08:00"
-    },
-    {
-      "category": "DeFi",
-      "title": "One Vote Left: XRP's Bank-Style Lending Nears Activation Countdown",
-      "summary": "XRP Ledger validators have pushed two lending amendments to 80% support, with the vault amendment now counting down to Dec. 9.",
-      "source": "U.Today",
-      "url": "https://u.today/one-vote-left-xrps-bank-style-lending-nears-activation-countdown",
-      "published_at": "2026-11-26T19:35:15+08:00"
-    },
-    {
-      "category": "市场",
-      "title": "Glassnode机构策略月报：稳定币流出超60亿美元，机构资金转向防守",
-      "summary": "原文作者：Glassnode Insights 原文编译：深潮 TechFlow 深潮导读： 本期机构策略月报揭示了加密市场近期资金面的微妙转向。",
-      "source": "Odaily",
-      "url": "https://www.odaily.news/zh-CN/post/5214139",
-      "published_at": "2026-11-26T19:00:00+08:00"
     }
   ]
 }
