@@ -1,85 +1,85 @@
 {
-  "updated_at": "2026-11-27T14:08:34+08:00",
+  "updated_at": "2026-11-28T01:46:34+08:00",
   "source": "CoinGecko / Alternative.me",
   "fear_greed": {
     "value": 12,
     "classification": "Extreme Fear",
     "classification_zh": "极度恐惧"
   },
-  "total_market_cap_usd": 2138913623259.0305,
-  "btc_dominance_pct": 57.99,
-  "eth_dominance_pct": 9.94,
+  "total_market_cap_usd": 2072185433121.0325,
+  "btc_dominance_pct": 57.68,
+  "eth_dominance_pct": 9.77,
   "coins": [
     {
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "price_usd": 61707,
-      "change_24h_pct": 1.89,
-      "market_cap_usd": 1241726250152,
+      "price_usd": 59560,
+      "change_24h_pct": -1.35,
+      "market_cap_usd": 1198157876192,
       "rank": 1
     },
     {
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "price_usd": 1738.91,
-      "change_24h_pct": 3.1,
-      "market_cap_usd": 212633867604,
+      "price_usd": 1659.89,
+      "change_24h_pct": -1.74,
+      "market_cap_usd": 202865853514,
       "rank": 2
     },
     {
       "id": "tether",
       "symbol": "USDT",
       "name": "Tether",
-      "price_usd": 0.998878,
-      "change_24h_pct": -0.01,
-      "market_cap_usd": 173824653595,
+      "price_usd": 0.999288,
+      "change_24h_pct": 0.03,
+      "market_cap_usd": 173887051225,
       "rank": 3
     },
     {
       "id": "binancecoin",
       "symbol": "BNB",
       "name": "BNB",
-      "price_usd": 566.36,
-      "change_24h_pct": 1.74,
-      "market_cap_usd": 74496586583,
+      "price_usd": 549.46,
+      "change_24h_pct": -0.24,
+      "market_cap_usd": 72256252705,
       "rank": 4
     },
     {
       "id": "usd-coin",
       "symbol": "USDC",
       "name": "USDC",
-      "price_usd": 0.999494,
-      "change_24h_pct": 0.0,
-      "market_cap_usd": 69175415111,
+      "price_usd": 0.99969,
+      "change_24h_pct": 0.02,
+      "market_cap_usd": 69172311132,
       "rank": 5
     },
     {
       "id": "ripple",
       "symbol": "XRP",
       "name": "XRP",
-      "price_usd": 0.968103,
-      "change_24h_pct": 1.23,
-      "market_cap_usd": 61507997521,
+      "price_usd": 0.942333,
+      "change_24h_pct": -0.53,
+      "market_cap_usd": 59849096073,
       "rank": 6
     },
     {
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "price_usd": 72.99,
-      "change_24h_pct": 3.08,
-      "market_cap_usd": 43233498468,
+      "price_usd": 71.43,
+      "change_24h_pct": 0.9,
+      "market_cap_usd": 42303431888,
       "rank": 7
     },
     {
       "id": "figure-heloc",
       "symbol": "FIGR_HELOC",
       "name": "Figure Heloc",
-      "price_usd": 1.065,
-      "change_24h_pct": 0.87,
-      "market_cap_usd": 29222132025,
+      "price_usd": 1.068,
+      "change_24h_pct": 1.04,
+      "market_cap_usd": 29295469233,
       "rank": 8
     }
   ]
